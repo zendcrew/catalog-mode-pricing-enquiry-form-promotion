@@ -270,6 +270,10 @@
                 margin-right: 0;
             }
         }
+        
+        .#{$css-prefix}-repeater-adder-icon-only{
+            margin-right:0px;
+        }
 
         .#{$css-prefix}-btn,.#{$css-prefix}-select2{
             float: left; 

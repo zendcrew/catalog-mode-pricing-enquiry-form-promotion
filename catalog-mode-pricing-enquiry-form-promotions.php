@@ -3,7 +3,7 @@
 /*
  * Plugin Name: WooCommerce Catalog Mode - Pricing, Enquiry Forms & Promotions
  * Plugin URI: https://codecanyon.net/user/zendcrew
- * Description: Implement various catalog modes, dynamic pricing, coundwown timers, product badges and other promotional settings based on product rules and conditions
+ * Description: An All-purpose WooCommerce catalog mode, product pricing and promotion toolkit.
  * Version: 1.0
  * Author: zendcrew
  * Author URI: https://codecanyon.net/user/zendcrew

@@ -74,15 +74,31 @@
                             if (isset($template_adder['list_label']) || isset($template_adder['list_icon'])) {
                                 $list_label = '';
                                 $list_icon = '';
+                                
+                                $icon_only='';
+                                
                                 if (isset($template_adder['list_label'])) {
                                     $list_label = $template_adder['list_label'];
                                 }
-                                if (isset($template_adder['list_icon'])) {
-                                    $list_icon = '<i class="' . esc_attr($template_adder['list_icon']) . '"></i>';
+                                
+                                if(empty($list_label)){
+                                    
+                                    $icon_only=' rn-repeater-adder-icon-only';
                                 }
+                                
+                                if (isset($template_adder['list_icon'])) {
+                                    $list_icon = '<i class="' . esc_attr($template_adder['list_icon']) . $icon_only. '"></i>';
+                                }
+                                $allowed_html = array(
+                                    'i' => array(
+                                    'id' => true,
+                                    'title' => true,
+                                    'class' => true,
+                                    )
+                                );
                                 ?>
                                 <label class="rn-field rn-single rn-no-space">
-                                    <span class="rn-label"><?php echo wp_kses($list_icon . esc_html($list_label), ReonUtil::get_allow_html()); ?></span>           
+                                    <span class="rn-label"><?php echo wp_kses($list_icon . esc_html($list_label), $allowed_html); ?></span>           
                                 </label>
                                 <?php
                             }

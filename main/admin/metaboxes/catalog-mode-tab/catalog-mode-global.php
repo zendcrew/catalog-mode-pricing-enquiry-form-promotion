@@ -33,7 +33,7 @@ if (!class_exists('WModes_Admin_Catalog_Mode_MetaBox_Global')) {
                                 'id' => 'enable',
                                 'type' => 'select2',
                                 'column_size' => 2,
-                                'column_title' => esc_html__('Catalog Mode Settings', 'zcwm-tdm'),
+                                'column_title' => esc_html__('Catalog Modes', 'zcwm-tdm'),
                                 'tooltip' => esc_html__('Enables catalog mode settings on this product', 'zcwm-tdm'),
                                 'default' => 'all',
                                 'disabled_list_filter' => 'wmodes-admin/get-disabled-list',

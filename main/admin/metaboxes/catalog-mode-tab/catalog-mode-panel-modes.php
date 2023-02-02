@@ -60,7 +60,7 @@ if ( !class_exists( 'WModes_Admin_Catalog_Mode_MetaBox_Panel_Modes' ) ) {
                         'type' => 'paneltitle',
                         'full_width' => true,
                         'center_head' => true,
-                        'title' => esc_html__( 'Catalog Mode Settings', 'zcwm-tdm' ),
+                        'title' => esc_html__( 'Settings', 'zcwm-tdm' ),
                         'desc' => esc_html__( 'List of catalog modes settings to apply, empty list will not apply any catalog mode settings', 'zcwm-tdm' ),
                     )
                 ),

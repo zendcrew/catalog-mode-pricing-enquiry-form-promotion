@@ -21,7 +21,7 @@ if (!class_exists('WModes_Admin_Catalog_Mode_MetaBox_Tab')) {
 
         public static function init_metabox() {
             Reon::set_wc_product_meta_box(array(
-                'title' => esc_html__('Catalog Mode', 'zcwm-tdm'),
+                'title' => esc_html__('Catalog Modes', 'zcwm-tdm'),
                 'id' => self::$metabox_id,
                 'sanitize_mode' => 'recursive',
                 'save_metabox' => true,
