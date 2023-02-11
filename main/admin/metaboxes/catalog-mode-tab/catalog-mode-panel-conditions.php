@@ -38,7 +38,7 @@ if ( !class_exists( 'WModes_Admin_Catalog_Mode_MetaBox_Panel_Conditions' ) ) {
                 'module' => 'catalog-modes',
                 'is_global' => false,
                 'product_id' => $product_id,
-                'text' => esc_html__( 'catalog mode', 'zcwm-tdm' ),
+                'text' => esc_html__( 'catalog mode', 'wmodes-tdm' ),
             );
 
             $in_fields[] = array(

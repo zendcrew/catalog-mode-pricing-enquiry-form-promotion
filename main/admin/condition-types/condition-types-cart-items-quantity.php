@@ -17,21 +17,21 @@ if ( !class_exists( 'WModes_Admin_Condition_Type_Cart_Items_Quantity' ) && !defi
 
         public static function get_groups( $in_groups, $args ) {
 
-            $in_groups[ 'cart_items_quantities' ] = esc_html__( 'Cart Item Quantities', 'zcwm-tdm' );
+            $in_groups[ 'cart_items_quantities' ] = esc_html__( 'Cart Item Quantities', 'wmodes-tdm' );
 
             return $in_groups;
         }
 
         public static function get_conditions( $in_list, $args ) {
 
-            $in_list[ 'prem_1' ] = esc_html__( 'Products Quantity (Premium)', 'zcwm-tdm' );
-            $in_list[ 'prem_2' ] = esc_html__( 'Variations Quantity (Premium)', 'zcwm-tdm' );
-            $in_list[ 'prem_3' ] = esc_html__( 'Categories Quantity (Premium)', 'zcwm-tdm' );
-            $in_list[ 'prem_4' ] = esc_html__( 'Tags Quantity (Premium)', 'zcwm-tdm' );
-            $in_list[ 'prem_5' ] = esc_html__( 'Attributes Quantity (Premium)', 'zcwm-tdm' );
-            $in_list[ 'prem_6' ] = esc_html__( 'Tax Classes Quantity (Premium)', 'zcwm-tdm' );
-            $in_list[ 'prem_7' ] = esc_html__( 'Shipping Classes Quantity (Premium)', 'zcwm-tdm' );
-            $in_list[ 'prem_8' ] = esc_html__( 'Product Meta Fields Quantity (Premium)', 'zcwm-tdm' );
+            $in_list[ 'prem_1' ] = esc_html__( 'Products Quantity (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_2' ] = esc_html__( 'Variations Quantity (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_3' ] = esc_html__( 'Categories Quantity (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_4' ] = esc_html__( 'Tags Quantity (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_5' ] = esc_html__( 'Attributes Quantity (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_6' ] = esc_html__( 'Tax Classes Quantity (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_7' ] = esc_html__( 'Shipping Classes Quantity (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_8' ] = esc_html__( 'Product Meta Fields Quantity (Premium)', 'wmodes-tdm' );
 
             return $in_list;
         }

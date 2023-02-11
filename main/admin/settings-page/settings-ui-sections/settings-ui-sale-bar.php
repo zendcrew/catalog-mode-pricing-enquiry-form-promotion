@@ -37,8 +37,8 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Sale_Bar_Settings' ) && !defin
                 'type' => 'paneltitle',
                 'full_width' => true,
                 'center_head' => true,
-                'title' => esc_html__( 'Sale Bar Designs', 'zcwm-tdm' ),
-                'desc' => esc_html__( 'Use these settings to create and manage sale bar designs', 'zcwm-tdm' ),
+                'title' => esc_html__( 'Sale Bar Designs', 'wmodes-tdm' ),
+                'desc' => esc_html__( 'Use these settings to create and manage sale bar designs', 'wmodes-tdm' ),
             );
 
             $in_fields[] = array(

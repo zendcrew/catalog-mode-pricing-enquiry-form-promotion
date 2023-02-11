@@ -21,18 +21,18 @@ if ( !class_exists( 'WModes_Admin_Condition_Type_Customer' ) && !defined( 'WMODE
 
         public static function get_groups( $in_groups, $args ) {
 
-            $in_groups[ 'customers' ] = esc_html__( 'Customers', 'zcwm-tdm' );
+            $in_groups[ 'customers' ] = esc_html__( 'Customers', 'wmodes-tdm' );
 
             return $in_groups;
         }
 
         public static function get_conditions( $in_list, $args ) {
 
-            $in_list[ 'logged_in_user' ] = esc_html__( 'Customer Is Logged In', 'zcwm-tdm' );
-            $in_list[ 'users' ] = esc_html__( 'Customers', 'zcwm-tdm' );
-            $in_list[ 'user_roles' ] = esc_html__( 'User Roles', 'zcwm-tdm' );
-            $in_list[ 'prem_1' ] = esc_html__( 'User Capabilities (Premium)', 'zcwm-tdm' );
-            $in_list[ 'prem_2' ] = esc_html__( 'User Meta Field (Premium)', 'zcwm-tdm' );
+            $in_list[ 'logged_in_user' ] = esc_html__( 'Customer Is Logged In', 'wmodes-tdm' );
+            $in_list[ 'users' ] = esc_html__( 'Customers', 'wmodes-tdm' );
+            $in_list[ 'user_roles' ] = esc_html__( 'User Roles', 'wmodes-tdm' );
+            $in_list[ 'prem_1' ] = esc_html__( 'User Capabilities (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_2' ] = esc_html__( 'User Meta Field (Premium)', 'wmodes-tdm' );
 
             return $in_list;
         }
@@ -44,8 +44,8 @@ if ( !class_exists( 'WModes_Admin_Condition_Type_Customer' ) && !defined( 'WMODE
                 'type' => 'select2',
                 'default' => 'yes',
                 'options' => array(
-                    'no' => esc_html__( 'No', 'zcwm-tdm' ),
-                    'yes' => esc_html__( 'Yes', 'zcwm-tdm' ),
+                    'no' => esc_html__( 'No', 'wmodes-tdm' ),
+                    'yes' => esc_html__( 'Yes', 'wmodes-tdm' ),
                 ),
                 'width' => '100%',
                 'box_width' => '100%',
@@ -61,8 +61,8 @@ if ( !class_exists( 'WModes_Admin_Condition_Type_Customer' ) && !defined( 'WMODE
                 'type' => 'select2',
                 'default' => 'in_list',
                 'options' => array(
-                    'in_list' => esc_html__( 'Any in the list', 'zcwm-tdm' ),
-                    'none' => esc_html__( 'None in the list', 'zcwm-tdm' ),
+                    'in_list' => esc_html__( 'Any in the list', 'wmodes-tdm' ),
+                    'none' => esc_html__( 'None in the list', 'wmodes-tdm' ),
                 ),
                 'width' => '98%',
                 'box_width' => '25%',
@@ -73,7 +73,7 @@ if ( !class_exists( 'WModes_Admin_Condition_Type_Customer' ) && !defined( 'WMODE
                 'type' => 'select2',
                 'multiple' => true,
                 'minimum_input_length' => 2,
-                'placeholder' => esc_html__( 'Search users...', 'zcwm-tdm' ),
+                'placeholder' => esc_html__( 'Search users...', 'wmodes-tdm' ),
                 'allow_clear' => true,
                 'minimum_results_forsearch' => 10,
                 'data' => array(
@@ -96,11 +96,11 @@ if ( !class_exists( 'WModes_Admin_Condition_Type_Customer' ) && !defined( 'WMODE
                 'type' => 'select2',
                 'default' => 'in_list',
                 'options' => array(
-                    'in_list' => esc_html__( 'Any in the list', 'zcwm-tdm' ),
-                    'in_all_list' => esc_html__( 'All in the list', 'zcwm-tdm' ),
-                    'in_list_only' => esc_html__( 'Only in the list', 'zcwm-tdm' ),
-                    'in_all_list_only' => esc_html__( 'Only all in the list', 'zcwm-tdm' ),
-                    'none' => esc_html__( 'None in the list', 'zcwm-tdm' ),
+                    'in_list' => esc_html__( 'Any in the list', 'wmodes-tdm' ),
+                    'in_all_list' => esc_html__( 'All in the list', 'wmodes-tdm' ),
+                    'in_list_only' => esc_html__( 'Only in the list', 'wmodes-tdm' ),
+                    'in_all_list_only' => esc_html__( 'Only all in the list', 'wmodes-tdm' ),
+                    'none' => esc_html__( 'None in the list', 'wmodes-tdm' ),
                 ),
                 'width' => '98%',
                 'box_width' => '25%',
@@ -111,7 +111,7 @@ if ( !class_exists( 'WModes_Admin_Condition_Type_Customer' ) && !defined( 'WMODE
                 'type' => 'select2',
                 'multiple' => true,
                 'minimum_input_length' => 1,
-                'placeholder' => esc_html__( 'Search user roles...', 'zcwm-tdm' ),
+                'placeholder' => esc_html__( 'Search user roles...', 'wmodes-tdm' ),
                 'allow_clear' => true,
                 'minimum_results_forsearch' => 10,
                 'data' => array(

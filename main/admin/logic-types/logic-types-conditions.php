@@ -20,13 +20,13 @@ if ( !class_exists( 'WModes_Admin_Logic_Types_Conditions' ) ) {
                     'type' => 'select2',
                     'full_width' => true,
                     'center_head' => true,
-                    'title' => esc_html__( 'Conditions', 'zcwm-tdm' ),
-                    'desc' => sprintf( esc_html__( 'List of conditions in which this %s should apply, empty conditions will apply in all cases', 'zcwm-tdm' ), $args[ 'text' ] ),
+                    'title' => esc_html__( 'Conditions', 'wmodes-tdm' ),
+                    'desc' => sprintf( esc_html__( 'List of conditions in which this %s should apply, empty conditions will apply in all cases', 'wmodes-tdm' ), $args[ 'text' ] ),
                     'default' => 'match_all',
                     'disabled_list_filter' => 'wmodes-admin/get-disabled-list',
                     'options' => array(
-                        'match_all' => esc_html__( 'All conditions should match', 'zcwm-tdm' ),
-                        'prem_1' => esc_html__( 'At least one condition should match (Premium)', 'zcwm-tdm' ),
+                        'match_all' => esc_html__( 'All conditions should match', 'wmodes-tdm' ),
+                        'prem_1' => esc_html__( 'At least one condition should match (Premium)', 'wmodes-tdm' ),
                     ),
                     'width' => '320px',
                 );
@@ -48,7 +48,7 @@ if ( !class_exists( 'WModes_Admin_Logic_Types_Conditions' ) ) {
                 'template_adder' => array(
                     'position' => 'right',
                     'show_list' => false,
-                    'button_text' => esc_html__( 'Add Condition', 'zcwm-tdm' ),
+                    'button_text' => esc_html__( 'Add Condition', 'wmodes-tdm' ),
                 ),
             );
 

@@ -37,8 +37,8 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Line_Settings' ) && !defined( 
                 'type' => 'paneltitle',
                 'full_width' => true,
                 'center_head' => true,
-                'title' => esc_html__( 'Horizantal Line Designs', 'zcwm-tdm' ),
-                'desc' => esc_html__( 'Use these settings to create and manage horizontal line designs', 'zcwm-tdm' ),
+                'title' => esc_html__( 'Horizantal Line Designs', 'wmodes-tdm' ),
+                'desc' => esc_html__( 'Use these settings to create and manage horizontal line designs', 'wmodes-tdm' ),
             );
 
             $in_fields[] = array(

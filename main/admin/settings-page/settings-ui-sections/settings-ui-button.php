@@ -37,8 +37,8 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Button_Settings' ) && !defined
                 'type' => 'paneltitle',
                 'full_width' => true,
                 'center_head' => true,
-                'title' => esc_html__( 'Link Button / Link Button List Designs', 'zcwm-tdm' ),
-                'desc' => esc_html__( 'Use these settings to create and manage link button / link button list container designs', 'zcwm-tdm' ),
+                'title' => esc_html__( 'Link Button / Link Button List Designs', 'wmodes-tdm' ),
+                'desc' => esc_html__( 'Use these settings to create and manage link button / link button list container designs', 'wmodes-tdm' ),
             );
 
             $in_fields[] = array(

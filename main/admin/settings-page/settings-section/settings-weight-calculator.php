@@ -37,8 +37,8 @@ if ( !class_exists( 'WModes_Admin_Weight_Calc_Settings' ) && !defined( 'WMODES_P
                 'type' => 'paneltitle',
                 'full_width' => true,
                 'center_head' => true,
-                'title' => esc_html__( 'Dimentional Weight Calculation', 'zcwm-tdm' ),
-                'desc' => esc_html__( 'Use these settings to control how item weights should be calculated', 'zcwm-tdm' ),
+                'title' => esc_html__( 'Dimentional Weight Calculation', 'wmodes-tdm' ),
+                'desc' => esc_html__( 'Use these settings to control how item weights should be calculated', 'wmodes-tdm' ),
             );
 
             $in_fields[] = array(

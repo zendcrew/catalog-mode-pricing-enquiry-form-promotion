@@ -19,16 +19,16 @@ if ( !class_exists( 'WModes_Admin_Condition_Type_Cart' ) && !defined( 'WMODES_PR
 
         public static function get_groups( $in_groups, $args ) {
 
-            $in_groups[ 'cart' ] = esc_html__( 'Cart', 'zcwm-tdm' );
+            $in_groups[ 'cart' ] = esc_html__( 'Cart', 'wmodes-tdm' );
 
             return $in_groups;
         }
 
         public static function get_conditions( $in_list, $args ) {
 
-            $in_list[ 'prem_1' ] = esc_html__( 'Cart Total Quantity (Premium)', 'zcwm-tdm' );
-            $in_list[ 'cart_line_count' ] = esc_html__( 'Number Of Cart Items', 'zcwm-tdm' );
-            $in_list[ 'prem_2' ] = esc_html__( 'Applied Coupons (Premium)', 'zcwm-tdm' );
+            $in_list[ 'prem_1' ] = esc_html__( 'Cart Total Quantity (Premium)', 'wmodes-tdm' );
+            $in_list[ 'cart_line_count' ] = esc_html__( 'Number Of Cart Items', 'wmodes-tdm' );
+            $in_list[ 'prem_2' ] = esc_html__( 'Applied Coupons (Premium)', 'wmodes-tdm' );
 
             return $in_list;
         }
@@ -41,13 +41,13 @@ if ( !class_exists( 'WModes_Admin_Condition_Type_Cart' ) && !defined( 'WMODES_PR
                 'disabled_list_filter' => 'wmodes-admin/get-disabled-list',
                 'default' => '>=',
                 'options' => array(
-                    'prem_1' => esc_html__( 'Between (Premium)', 'zcwm-tdm' ),
-                    '>=' => esc_html__( 'More than or equal to', 'zcwm-tdm' ),
-                    '>' => esc_html__( 'More than', 'zcwm-tdm' ),
-                    '<=' => esc_html__( 'Less than or equal to', 'zcwm-tdm' ),
-                    '<' => esc_html__( 'Less than', 'zcwm-tdm' ),
-                    'prem_2' => esc_html__( 'Equal to (Premium)', 'zcwm-tdm' ),
-                    'prem_3' => esc_html__( 'Not equal to (Premium)', 'zcwm-tdm' ),
+                    'prem_1' => esc_html__( 'Between (Premium)', 'wmodes-tdm' ),
+                    '>=' => esc_html__( 'More than or equal to', 'wmodes-tdm' ),
+                    '>' => esc_html__( 'More than', 'wmodes-tdm' ),
+                    '<=' => esc_html__( 'Less than or equal to', 'wmodes-tdm' ),
+                    '<' => esc_html__( 'Less than', 'wmodes-tdm' ),
+                    'prem_2' => esc_html__( 'Equal to (Premium)', 'wmodes-tdm' ),
+                    'prem_3' => esc_html__( 'Not equal to (Premium)', 'wmodes-tdm' ),
                 ),
                 'width' => '99%',
                 'box_width' => '44%',
@@ -58,7 +58,7 @@ if ( !class_exists( 'WModes_Admin_Condition_Type_Cart' ) && !defined( 'WMODES_PR
                 'type' => 'textbox',
                 'input_type' => 'number',
                 'default' => '0',
-                'placeholder' => esc_html__( '0', 'zcwm-tdm' ),
+                'placeholder' => esc_html__( '0', 'wmodes-tdm' ),
                 'width' => '100%',
                 'box_width' => '56%',
                 'attributes' => array(

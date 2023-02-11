@@ -15,11 +15,11 @@ if ( !class_exists( 'WModes_Admin_Catalog_Mode_Types_Groups' ) ) {
 
         public static function get_groups( $in_groups, $args = array() ) {
 
-            $in_groups[ 'shop' ] = esc_html__( 'Shop &amp; Product Page', 'zcwm-tdm' );
+            $in_groups[ 'shop' ] = esc_html__( 'Shop &amp; Product Page', 'wmodes-tdm' );
 
             if ( $args[ 'is_global' ] ) {
 
-                $in_groups[ 'cart' ] = esc_html__( 'Cart &amp; Checkout', 'zcwm-tdm' );
+                $in_groups[ 'cart' ] = esc_html__( 'Cart &amp; Checkout', 'wmodes-tdm' );
             }
 
             return $in_groups;

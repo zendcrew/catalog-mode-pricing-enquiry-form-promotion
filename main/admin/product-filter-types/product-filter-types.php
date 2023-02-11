@@ -35,8 +35,8 @@ if ( !class_exists( 'WModes_Admin_Product_Filter_Types' ) ) {
                     'type' => 'select2',
                     'default' => '>=',
                     'options' => array(
-                        'yes' => esc_html__( 'Required', 'zcwm-tdm' ),
-                        'no' => esc_html__( 'Optional', 'zcwm-tdm' ),
+                        'yes' => esc_html__( 'Required', 'wmodes-tdm' ),
+                        'no' => esc_html__( 'Optional', 'wmodes-tdm' ),
                     ),
                     'width' => '98%',
                     'box_width' => '19%',

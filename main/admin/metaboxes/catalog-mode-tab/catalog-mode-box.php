@@ -33,7 +33,7 @@ if ( !class_exists( 'WModes_Admin_Catalog_Mode_MetaBox_Box' ) ) {
                 'delete_button' => true,
                 'clone_button' => true,
                 'max_sections' => $max_sections,
-                'max_sections_msg' => esc_html__( 'Please upgrade to premium version in order to add more mode options', 'zcwm-tdm' ),
+                'max_sections_msg' => esc_html__( 'Please upgrade to premium version in order to add more mode options', 'wmodes-tdm' ),
                 'field_css_class' => array( 'wmodes_mbx_options' ),
                 'css_class' => array( 'wmodes_mbx_options_rp' ),
                 'width' => '100%',
@@ -49,7 +49,7 @@ if ( !class_exists( 'WModes_Admin_Catalog_Mode_MetaBox_Box' ) ) {
                 'template_adder' => array(
                     'position' => 'right',
                     'show_list' => false,
-                    'button_text' => esc_html__( 'New Catalog Mode Settings', 'zcwm-tdm' ),
+                    'button_text' => esc_html__( 'New Catalog Mode Settings', 'wmodes-tdm' ),
                 ),
                 'fold' => array(
                     'target' => 'enable_catalog_mode',
@@ -72,7 +72,7 @@ if ( !class_exists( 'WModes_Admin_Catalog_Mode_MetaBox_Box' ) ) {
                     'id' => 'catalog_mode',
                     'head' => array(
                         'title' => '',
-                        'defaut_title' => esc_html__( 'Catalog Mode Settings', 'zcwm-tdm' ),
+                        'defaut_title' => esc_html__( 'Catalog Mode Settings', 'wmodes-tdm' ),
                         'title_field' => 'admin_note',
                     )
                 );

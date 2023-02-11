@@ -56,8 +56,8 @@ if ( !class_exists( 'WModes_Admin_Product_Options_Panel_Options' ) ) {
                         'type' => 'paneltitle',
                         'full_width' => true,
                         'center_head' => true,
-                        'title' => esc_html__( 'Settings', 'zcwm-tdm' ),
-                        'desc' => esc_html__( 'List of product settings to apply, empty list will not apply any settings', 'zcwm-tdm' ),
+                        'title' => esc_html__( 'Settings', 'wmodes-tdm' ),
+                        'desc' => esc_html__( 'List of product settings to apply, empty list will not apply any settings', 'wmodes-tdm' ),
                     )
                 ),
             );
@@ -97,7 +97,7 @@ if ( !class_exists( 'WModes_Admin_Product_Options_Panel_Options' ) ) {
                     'show_list' => true,
                     'list_icon' => 'fa fa-list',
                     'list_width' => '236px',
-                    'button_text' => esc_html__( 'Add Settings', 'zcwm-tdm' ),
+                    'button_text' => esc_html__( 'Add Settings', 'wmodes-tdm' ),
                 ),
             );
 

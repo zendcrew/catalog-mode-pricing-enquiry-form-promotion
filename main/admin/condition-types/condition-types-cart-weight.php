@@ -15,7 +15,7 @@ if ( !class_exists( 'WModes_Admin_Condition_Type_Weight' ) && !defined( 'WMODES_
 
             $unit = get_option( 'woocommerce_weight_unit' );
 
-            $in_groups[ 'weight' ] = sprintf( esc_html__( 'Cart Weights (%s)', 'zcwm-tdm' ), $unit );
+            $in_groups[ 'weight' ] = sprintf( esc_html__( 'Cart Weights (%s)', 'wmodes-tdm' ), $unit );
 
             return $in_groups;
         }
@@ -24,8 +24,8 @@ if ( !class_exists( 'WModes_Admin_Condition_Type_Weight' ) && !defined( 'WMODES_
 
             $unit = get_option( 'woocommerce_weight_unit' );
 
-            $in_list[ 'prem_1' ] = sprintf( esc_html__( 'Cart Weight - Weight (%s) (Premium)', 'zcwm-tdm' ), $unit );
-            $in_list[ 'prem_2' ] = sprintf( esc_html__( 'Cart Weight - Weight Calculator (%s) (Premium)', 'zcwm-tdm' ), $unit );
+            $in_list[ 'prem_1' ] = sprintf( esc_html__( 'Cart Weight - Weight (%s) (Premium)', 'wmodes-tdm' ), $unit );
+            $in_list[ 'prem_2' ] = sprintf( esc_html__( 'Cart Weight - Weight Calculator (%s) (Premium)', 'wmodes-tdm' ), $unit );
 
             return $in_list;
         }

@@ -37,8 +37,8 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Enquiry_Form_Settings' ) && !d
                 'type' => 'paneltitle',
                 'full_width' => true,
                 'center_head' => true,
-                'title' => esc_html__( 'Inline Enquiry Form Designs', 'zcwm-tdm' ),
-                'desc' => esc_html__( 'Use these settings to create and manage inline enquiry form designs', 'zcwm-tdm' ),
+                'title' => esc_html__( 'Inline Enquiry Form Designs', 'wmodes-tdm' ),
+                'desc' => esc_html__( 'Use these settings to create and manage inline enquiry form designs', 'wmodes-tdm' ),
             );
 
             $in_fields[] = array(

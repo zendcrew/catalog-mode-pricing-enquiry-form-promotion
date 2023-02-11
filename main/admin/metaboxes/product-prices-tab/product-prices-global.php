@@ -34,14 +34,14 @@ if ( !class_exists( 'WModes_Admin_Product_Prices_MetaBox_Global' ) ) {
                                 'id' => 'enable',
                                 'type' => 'select2',
                                 'column_size' => 2,
-                                'column_title' => esc_html__( 'Product Pricing', 'zcwm-tdm' ),
-                                'tooltip' => esc_html__( 'Enables product pricing on this product', 'zcwm-tdm' ),
+                                'column_title' => esc_html__( 'Product Pricing', 'wmodes-tdm' ),
+                                'tooltip' => esc_html__( 'Enables product pricing on this product', 'wmodes-tdm' ),
                                 'default' => 'all',
                                 'disabled_list_filter' => 'wmodes-admin/get-disabled-list',
                                 'options' => array(
-                                    'global' => esc_html__( 'Use global settings', 'zcwm-tdm' ),
-                                    'yes' => esc_html__( 'Enabled', 'zcwm-tdm' ),
-                                    'prem_1' => esc_html__( 'Disabled (Premium)', 'zcwm-tdm' ),
+                                    'global' => esc_html__( 'Use global settings', 'wmodes-tdm' ),
+                                    'yes' => esc_html__( 'Enabled', 'wmodes-tdm' ),
+                                    'prem_1' => esc_html__( 'Disabled (Premium)', 'wmodes-tdm' ),
                                 ),
                                 'width' => '100%',
                                 'fold_id' => 'enable_product_prices',
@@ -50,13 +50,13 @@ if ( !class_exists( 'WModes_Admin_Product_Prices_MetaBox_Global' ) ) {
                                 'id' => 'override_global',
                                 'type' => 'select2',
                                 'column_size' => 2,
-                                'column_title' => esc_html__( 'Override global settings', 'zcwm-tdm' ),
-                                'tooltip' => esc_html__( 'Overrides global product pricing settings', 'zcwm-tdm' ),
+                                'column_title' => esc_html__( 'Override global settings', 'wmodes-tdm' ),
+                                'tooltip' => esc_html__( 'Overrides global product pricing settings', 'wmodes-tdm' ),
                                 'default' => 'yes',
                                 'disabled_list_filter' => 'wmodes-admin/get-disabled-list',
                                 'options' => array(
-                                    'yes' => esc_html__( 'Yes', 'zcwm-tdm' ),
-                                    'prem_1' => esc_html__( 'No (Premium)', 'zcwm-tdm' ),
+                                    'yes' => esc_html__( 'Yes', 'wmodes-tdm' ),
+                                    'prem_1' => esc_html__( 'No (Premium)', 'wmodes-tdm' ),
                                 ),
                                 'width' => '100%',
                                 'fold' => array(
@@ -71,8 +71,8 @@ if ( !class_exists( 'WModes_Admin_Product_Prices_MetaBox_Global' ) ) {
                                 'id' => 'mode',
                                 'type' => 'select2',
                                 'column_size' => 3,
-                                'column_title' => esc_html__( 'Apply Mode', 'zcwm-tdm' ),
-                                'tooltip' => esc_html__( 'Controls pricing apply method', 'zcwm-tdm' ),
+                                'column_title' => esc_html__( 'Apply Mode', 'wmodes-tdm' ),
+                                'tooltip' => esc_html__( 'Controls pricing apply method', 'wmodes-tdm' ),
                                 'default' => 'all',
                                 'disabled_list_filter' => 'wmodes-admin/get-disabled-list',
                                 'options' => self::get_apply_method(),
@@ -96,12 +96,12 @@ if ( !class_exists( 'WModes_Admin_Product_Prices_MetaBox_Global' ) ) {
         private static function get_apply_method() {
 
             $apply_methods = array(
-                'all' => esc_html__( 'Apply all valid product pricing', 'zcwm-tdm' ),
+                'all' => esc_html__( 'Apply all valid product pricing', 'wmodes-tdm' ),
             );
 
             if ( !defined( 'WMODES_PREMIUM_ADDON' ) ) {
-                $apply_methods[ 'prem_1' ] = esc_html__( 'Apply first valid product pricing (Premium)', 'zcwm-tdm' );
-                $apply_methods[ 'prem_2' ] = esc_html__( 'Apply last valid product pricing (Premium)', 'zcwm-tdm' );
+                $apply_methods[ 'prem_1' ] = esc_html__( 'Apply first valid product pricing (Premium)', 'wmodes-tdm' );
+                $apply_methods[ 'prem_2' ] = esc_html__( 'Apply last valid product pricing (Premium)', 'wmodes-tdm' );
             }
 
             $apply_methods = apply_filters( 'wmodes-admin/product-pricing/get-apply-methods', $apply_methods );

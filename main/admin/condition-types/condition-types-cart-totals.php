@@ -15,15 +15,15 @@ if ( !class_exists( 'WModes_Admin_Condition_Type_Cart_Totals' ) && !defined( 'WM
 
             $unit = get_option( 'woocommerce_weight_unit' );
 
-            $in_groups[ 'cart_totals' ] = sprintf( esc_html__( 'Cart Totals', 'zcwm-tdm' ), $unit );
+            $in_groups[ 'cart_totals' ] = sprintf( esc_html__( 'Cart Totals', 'wmodes-tdm' ), $unit );
 
             return $in_groups;
         }
 
         public static function get_conditions( $in_list, $args ) {
 
-            $in_list[ 'prem_1' ] = esc_html__( 'Subtotals Including Tax (Premium)', 'zcwm-tdm' );
-            $in_list[ 'prem_2' ] = esc_html__( 'Subtotals Excluding Tax (Premium)', 'zcwm-tdm' );
+            $in_list[ 'prem_1' ] = esc_html__( 'Subtotals Including Tax (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_2' ] = esc_html__( 'Subtotals Excluding Tax (Premium)', 'wmodes-tdm' );
 
             return $in_list;
         }

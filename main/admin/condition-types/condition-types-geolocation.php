@@ -17,15 +17,15 @@ if ( !class_exists( 'WModes_Admin_Condition_Type_GeoLocations' ) && !defined( 'W
 
         public static function get_groups( $in_groups, $args ) {
 
-            $in_groups[ 'geo_locations' ] = esc_html__( 'GeoIP Locations', 'zcwm-tdm' );
+            $in_groups[ 'geo_locations' ] = esc_html__( 'GeoIP Locations', 'wmodes-tdm' );
 
             return $in_groups;
         }
 
         public static function get_conditions( $in_list, $args ) {
 
-            $in_list[ 'prem_1' ] = esc_html__( 'GeoIP Continents (Premium)', 'zcwm-tdm' );
-            $in_list[ 'prem_2' ] = esc_html__( 'GeoIP Countries (Premium)', 'zcwm-tdm' );
+            $in_list[ 'prem_1' ] = esc_html__( 'GeoIP Continents (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_2' ] = esc_html__( 'GeoIP Countries (Premium)', 'wmodes-tdm' );
            
             return $in_list;
         }

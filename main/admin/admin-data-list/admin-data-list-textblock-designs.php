@@ -49,13 +49,13 @@ if ( !class_exists( 'WModes_Admin_Data_List_Text_Block_Designs' ) ) {
                     return $option[ 'admin_note' ];
                 }
             }
-            return esc_html__( 'Text Block', 'zcwm-tdm' );
+            return esc_html__( 'Text Block', 'wmodes-tdm' );
         }
 
         private static function get_default_options() {
             return array(
                 array(
-                    'admin_note' => esc_html__( 'Text Block', 'zcwm-tdm' ),
+                    'admin_note' => esc_html__( 'Text Block', 'wmodes-tdm' ),
                     'ui_id' => '2234343',
                 ),
             );

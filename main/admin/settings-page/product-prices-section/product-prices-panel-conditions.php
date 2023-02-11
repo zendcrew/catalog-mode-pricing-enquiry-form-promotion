@@ -38,7 +38,7 @@ if ( !class_exists( 'WModes_Admin_Product_Prices_Panel_Conditions' ) ) {
             $args = array(
                 'module' => 'product-pricing',
                 'is_global' => true,
-                'text' => esc_html__( 'product pricing', 'zcwm-tdm' ),
+                'text' => esc_html__( 'product pricing', 'wmodes-tdm' ),
             );
 
             $in_fields[] = array(

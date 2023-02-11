@@ -33,7 +33,7 @@ if (!class_exists('WModes_Admin_Product_Options_MetaBox')) {
                 'delete_button' => true,
                 'clone_button' => true,
                 'max_sections' => $max_sections,
-                'max_sections_msg' => esc_html__( 'Please upgrade to premium version in order to add more settings', 'zcwm-tdm' ),
+                'max_sections_msg' => esc_html__( 'Please upgrade to premium version in order to add more settings', 'wmodes-tdm' ),
                 'field_css_class' => array('wmodes_mbx_options'),
                 'css_class' => array('wmodes_mbx_options_rp'),
                 'width' => '100%',
@@ -49,7 +49,7 @@ if (!class_exists('WModes_Admin_Product_Options_MetaBox')) {
                 'template_adder' => array(
                     'position' => 'right',
                     'show_list' => false,
-                    'button_text' => esc_html__( 'New Product Settings', 'zcwm-tdm' ),
+                    'button_text' => esc_html__( 'New Product Settings', 'wmodes-tdm' ),
                 ),
                 'fold' => array(
                     'target' => 'enable_product_options',
@@ -72,7 +72,7 @@ if (!class_exists('WModes_Admin_Product_Options_MetaBox')) {
                     'id' => 'product_option',
                     'head' => array(
                         'title' => '',
-                        'defaut_title' => esc_html__( 'Product Settings', 'zcwm-tdm' ),
+                        'defaut_title' => esc_html__( 'Product Settings', 'wmodes-tdm' ),
                         'title_field' => 'admin_note',
                     )
                 );

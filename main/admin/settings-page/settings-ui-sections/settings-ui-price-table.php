@@ -38,8 +38,8 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Price_Table_Settings' ) && !de
                 'type' => 'paneltitle',
                 'full_width' => true,
                 'center_head' => true,
-                'title' => esc_html__( 'Pricing Table Designs', 'zcwm-tdm' ),
-                'desc' => esc_html__( 'Use these settings to create and manage pricing table designs', 'zcwm-tdm' ),
+                'title' => esc_html__( 'Pricing Table Designs', 'wmodes-tdm' ),
+                'desc' => esc_html__( 'Use these settings to create and manage pricing table designs', 'wmodes-tdm' ),
             );
 
             $in_fields[] = array(

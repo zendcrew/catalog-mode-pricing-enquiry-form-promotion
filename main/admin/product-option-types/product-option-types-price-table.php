@@ -19,7 +19,7 @@ if ( !class_exists( 'WModes_Admin_Product_Option_Type_Price_Table' ) && !defined
         public static function get_types( $in_options, $args = array() ) {
 
             $in_options[ 'prem_12' ] = array(
-                'title' => esc_html__( 'Product Price Table (Premium)', 'zcwm-tdm' ),
+                'title' => esc_html__( 'Product Price Table (Premium)', 'wmodes-tdm' ),
             );
 
             return $in_options;

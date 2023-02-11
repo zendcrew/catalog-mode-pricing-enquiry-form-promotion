@@ -37,8 +37,8 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Badge_Hexagon_Settings' ) && !
                 'type' => 'paneltitle',
                 'full_width' => true,
                 'center_head' => true,
-                'title' => esc_html__( 'Products Badge - Hexagon Designs', 'zcwm-tdm' ),
-                'desc' => esc_html__( 'Use these settings to create and manage hexagon product badge designs', 'zcwm-tdm' ),
+                'title' => esc_html__( 'Products Badge - Hexagon Designs', 'wmodes-tdm' ),
+                'desc' => esc_html__( 'Use these settings to create and manage hexagon product badge designs', 'wmodes-tdm' ),
             );
 
             $in_fields[] = array(

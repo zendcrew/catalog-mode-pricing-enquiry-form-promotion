@@ -19,7 +19,7 @@ if ( !class_exists( 'WModes_Admin_Product_Option_Type_Button_List' ) && !defined
         public static function get_types( $in_options, $args = array() ) {
 
             $in_options[ 'prem_14' ] = array(
-                'title' => esc_html__( 'Link Button List (Premium)', 'zcwm-tdm' ),
+                'title' => esc_html__( 'Link Button List (Premium)', 'wmodes-tdm' ),
             );
 
             return $in_options;

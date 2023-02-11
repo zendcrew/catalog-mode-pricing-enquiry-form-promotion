@@ -17,18 +17,18 @@ if ( !class_exists( 'WModes_Admin_Condition_Type_Shipping_Address' ) && !defined
 
         public static function get_groups( $in_groups, $args ) {
 
-            $in_groups[ 'shipping_address' ] = esc_html__( 'Shipping Address', 'zcwm-tdm' );
+            $in_groups[ 'shipping_address' ] = esc_html__( 'Shipping Address', 'wmodes-tdm' );
 
             return $in_groups;
         }
 
         public static function get_conditions( $in_list, $args ) {
 
-            $in_list[ 'prem_1' ] = esc_html__( 'Shipping Continents (Premium)', 'zcwm-tdm' );
-            $in_list[ 'prem_2' ] = esc_html__( 'Shipping Countries (Premium)', 'zcwm-tdm' );
-            $in_list[ 'prem_3' ] = esc_html__( 'Shipping States (Premium)', 'zcwm-tdm' );
-            $in_list[ 'prem_4' ] = esc_html__( 'Shipping Cities (Premium)', 'zcwm-tdm' );
-            $in_list[ 'prem_5' ] = esc_html__( 'Shipping Postcode / ZIP (Premium)', 'zcwm-tdm' );
+            $in_list[ 'prem_1' ] = esc_html__( 'Shipping Continents (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_2' ] = esc_html__( 'Shipping Countries (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_3' ] = esc_html__( 'Shipping States (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_4' ] = esc_html__( 'Shipping Cities (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_5' ] = esc_html__( 'Shipping Postcode / ZIP (Premium)', 'wmodes-tdm' );
 
             return $in_list;
         }

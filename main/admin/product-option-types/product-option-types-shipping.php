@@ -20,7 +20,7 @@ if ( !class_exists( 'WModes_Admin_Product_Option_Type_Shipping' ) && !defined( '
         public static function get_types( $in_options, $args = array() ) {
 
             $in_options[ 'shipping' ] = array(
-                'title' => esc_html__( 'Shipping Settings', 'zcwm-tdm' ),
+                'title' => esc_html__( 'Shipping Settings', 'wmodes-tdm' ),
             );
 
             return $in_options;
@@ -54,12 +54,12 @@ if ( !class_exists( 'WModes_Admin_Product_Option_Type_Shipping' ) && !defined( '
                 'id' => 'is_virtual',
                 'type' => 'select2',
                 'column_size' => 1,
-                'column_title' => esc_html__( 'Is Virtual', 'zcwm-tdm' ),
-                'tooltip' => esc_html__( 'Makes the product a virtual product, virtual products are intangible and are not shipped', 'zcwm-tdm' ),
+                'column_title' => esc_html__( 'Is Virtual', 'wmodes-tdm' ),
+                'tooltip' => esc_html__( 'Makes the product a virtual product, virtual products are intangible and are not shipped', 'wmodes-tdm' ),
                 'default' => 'no',
                 'options' => array(
-                    'yes' => esc_html__( 'Yes', 'zcwm-tdm' ),
-                    'no' => esc_html__( 'No', 'zcwm-tdm' ),
+                    'yes' => esc_html__( 'Yes', 'wmodes-tdm' ),
+                    'no' => esc_html__( 'No', 'wmodes-tdm' ),
                 ),
                 'width' => '100%',
                 'fold_id' => 'is_virtual',
@@ -69,8 +69,8 @@ if ( !class_exists( 'WModes_Admin_Product_Option_Type_Shipping' ) && !defined( '
                 'id' => 'is_any',
                 'type' => 'textblock',
                 'column_size' => 1,
-                'column_title' => esc_html__( 'Needs Shipping', 'zcwm-tdm' ),
-                'tooltip' => esc_html__( 'Makes the product shippable product on the frontend', 'zcwm-tdm' ),
+                'column_title' => esc_html__( 'Needs Shipping', 'wmodes-tdm' ),
+                'tooltip' => esc_html__( 'Makes the product shippable product on the frontend', 'wmodes-tdm' ),
                 'show_box' => true,
                 'text' => WModes_Admin_Page::get_premium_messages( 'short' ),
                 'fold' => array(
@@ -87,8 +87,8 @@ if ( !class_exists( 'WModes_Admin_Product_Option_Type_Shipping' ) && !defined( '
                 'id' => 'is_any',
                 'type' => 'textblock',
                 'column_size' => 2,
-                'column_title' => esc_html__( 'Shipping Class', 'zcwm-tdm' ),
-                'tooltip' => esc_html__( 'Controls the shipping class of the product on the frontend', 'zcwm-tdm' ),
+                'column_title' => esc_html__( 'Shipping Class', 'wmodes-tdm' ),
+                'tooltip' => esc_html__( 'Controls the shipping class of the product on the frontend', 'wmodes-tdm' ),
                 'show_box' => true,
                 'text' => WModes_Admin_Page::get_premium_messages( 'short' ),
                 'fold' => array(

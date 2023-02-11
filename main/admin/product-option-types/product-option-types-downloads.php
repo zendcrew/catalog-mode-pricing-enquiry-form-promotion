@@ -20,7 +20,7 @@ if ( !class_exists( 'WModes_Admin_Product_Option_Type_Downloads' ) && !defined( 
         public static function get_types( $in_options, $args = array() ) {
 
             $in_options[ 'prem_2' ] = array(
-                'title' => esc_html__( 'Downloads Settings (Premium)', 'zcwm-tdm' ),
+                'title' => esc_html__( 'Downloads Settings (Premium)', 'wmodes-tdm' ),
             );
 
             return $in_options;

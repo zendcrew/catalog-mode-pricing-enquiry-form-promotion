@@ -19,7 +19,7 @@ if ( !class_exists( 'WModes_Admin_Product_Option_Type_Enquiry_Form' ) && !define
         public static function get_types( $in_options, $args = array() ) {
 
             $in_options[ 'prem_15' ] = array(
-                'title' => esc_html__( 'Inline Enquiry Form (Premium)', 'zcwm-tdm' ),
+                'title' => esc_html__( 'Inline Enquiry Form (Premium)', 'wmodes-tdm' ),
             );
 
             return $in_options;

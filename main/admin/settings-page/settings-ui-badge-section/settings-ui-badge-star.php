@@ -37,8 +37,8 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Badge_Star_Settings' ) && !def
                 'type' => 'paneltitle',
                 'full_width' => true,
                 'center_head' => true,
-                'title' => esc_html__( 'Products Badge - Star Designs', 'zcwm-tdm' ),
-                'desc' => esc_html__( 'Use these settings to create and manage star product badge designs', 'zcwm-tdm' ),
+                'title' => esc_html__( 'Products Badge - Star Designs', 'wmodes-tdm' ),
+                'desc' => esc_html__( 'Use these settings to create and manage star product badge designs', 'wmodes-tdm' ),
             );
 
             $in_fields[] = array(

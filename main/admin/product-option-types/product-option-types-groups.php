@@ -16,8 +16,8 @@ if ( !class_exists( 'WModes_Admin_Product_Option_Type_Groups' ) ) {
 
         public static function get_groups( $in_groups, $args ) {
 
-            $in_groups[ 'settings' ] = esc_html__( 'Product Settings', 'zcwm-tdm' );
-            $in_groups[ 'promotions' ] = esc_html__( 'Promotion Settings', 'zcwm-tdm' );
+            $in_groups[ 'settings' ] = esc_html__( 'Product Settings', 'wmodes-tdm' );
+            $in_groups[ 'promotions' ] = esc_html__( 'Promotion Settings', 'wmodes-tdm' );
 
             return $in_groups;
         }

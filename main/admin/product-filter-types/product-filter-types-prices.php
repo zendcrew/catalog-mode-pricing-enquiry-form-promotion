@@ -16,15 +16,15 @@ if ( !class_exists( 'WModes_Admin_Product_Filter_Type_Prices' ) && !defined( 'WM
 
         public static function get_groups( $in_groups, $args ) {
 
-            $in_groups[ 'prices' ] = esc_html__( 'Product Prices', 'zcwm-tdm' );
+            $in_groups[ 'prices' ] = esc_html__( 'Product Prices', 'wmodes-tdm' );
 
             return $in_groups;
         }
 
         public static function get_filters( $in_list, $args ) {
 
-            $in_list[ 'prem_1' ] = esc_html__( 'Regular Price (Premium)', 'zcwm-tdm' );
-            $in_list[ 'prem_2' ] = esc_html__( 'Sale Price (Premium)', 'zcwm-tdm' );
+            $in_list[ 'prem_1' ] = esc_html__( 'Regular Price (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_2' ] = esc_html__( 'Sale Price (Premium)', 'wmodes-tdm' );
 
             return $in_list;
         }

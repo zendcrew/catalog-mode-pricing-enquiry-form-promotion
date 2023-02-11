@@ -20,7 +20,7 @@ if ( !class_exists( 'WModes_Admin_Utils' ) && !defined( 'WMODES_PREMIUM_ADDON' )
             }
 
             if ( !isset( $args[ 'placeholder' ] ) ) {
-                $args[ 'placeholder' ] = esc_html__( '0', 'zcwm-tdm' );
+                $args[ 'placeholder' ] = esc_html__( '0', 'wmodes-tdm' );
             }
 
             $in_fields = array();
@@ -43,12 +43,12 @@ if ( !class_exists( 'WModes_Admin_Utils' ) && !defined( 'WMODES_PREMIUM_ADDON' )
                 'type' => 'select2',
                 'default' => $args[ 'default_unit' ],
                 'options' => array(
-                    'rem' => esc_html__( 'rem', 'zcwm-tdm' ),
-                    'vh' => esc_html__( 'vh', 'zcwm-tdm' ),
-                    'vw' => esc_html__( 'vw', 'zcwm-tdm' ),
-                    'em' => esc_html__( 'em', 'zcwm-tdm' ),
-                    'px' => esc_html__( 'px', 'zcwm-tdm' ),
-                    '%' => esc_html__( '%', 'zcwm-tdm' ),
+                    'rem' => esc_html__( 'rem', 'wmodes-tdm' ),
+                    'vh' => esc_html__( 'vh', 'wmodes-tdm' ),
+                    'vw' => esc_html__( 'vw', 'wmodes-tdm' ),
+                    'em' => esc_html__( 'em', 'wmodes-tdm' ),
+                    'px' => esc_html__( 'px', 'wmodes-tdm' ),
+                    '%' => esc_html__( '%', 'wmodes-tdm' ),
                 ),
                 'width' => '100%',
                 'box_width' => '45%',
@@ -82,7 +82,7 @@ if ( !class_exists( 'WModes_Admin_Utils' ) && !defined( 'WMODES_PREMIUM_ADDON' )
             }
 
             if ( !isset( $args[ 'placeholder' ] ) ) {
-                $args[ 'placeholder' ] = esc_html__( '0', 'zcwm-tdm' );
+                $args[ 'placeholder' ] = esc_html__( '0', 'wmodes-tdm' );
             }
 
             $in_fields = array();
@@ -94,7 +94,7 @@ if ( !class_exists( 'WModes_Admin_Utils' ) && !defined( 'WMODES_PREMIUM_ADDON' )
                 'default' => $default_sizes[ 'top' ],
                 'placeholder' => $args[ 'placeholder' ],
                 'tooltip' => array(
-                    'title' => esc_html__( 'TOP', 'zcwm-tdm' ),
+                    'title' => esc_html__( 'TOP', 'wmodes-tdm' ),
                     'is_bottom' => true,
                 ),
                 'attributes' => array(
@@ -111,7 +111,7 @@ if ( !class_exists( 'WModes_Admin_Utils' ) && !defined( 'WMODES_PREMIUM_ADDON' )
                 'default' => $default_sizes[ 'right' ],
                 'placeholder' => $args[ 'placeholder' ],
                 'tooltip' => array(
-                    'title' => esc_html__( 'RIGHT', 'zcwm-tdm' ),
+                    'title' => esc_html__( 'RIGHT', 'wmodes-tdm' ),
                     'is_bottom' => true,
                 ),
                 'attributes' => array(
@@ -128,7 +128,7 @@ if ( !class_exists( 'WModes_Admin_Utils' ) && !defined( 'WMODES_PREMIUM_ADDON' )
                 'default' => $default_sizes[ 'bottom' ],
                 'placeholder' => $args[ 'placeholder' ],
                 'tooltip' => array(
-                    'title' => esc_html__( 'BOTTOM', 'zcwm-tdm' ),
+                    'title' => esc_html__( 'BOTTOM', 'wmodes-tdm' ),
                     'is_bottom' => true,
                 ),
                 'attributes' => array(
@@ -145,7 +145,7 @@ if ( !class_exists( 'WModes_Admin_Utils' ) && !defined( 'WMODES_PREMIUM_ADDON' )
                 'default' => $default_sizes[ 'left' ],
                 'placeholder' => $args[ 'placeholder' ],
                 'tooltip' => array(
-                    'title' => esc_html__( 'LEFT', 'zcwm-tdm' ),
+                    'title' => esc_html__( 'LEFT', 'wmodes-tdm' ),
                     'is_bottom' => true,
                 ),
                 'attributes' => array(
@@ -160,12 +160,12 @@ if ( !class_exists( 'WModes_Admin_Utils' ) && !defined( 'WMODES_PREMIUM_ADDON' )
                 'type' => 'select2',
                 'default' => $args[ 'default_unit' ],
                 'options' => array(
-                    'rem' => esc_html__( 'rem', 'zcwm-tdm' ),
-                    'vh' => esc_html__( 'vh', 'zcwm-tdm' ),
-                    'vw' => esc_html__( 'vw', 'zcwm-tdm' ),
-                    'em' => esc_html__( 'em', 'zcwm-tdm' ),
-                    'px' => esc_html__( 'px', 'zcwm-tdm' ),
-                    '%' => esc_html__( '%', 'zcwm-tdm' ),
+                    'rem' => esc_html__( 'rem', 'wmodes-tdm' ),
+                    'vh' => esc_html__( 'vh', 'wmodes-tdm' ),
+                    'vw' => esc_html__( 'vw', 'wmodes-tdm' ),
+                    'em' => esc_html__( 'em', 'wmodes-tdm' ),
+                    'px' => esc_html__( 'px', 'wmodes-tdm' ),
+                    '%' => esc_html__( '%', 'wmodes-tdm' ),
                 ),
                 'box_width' => '20%',
                 'width' => '100%',

@@ -36,8 +36,8 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_CountDown_Inline_Settings' ) &
                 'type' => 'paneltitle',
                 'full_width' => true,
                 'center_head' => true,
-                'title' => esc_html__( 'Countdown - Style 1 Designs', 'zcwm-tdm' ),
-                'desc' => esc_html__( 'Use these settings to create and manage countdown style 1 designs', 'zcwm-tdm' ),
+                'title' => esc_html__( 'Countdown - Style 1 Designs', 'wmodes-tdm' ),
+                'desc' => esc_html__( 'Use these settings to create and manage countdown style 1 designs', 'wmodes-tdm' ),
             );
 
             $in_fields[] = array(

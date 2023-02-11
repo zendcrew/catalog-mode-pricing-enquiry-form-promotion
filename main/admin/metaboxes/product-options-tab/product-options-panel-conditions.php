@@ -38,7 +38,7 @@ if ( !class_exists( 'WModes_Admin_Product_Options_MetaBox_Panel_Conditions' ) ) 
                 'module' => 'product-options',
                 'is_global' => false,
                 'product_id' => $product_id,
-                'text' => esc_html__( 'options &amp; promotions', 'zcwm-tdm' ),
+                'text' => esc_html__( 'options &amp; promotions', 'wmodes-tdm' ),
             );
 
             $in_fields[] = array(

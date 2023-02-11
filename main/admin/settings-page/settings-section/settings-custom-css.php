@@ -41,8 +41,8 @@ if ( !class_exists( 'WModes_Admin_Custom_CSS_Settings' ) && !defined( 'WMODES_PR
                 'type' => 'paneltitle',
                 'full_width' => true,
                 'center_head' => true,
-                'title' => esc_html__( 'Style Sheet &amp; Font Icons', 'zcwm-tdm' ),
-                'desc' => esc_html__( 'Use these settings to control the cascaded style sheet (CSS) and font icons', 'zcwm-tdm' ),
+                'title' => esc_html__( 'Style Sheet &amp; Font Icons', 'wmodes-tdm' ),
+                'desc' => esc_html__( 'Use these settings to control the cascaded style sheet (CSS) and font icons', 'wmodes-tdm' ),
             );
 
             $in_fields[] = array(
@@ -72,12 +72,12 @@ if ( !class_exists( 'WModes_Admin_Custom_CSS_Settings' ) && !defined( 'WMODES_PR
                 'id' => 'use_external_css',
                 'type' => 'select2',
                 'column_size' => 1,
-                'column_title' => esc_html__( 'Use External CSS', 'zcwm-tdm' ),
-                'tooltip' => esc_html__( 'Determines whether or no to use external css', 'zcwm-tdm' ),
+                'column_title' => esc_html__( 'Use External CSS', 'wmodes-tdm' ),
+                'tooltip' => esc_html__( 'Determines whether or no to use external css', 'wmodes-tdm' ),
                 'default' => 'no',
                 'options' => array(
-                    'yes' => esc_html__( 'Yes', 'zcwm-tdm' ),
-                    'no' => esc_html__( 'No', 'zcwm-tdm' ),
+                    'yes' => esc_html__( 'Yes', 'wmodes-tdm' ),
+                    'no' => esc_html__( 'No', 'wmodes-tdm' ),
                 ),
                 'width' => '100%',
             );
@@ -86,8 +86,8 @@ if ( !class_exists( 'WModes_Admin_Custom_CSS_Settings' ) && !defined( 'WMODES_PR
                 'id' => 'is_any',
                 'type' => 'textblock',
                 'column_size' => 1,
-                'column_title' => esc_html__( 'Include Font Awesome Icons', 'zcwm-tdm' ),
-                'tooltip' => esc_html__( 'Determines or no the font awesome icon should be included on the front-end pages', 'zcwm-tdm' ),
+                'column_title' => esc_html__( 'Include Font Awesome Icons', 'wmodes-tdm' ),
+                'tooltip' => esc_html__( 'Determines or no the font awesome icon should be included on the front-end pages', 'wmodes-tdm' ),
                 'show_box' => true,
                 'text' => WModes_Admin_Page::get_premium_messages( 'short' ),
                 'width' => '100%',
@@ -102,10 +102,10 @@ if ( !class_exists( 'WModes_Admin_Custom_CSS_Settings' ) && !defined( 'WMODES_PR
                 'id' => 'custom_css',
                 'type' => 'textarea',
                 'column_size' => 1,
-                'column_title' => esc_html__( 'Custom CSS', 'zcwm-tdm' ),
-                'tooltip' => esc_html__( "Adds additional custom stylesheet to the plugin's components", 'zcwm-tdm' ),
+                'column_title' => esc_html__( 'Custom CSS', 'wmodes-tdm' ),
+                'tooltip' => esc_html__( "Adds additional custom stylesheet to the plugin's components", 'wmodes-tdm' ),
                 'default' => '',
-                'placeholder' => esc_html__( 'Type here...', 'zcwm-tdm' ),
+                'placeholder' => esc_html__( 'Type here...', 'wmodes-tdm' ),
                 'rows' => 5,
                 'width' => '100%',
             );

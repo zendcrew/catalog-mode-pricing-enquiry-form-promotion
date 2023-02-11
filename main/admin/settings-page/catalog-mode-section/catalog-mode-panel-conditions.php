@@ -18,7 +18,7 @@ if ( !class_exists( 'WModes_Admin_Catalog_Mode_Panel_Conditions' ) ) {
             $args = array(
                 'module' => 'catalog-modes',
                 'is_global' => true,
-                'text' => esc_html__( 'catalog mode', 'zcwm-tdm' ),
+                'text' => esc_html__( 'catalog mode', 'wmodes-tdm' ),
             );
 
             $in_fields[] = array(

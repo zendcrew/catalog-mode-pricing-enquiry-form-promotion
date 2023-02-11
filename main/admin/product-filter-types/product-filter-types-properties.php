@@ -16,24 +16,24 @@ if ( !class_exists( 'WModes_Admin_Product_Filter_Type_Properties' ) && !defined(
 
         public static function get_groups( $in_groups, $args ) {
 
-            $in_groups[ 'properties' ] = esc_html__( 'Product Properties', 'zcwm-tdm' );
+            $in_groups[ 'properties' ] = esc_html__( 'Product Properties', 'wmodes-tdm' );
 
             return $in_groups;
         }
 
         public static function get_filters( $in_list, $args ) {
 
-            $in_list[ 'prem_1' ] = esc_html__( 'Product Is Virtual (Premium)', 'zcwm-tdm' );
-            $in_list[ 'prem_2' ] = esc_html__( 'Product Is Downloadable (Premium)', 'zcwm-tdm' );
-            $in_list[ 'prem_3' ] = esc_html__( 'Product Is Featured (Premium)', 'zcwm-tdm' );
-            $in_list[ 'prem_4' ] = esc_html__( 'Product Total Number Of Sales (Premium)', 'zcwm-tdm' );
-            $in_list[ 'prem_5' ] = esc_html__( 'Product Is On Sale (Premium)', 'zcwm-tdm' );
-            $in_list[ 'prem_6' ] = esc_html__( 'Product Stock Status (Premium)', 'zcwm-tdm' );
-            $in_list[ 'prem_7' ] = esc_html__( 'Product Stock Quantity (Premium)', 'zcwm-tdm' );
-            $in_list[ 'prem_8' ] = esc_html__( 'Product Shipping Class (Premium)', 'zcwm-tdm' );
-            $in_list[ 'prem_9' ] = esc_html__( 'Product Is Taxable (Premium)', 'zcwm-tdm' );
-            $in_list[ 'prem_10' ] = esc_html__( 'Product Tax Class (Premium)', 'zcwm-tdm' );
-            $in_list[ 'prem_11' ] = esc_html__( 'Product Meta Field (Premium)', 'zcwm-tdm' );
+            $in_list[ 'prem_1' ] = esc_html__( 'Product Is Virtual (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_2' ] = esc_html__( 'Product Is Downloadable (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_3' ] = esc_html__( 'Product Is Featured (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_4' ] = esc_html__( 'Product Total Number Of Sales (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_5' ] = esc_html__( 'Product Is On Sale (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_6' ] = esc_html__( 'Product Stock Status (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_7' ] = esc_html__( 'Product Stock Quantity (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_8' ] = esc_html__( 'Product Shipping Class (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_9' ] = esc_html__( 'Product Is Taxable (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_10' ] = esc_html__( 'Product Tax Class (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_11' ] = esc_html__( 'Product Meta Field (Premium)', 'wmodes-tdm' );
 
             return $in_list;
         }

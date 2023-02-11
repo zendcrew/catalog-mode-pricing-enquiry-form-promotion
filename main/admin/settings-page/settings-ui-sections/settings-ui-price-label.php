@@ -37,8 +37,8 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Price_Label_Settings' ) && !de
                 'type' => 'paneltitle',
                 'full_width' => true,
                 'center_head' => true,
-                'title' => esc_html__( 'Price Label Designs', 'zcwm-tdm' ),
-                'desc' => esc_html__( 'Use these settings to create and manage price label designs', 'zcwm-tdm' ),
+                'title' => esc_html__( 'Price Label Designs', 'wmodes-tdm' ),
+                'desc' => esc_html__( 'Use these settings to create and manage price label designs', 'wmodes-tdm' ),
             );
 
             $in_fields[] = array(

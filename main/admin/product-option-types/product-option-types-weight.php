@@ -20,7 +20,7 @@ if ( !class_exists( 'WModes_Admin_Product_Option_Type_Weight' ) && !defined( 'WM
         public static function get_types( $in_options, $args = array() ) {
 
             $in_options[ 'prem_5' ] = array(
-                'title' => esc_html__( 'Dimentional Weight (Premium)', 'zcwm-tdm' ),
+                'title' => esc_html__( 'Dimentional Weight (Premium)', 'wmodes-tdm' ),
             );
 
             return $in_options;

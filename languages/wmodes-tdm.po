@@ -1,0 +1,3277 @@
+# Copyright (C) 2023 zendcrew
+# This file is distributed under the same license as the WooCommerce Catalog Mode - Pricing, Enquiry Forms & Promotions plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Catalog Mode - Pricing, Enquiry Forms & "
+"Promotions 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/catalog-mode-"
+"pricing-enquiry-form-promotion\n"
+"POT-Creation-Date: 2023-02-02T03:41:36+01:00\n"
+"PO-Revision-Date: 2023-02-02 03:52+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Domain: wmodes-tdm\n"
+
+#. Plugin Name of the plugin
+msgid "WooCommerce Catalog Mode - Pricing, Enquiry Forms & Promotions"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://codecanyon.net/user/zendcrew"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"An All-purpose WooCommerce catalog mode, product pricing and promotion "
+"toolkit."
+msgstr ""
+
+#. Author of the plugin
+msgid "zendcrew"
+msgstr ""
+
+#: catalog-mode-pricing-enquiry-form-promotions.php:63
+msgid ""
+"WooCommerce Catalog Mode - Pricing, Enquiry Forms & Promotions be installed "
+"and activated."
+msgstr ""
+
+#: main/admin/admin-data-list/admin-data-list-label-designs.php:51
+#: main/admin/admin-data-list/admin-data-list-label-designs.php:57
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:43
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:53
+msgid "Label"
+msgstr ""
+
+#: main/admin/admin-data-list/admin-data-list-textblock-designs.php:52
+#: main/admin/admin-data-list/admin-data-list-textblock-designs.php:58
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:159
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:246
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:286
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:331
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:163
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:340
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:380
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:425
+#: main/admin/product-option-types/product-option-types-textblock.php:29
+#: main/admin/product-option-types/product-option-types-textblock.php:102
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:44
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:54
+msgid "Text Block"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-cart.php:26
+msgid "Cart Page Settings"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-cart.php:90
+#: main/admin/catalog-mode-types/catalog-mode-types-checkout.php:57
+msgid "Restrict Access"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-cart.php:91
+msgid "Restricts access to \"Cart\" page and disable all cart functions"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-cart.php:94
+#: main/admin/catalog-mode-types/catalog-mode-types-checkout.php:61
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:182
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:186
+#: main/admin/condition-types/condition-types-customer.php:48
+#: main/admin/metaboxes/catalog-mode-tab/catalog-mode-global.php:57
+#: main/admin/metaboxes/product-options-tab/product-options-global.php:57
+#: main/admin/metaboxes/product-prices-tab/product-prices-global.php:58
+#: main/admin/product-option-types/product-option-types-label.php:123
+#: main/admin/product-option-types/product-option-types-label.php:145
+#: main/admin/product-option-types/product-option-types-label.php:241
+#: main/admin/product-option-types/product-option-types-shipping.php:61
+#: main/admin/product-option-types/product-option-types-textblock.php:123
+#: main/admin/product-option-types/product-option-types-textblock.php:217
+#: main/admin/settings-page/settings-section/settings-custom-css.php:79
+#: main/admin/settings-page/settings-section/settings-meta-boxes.php:58
+#: main/admin/settings-page/settings-section/settings-meta-boxes.php:71
+#: main/admin/settings-page/settings-section/settings-meta-boxes.php:84
+#: main/admin/settings-page/settings-section/settings-sale-query.php:69
+msgid "Yes"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-cart.php:95
+#: main/admin/catalog-mode-types/catalog-mode-types-cart.php:173
+#: main/admin/catalog-mode-types/catalog-mode-types-cart.php:213
+#: main/admin/catalog-mode-types/catalog-mode-types-checkout.php:62
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:181
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:185
+#: main/admin/condition-types/condition-types-customer.php:47
+#: main/admin/product-option-types/product-option-types-label.php:124
+#: main/admin/product-option-types/product-option-types-label.php:146
+#: main/admin/product-option-types/product-option-types-label.php:242
+#: main/admin/product-option-types/product-option-types-shipping.php:62
+#: main/admin/product-option-types/product-option-types-stock.php:84
+#: main/admin/product-option-types/product-option-types-stock.php:137
+#: main/admin/product-option-types/product-option-types-textblock.php:124
+#: main/admin/product-option-types/product-option-types-textblock.php:218
+#: main/admin/settings-page/settings-section/settings-custom-css.php:80
+#: main/admin/settings-page/settings-section/settings-meta-boxes.php:59
+#: main/admin/settings-page/settings-section/settings-meta-boxes.php:72
+#: main/admin/settings-page/settings-section/settings-meta-boxes.php:85
+#: main/admin/settings-page/settings-section/settings-sale-query.php:70
+msgid "No"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-cart.php:105
+#: main/admin/catalog-mode-types/catalog-mode-types-checkout.php:72
+msgid "Restriction Mode"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-cart.php:106
+msgid "Determines how the \"Cart\" page should be restricted"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-cart.php:123
+msgid "Remove Subtotals"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-cart.php:124
+msgid "Disables subtotals on \"Cart\" page"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-cart.php:141
+msgid "Remove Cross Sells"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-cart.php:142
+msgid "Disables \"Cross Sells\" products on \"Cart\" page"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-cart.php:166
+msgid "Hide Product Prices"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-cart.php:167
+msgid "Hides product prices and totals on \"Cart\" page"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-cart.php:171
+#: main/admin/catalog-mode-types/catalog-mode-types-cart.php:212
+#: main/admin/product-option-types/product-option-types-stock.php:82
+#: main/admin/product-option-types/product-option-types-stock.php:135
+msgid "Yes (Premium)"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-cart.php:172
+msgid "Yes, hide product prices/totals columns (Premium)"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-cart.php:189
+msgid "Remove Coupons"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-cart.php:190
+msgid "Disables coupons on \"Cart\" and \"Checkout\" pages"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-cart.php:207
+msgid "Enable Cart Enquiry"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-cart.php:208
+msgid "Enables cart enquiry functions on \"Cart\" page"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-checkout.php:26
+msgid "Checkout Page Settings"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-checkout.php:58
+msgid ""
+"Restricts access to \"Checkout\" page and disable all checkout functions"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-checkout.php:73
+msgid "Determines how the \"Checkout\" page should be restricted"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-groups.php:18
+msgid "Shop &amp; Product Page"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-groups.php:22
+msgid "Cart &amp; Checkout"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:32
+msgid "Product Page Settings"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:47
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:36
+msgid "\"Add to Cart\" Settings"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:48
+msgid "Use these settings to control \"Add to Cart\" on product page"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:75
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:79
+msgid "Price Settings"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:76
+msgid "Use these settings to control price on product page"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:103
+msgid "Other Settings"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:104
+msgid ""
+"Use these settings to control variations, stars rating and product tabs "
+"visibility on product page"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:118
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:122
+#: main/admin/logic-types/login-types-product-filters.php:26
+#: main/admin/product-filter-types/product-filter-types-products.php:24
+msgid "Products"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:119
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:123
+#: main/admin/logic-types/login-types-product-filters.php:27
+msgid "List of product, empty list will include all products"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:136
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:140
+msgid "\"Add to Cart\" Visibility"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:137
+msgid "Controls \"Add to Cart\" visibility on product page"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:140
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:144
+msgid "Show \"Add to Cart\""
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:141
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:145
+msgid "Hide \"Add to Cart\""
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:151
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:278
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:155
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:372
+msgid "Replace With"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:152
+msgid "Controls \"Add to Cart\" replacement on product page"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:156
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:283
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:160
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:377
+msgid "Nothing"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:157
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:284
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:161
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:378
+msgid "Label (Premium)"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:158
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:285
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:162
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:379
+#: main/admin/product-option-types/product-option-types-button.php:22
+msgid "Link Button (Premium)"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:177
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:181
+msgid "Customize \"Add to Cart\""
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:178
+msgid "Controls \"Add to Cart\" text on product page"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:200
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:204
+msgid "\"Add to Cart\" Text"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:201
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:205
+msgid "Controls \"Add to Cart\" text"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:202
+msgid "Add to Cart"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:203
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:247
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:332
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:207
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:341
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:426
+#: main/admin/metaboxes/catalog-mode-tab/catalog-mode-panel-note.php:44
+#: main/admin/metaboxes/product-options-tab/product-options-panel-note.php:42
+#: main/admin/metaboxes/product-prices-tab/product-prices-panel-options.php:52
+#: main/admin/product-option-types/product-option-types-label.php:111
+#: main/admin/product-option-types/product-option-types-textblock.php:103
+#: main/admin/settings-page/catalog-mode-section/catalog-mode-panel-note.php:27
+#: main/admin/settings-page/product-options-section/product-options-panel-note.php:28
+#: main/admin/settings-page/product-prices-section/product-prices-panel-options.php:51
+#: main/admin/settings-page/settings-section/settings-custom-css.php:108
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:213
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:177
+msgid "Type here..."
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:219
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:304
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:244
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:398
+msgid "Text Block - UI Design"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:220
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:305
+msgid "Controls the text block's UI design on the product page"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:244
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:329
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:338
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:423
+msgid "Text Block - Content"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:245
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:330
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:339
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:424
+msgid "Determines text block's contents"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:263
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:357
+msgid "Price Visibility"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:264
+msgid "Controls price visibility on product page"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:267
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:361
+msgid "Show price"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:268
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:362
+msgid "Hide price"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:279
+msgid "Controls price replacement on product page"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:349
+msgid "Variations Visibility"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:350
+msgid "Controls variations visibility on product page"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:353
+msgid "Show variations"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:354
+msgid "Hide variations"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:363
+msgid "Stars Rating Visibility"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:364
+msgid "Controls stars rating visibility on product page"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:374
+msgid "Product Tabs Visibility"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-product.php:375
+msgid "Controls product tabs visibility on product page"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:21
+msgid "Shop Page Settings"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:37
+msgid "Use these settings to control \"Add to Cart\" on shop page"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:80
+msgid "Use these settings to control price on shop page"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:107
+msgid "Stars Rating Settings"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:108
+msgid "Use these settings to control stars rating on shop page"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:141
+msgid "Controls \"Add to Cart\" visibility on shop page"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:156
+msgid "Controls \"Add to Cart\" replacement on shop page"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:182
+msgid "Controls \"Add to Cart\" text on shop page"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:206
+msgid "Add to Enquiry"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:225
+msgid "Variable \"Add to Cart\" Text"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:226
+msgid "Controls \"Add to Cart\" text on variable products"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:245
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:399
+msgid "Controls the text block's UI design on the shop page"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:269
+msgid "Link Type"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:270
+msgid "Controls \"Add to Cart\" link type"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:274
+msgid "Add to Cart link"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:275
+msgid "Blog post page link (Premium)"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:276
+msgid "Page link (Premium)"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:277
+msgid "Page URL"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:295
+msgid "Destination URL"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:296
+msgid ""
+"This controls the destination web page URL that the \"Add to Cart\" should "
+"link to"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:313
+msgid "Target"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:314
+msgid "Determines whether or not the link should open in a new browser tab"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:358
+msgid "Controls price visibility on shop page"
+msgstr ""
+
+#: main/admin/catalog-mode-types/catalog-mode-types-shop.php:373
+msgid "Controls price replacement on shop page"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-billing-address.php:20
+msgid "Billing Address"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-billing-address.php:27
+msgid "Billing Continents (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-billing-address.php:28
+msgid "Billing Countries (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-billing-address.php:29
+msgid "Billing States (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-billing-address.php:30
+msgid "Billing Cities (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-billing-address.php:31
+msgid "Billing Postcode / ZIP (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-billing.php:20
+msgid "Billing"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-billing.php:27
+msgid "Payment Methods (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-items-quantity.php:20
+msgid "Cart Item Quantities"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-items-quantity.php:27
+msgid "Products Quantity (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-items-quantity.php:28
+msgid "Variations Quantity (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-items-quantity.php:29
+msgid "Categories Quantity (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-items-quantity.php:30
+msgid "Tags Quantity (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-items-quantity.php:31
+msgid "Attributes Quantity (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-items-quantity.php:32
+msgid "Tax Classes Quantity (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-items-quantity.php:33
+msgid "Shipping Classes Quantity (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-items-quantity.php:34
+msgid "Product Meta Fields Quantity (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-items-subtotals.php:20
+msgid "Cart Item Subtotals"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-items-subtotals.php:27
+msgid "Products Subtotal (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-items-subtotals.php:28
+msgid "Variations Subtotal (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-items-subtotals.php:29
+msgid "Categories Subtotal (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-items-subtotals.php:30
+msgid "Tags Subtotal (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-items-subtotals.php:31
+msgid "Attributes Subtotal (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-items-subtotals.php:32
+msgid "Tax Classes Subtotal (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-items-subtotals.php:33
+msgid "Shipping Classes Subtotal (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-items-subtotals.php:34
+msgid "Product Meta Fields Subtotal (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-items.php:20
+msgid "Items In Cart"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-items.php:27
+msgid "Products In Cart (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-items.php:28
+msgid "Variations In Cart (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-items.php:29
+msgid "Categories In Cart (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-items.php:30
+msgid "Tags In Cart (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-items.php:31
+msgid "Attributes In Cart (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-items.php:32
+msgid "Tax Classes In Cart (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-items.php:33
+msgid "Shipping Classes In Cart (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-items.php:34
+msgid "Product Meta Fields In Cart (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-totals.php:18
+msgid "Cart Totals"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-totals.php:25
+msgid "Subtotals Including Tax (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-totals.php:26
+msgid "Subtotals Excluding Tax (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-weight.php:18
+msgid "Cart Weights (%s)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-weight.php:27
+msgid "Cart Weight - Weight (%s) (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart-weight.php:28
+msgid "Cart Weight - Weight Calculator (%s) (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart.php:22
+msgid "Cart"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart.php:29
+msgid "Cart Total Quantity (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart.php:30
+msgid "Number Of Cart Items"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart.php:31
+msgid "Applied Coupons (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart.php:44
+msgid "Between (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart.php:45
+msgid "More than or equal to"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart.php:46
+msgid "More than"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart.php:47
+msgid "Less than or equal to"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart.php:48
+msgid "Less than"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart.php:49
+msgid "Equal to (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart.php:50
+msgid "Not equal to (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-cart.php:61
+#: main/admin/settings-page/settings-utils.php:23
+#: main/admin/settings-page/settings-utils.php:85
+msgid "0"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-customer-value.php:20
+msgid "Customer Values"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-customer-value.php:29
+msgid "Coupons Used (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-customer-value.php:30
+msgid "Totals Spent (%s) (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-customer-value.php:31
+msgid "Last Order Date (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-customer-value.php:32
+msgid "Last Order Totals (%s) (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-customer-value.php:33
+msgid "Average (%s) Per Order (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-customer-value.php:34
+msgid "Maximum (%s) Per Order (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-customer-value.php:35
+msgid "Minimum (%s) Per Order (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-customer-value.php:36
+msgid "Number Of Orders (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-customer-value.php:37
+msgid "Number Of Reviews (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-customer.php:24
+#: main/admin/condition-types/condition-types-customer.php:32
+msgid "Customers"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-customer.php:31
+msgid "Customer Is Logged In"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-customer.php:33
+msgid "User Roles"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-customer.php:34
+msgid "User Capabilities (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-customer.php:35
+msgid "User Meta Field (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-customer.php:64
+#: main/admin/condition-types/condition-types-customer.php:99
+#: main/admin/product-filter-types/product-filter-types-products.php:49
+#: main/admin/product-filter-types/product-filter-types-products.php:83
+#: main/admin/product-filter-types/product-filter-types-products.php:120
+#: main/admin/product-option-types/product-option-types-label.php:220
+#: main/admin/product-option-types/product-option-types-textblock.php:196
+msgid "Any in the list"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-customer.php:65
+#: main/admin/condition-types/condition-types-customer.php:103
+#: main/admin/product-filter-types/product-filter-types-products.php:50
+#: main/admin/product-filter-types/product-filter-types-products.php:87
+#: main/admin/product-filter-types/product-filter-types-products.php:124
+msgid "None in the list"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-customer.php:76
+msgid "Search users..."
+msgstr ""
+
+#: main/admin/condition-types/condition-types-customer.php:100
+#: main/admin/product-filter-types/product-filter-types-products.php:84
+#: main/admin/product-filter-types/product-filter-types-products.php:121
+msgid "All in the list"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-customer.php:101
+#: main/admin/product-filter-types/product-filter-types-products.php:85
+#: main/admin/product-filter-types/product-filter-types-products.php:122
+msgid "Only in the list"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-customer.php:102
+#: main/admin/product-filter-types/product-filter-types-products.php:86
+#: main/admin/product-filter-types/product-filter-types-products.php:123
+msgid "Only all in the list"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-customer.php:114
+msgid "Search user roles..."
+msgstr ""
+
+#: main/admin/condition-types/condition-types-datetime.php:22
+msgid "Dates &amp; Times"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-datetime.php:29
+msgid "Date (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-datetime.php:30
+msgid "Time (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-datetime.php:31
+#: main/admin/product-option-types/product-option-types-saleschedule.php:166
+msgid "Date &amp; Time"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-datetime.php:32
+msgid "Days Of Week (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-datetime.php:33
+msgid "Days Of Month (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-datetime.php:34
+msgid "Months Of Year (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-datetime.php:46
+msgid "From"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-datetime.php:47
+msgid "To"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-datetime.php:48
+msgid "Between"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-datetime.php:59
+#: main/admin/condition-types/condition-types-datetime.php:82
+#: main/admin/condition-types/condition-types-datetime.php:105
+msgid "yy-mm-dd 00:00:00"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-geolocation.php:20
+msgid "GeoIP Locations"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-geolocation.php:27
+msgid "GeoIP Continents (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-geolocation.php:28
+msgid "GeoIP Countries (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-page.php:20
+msgid "Current Page"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-page.php:27
+msgid "Current Page Type (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-purchase-history-quantity.php:20
+msgid "Purchase History Quantities"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-purchase-history-quantity.php:27
+msgid "Purchased Products Quantity (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-purchase-history-quantity.php:28
+msgid "Purchased Variations Quantity (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-purchase-history-quantity.php:29
+msgid "Purchased Categories Quantity (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-purchase-history-quantity.php:30
+msgid "Purchased Tags Quantity (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-purchase-history-quantity.php:31
+msgid "Purchased Attributes Quantity (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-purchase-history-subtotal.php:20
+msgid "Purchase History Subtotals"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-purchase-history-subtotal.php:27
+msgid "Purchased Products Subtotal (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-purchase-history-subtotal.php:28
+msgid "Purchased Variations Subtotal (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-purchase-history-subtotal.php:29
+msgid "Purchased Categories Subtotal (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-purchase-history-subtotal.php:30
+msgid "Purchased Tags Subtotal (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-purchase-history-subtotal.php:31
+msgid "Purchased Attributes Subtotal (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-purchase-history.php:20
+msgid "Purchase History"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-purchase-history.php:27
+msgid "Purchased Products (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-purchase-history.php:28
+msgid "Purchased Variations (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-purchase-history.php:29
+msgid "Purchased Categories (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-purchase-history.php:30
+msgid "Purchased Tags (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-purchase-history.php:31
+msgid "Purchased Attributes (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-shipping-address.php:20
+msgid "Shipping Address"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-shipping-address.php:27
+msgid "Shipping Continents (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-shipping-address.php:28
+msgid "Shipping Countries (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-shipping-address.php:29
+msgid "Shipping States (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-shipping-address.php:30
+msgid "Shipping Cities (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-shipping-address.php:31
+msgid "Shipping Postcode / ZIP (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-shipping.php:20
+msgid "Shipping"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-shipping.php:27
+msgid "Needs Shipping (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-shipping.php:28
+msgid "Shipping Zones (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-shipping.php:29
+msgid "Shipping Methods (Premium)"
+msgstr ""
+
+#: main/admin/condition-types/condition-types-shipping.php:30
+msgid "Shipping Rates (Premium)"
+msgstr ""
+
+#: main/admin/logic-types/logic-types-conditions.php:23
+msgid "Conditions"
+msgstr ""
+
+#: main/admin/logic-types/logic-types-conditions.php:24
+msgid ""
+"List of conditions in which this %s should apply, empty conditions will "
+"apply in all cases"
+msgstr ""
+
+#: main/admin/logic-types/logic-types-conditions.php:28
+msgid "All conditions should match"
+msgstr ""
+
+#: main/admin/logic-types/logic-types-conditions.php:29
+msgid "At least one condition should match (Premium)"
+msgstr ""
+
+#: main/admin/logic-types/logic-types-conditions.php:51
+msgid "Add Condition"
+msgstr ""
+
+#: main/admin/logic-types/login-types-product-filters.php:39
+msgid "Add Product"
+msgstr ""
+
+#: main/admin/logic-types/login-types-variations.php:23
+msgid "Product Variations"
+msgstr ""
+
+#: main/admin/logic-types/login-types-variations.php:24
+msgid "Applies this %s to the specified product variations"
+msgstr ""
+
+#: main/admin/metaboxes/catalog-mode-tab/catalog-mode-box.php:36
+msgid "Please upgrade to premium version in order to add more mode options"
+msgstr ""
+
+#: main/admin/metaboxes/catalog-mode-tab/catalog-mode-box.php:52
+#: main/admin/settings-page/catalog-mode-section/catalog-mode-section.php:83
+msgid "New Catalog Mode Settings"
+msgstr ""
+
+#: main/admin/metaboxes/catalog-mode-tab/catalog-mode-box.php:75
+#: main/admin/settings-page/catalog-mode-section/catalog-mode-section.php:97
+msgid "Catalog Mode Settings"
+msgstr ""
+
+#: main/admin/metaboxes/catalog-mode-tab/catalog-mode-global.php:36
+#: main/admin/metaboxes/catalog-mode-tab/catalog-mode-tab.php:24
+#: main/admin/settings-page/settings-page.php:169
+#: main/admin/settings-page/settings-page.php:434
+msgid "Catalog Modes"
+msgstr ""
+
+#: main/admin/metaboxes/catalog-mode-tab/catalog-mode-global.php:37
+msgid "Enables catalog mode settings on this product"
+msgstr ""
+
+#: main/admin/metaboxes/catalog-mode-tab/catalog-mode-global.php:41
+#: main/admin/metaboxes/product-options-tab/product-options-global.php:41
+#: main/admin/metaboxes/product-prices-tab/product-prices-global.php:42
+msgid "Use global settings"
+msgstr ""
+
+#: main/admin/metaboxes/catalog-mode-tab/catalog-mode-global.php:42
+#: main/admin/metaboxes/product-options-tab/product-options-global.php:42
+#: main/admin/metaboxes/product-prices-tab/product-prices-global.php:43
+msgid "Enabled"
+msgstr ""
+
+#: main/admin/metaboxes/catalog-mode-tab/catalog-mode-global.php:43
+#: main/admin/metaboxes/product-options-tab/product-options-global.php:43
+#: main/admin/metaboxes/product-prices-tab/product-prices-global.php:44
+msgid "Disabled (Premium)"
+msgstr ""
+
+#: main/admin/metaboxes/catalog-mode-tab/catalog-mode-global.php:52
+#: main/admin/metaboxes/product-options-tab/product-options-global.php:52
+#: main/admin/metaboxes/product-prices-tab/product-prices-global.php:53
+msgid "Override global settings"
+msgstr ""
+
+#: main/admin/metaboxes/catalog-mode-tab/catalog-mode-global.php:53
+msgid "Overrides global catalog mode settings"
+msgstr ""
+
+#: main/admin/metaboxes/catalog-mode-tab/catalog-mode-global.php:58
+#: main/admin/metaboxes/product-options-tab/product-options-global.php:58
+#: main/admin/metaboxes/product-prices-tab/product-prices-global.php:59
+msgid "No (Premium)"
+msgstr ""
+
+#: main/admin/metaboxes/catalog-mode-tab/catalog-mode-global.php:73
+#: main/admin/metaboxes/product-options-tab/product-options-global.php:73
+#: main/admin/metaboxes/product-prices-tab/product-prices-global.php:74
+msgid "Apply Mode"
+msgstr ""
+
+#: main/admin/metaboxes/catalog-mode-tab/catalog-mode-global.php:74
+#: main/admin/settings-page/catalog-mode-section/catalog-mode-section.php:43
+msgid "Controls catalog modes apply method"
+msgstr ""
+
+#: main/admin/metaboxes/catalog-mode-tab/catalog-mode-global.php:98
+msgid "Apply all valid catalog modes"
+msgstr ""
+
+#: main/admin/metaboxes/catalog-mode-tab/catalog-mode-global.php:102
+#: main/admin/settings-page/catalog-mode-section/catalog-mode-section.php:156
+msgid "Apply first valid catalog mode settings (Premium)"
+msgstr ""
+
+#: main/admin/metaboxes/catalog-mode-tab/catalog-mode-global.php:103
+#: main/admin/settings-page/catalog-mode-section/catalog-mode-section.php:157
+msgid "Apply last valid catalog mode settings (Premium)"
+msgstr ""
+
+#: main/admin/metaboxes/catalog-mode-tab/catalog-mode-panel-conditions.php:41
+#: main/admin/settings-page/catalog-mode-section/catalog-mode-panel-conditions.php:21
+msgid "catalog mode"
+msgstr ""
+
+#: main/admin/metaboxes/catalog-mode-tab/catalog-mode-panel-modes.php:63
+#: main/admin/metaboxes/product-options-tab/product-options-panel-options.php:62
+#: main/admin/settings-page/catalog-mode-section/catalog-mode-panel-modes.php:59
+#: main/admin/settings-page/product-options-section/product-options-panel-options.php:59
+#: main/admin/settings-page/settings-page.php:286
+msgid "Settings"
+msgstr ""
+
+#: main/admin/metaboxes/catalog-mode-tab/catalog-mode-panel-modes.php:64
+msgid ""
+"List of catalog modes settings to apply, empty list will not apply any "
+"catalog mode settings"
+msgstr ""
+
+#: main/admin/metaboxes/catalog-mode-tab/catalog-mode-panel-modes.php:85
+#: main/admin/settings-page/catalog-mode-section/catalog-mode-panel-modes.php:78
+#: main/admin/settings-page/catalog-mode-section/catalog-mode-section.php:70
+#: main/admin/settings-page/product-prices-section/product-prices-section.php:95
+msgid "Please upgrade to premium version in order to add more options"
+msgstr ""
+
+#: main/admin/metaboxes/catalog-mode-tab/catalog-mode-panel-modes.php:104
+#: main/admin/metaboxes/product-options-tab/product-options-panel-options.php:103
+#: main/admin/settings-page/catalog-mode-section/catalog-mode-panel-modes.php:96
+#: main/admin/settings-page/product-options-section/product-options-panel-options.php:100
+msgid "Add Settings"
+msgstr ""
+
+#: main/admin/metaboxes/catalog-mode-tab/catalog-mode-panel-note.php:40
+#: main/admin/metaboxes/product-options-tab/product-options-panel-note.php:38
+#: main/admin/metaboxes/product-prices-tab/product-prices-panel-options.php:48
+#: main/admin/settings-page/catalog-mode-section/catalog-mode-panel-note.php:23
+#: main/admin/settings-page/product-options-section/product-options-panel-note.php:24
+#: main/admin/settings-page/product-prices-section/product-prices-panel-options.php:47
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:209
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:173
+msgid "Adds a private note for reference purposes"
+msgstr ""
+
+#: main/admin/metaboxes/catalog-mode-tab/catalog-mode-panel-note.php:42
+#: main/admin/metaboxes/product-options-tab/product-options-panel-note.php:40
+#: main/admin/metaboxes/product-prices-tab/product-prices-panel-options.php:50
+#: main/admin/settings-page/catalog-mode-section/catalog-mode-panel-note.php:25
+#: main/admin/settings-page/product-options-section/product-options-panel-note.php:26
+#: main/admin/settings-page/product-prices-section/product-prices-panel-options.php:49
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:211
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:175
+msgid "Admin Note"
+msgstr ""
+
+#: main/admin/metaboxes/product-options-tab/product-options-global.php:36
+#: main/admin/metaboxes/product-options-tab/product-options-tab.php:25
+#: main/admin/metaboxes/product-options-tab/product-options.php:75
+#: main/admin/product-option-types/product-option-types-groups.php:19
+#: main/admin/settings-page/product-options-section/product-options-section.php:97
+msgid "Product Settings"
+msgstr ""
+
+#: main/admin/metaboxes/product-options-tab/product-options-global.php:37
+msgid "Enables product settings on this product"
+msgstr ""
+
+#: main/admin/metaboxes/product-options-tab/product-options-global.php:53
+msgid "Overrides global product option settings"
+msgstr ""
+
+#: main/admin/metaboxes/product-options-tab/product-options-global.php:74
+msgid "Controls product settings apply method"
+msgstr ""
+
+#: main/admin/metaboxes/product-options-tab/product-options-global.php:98
+#: main/admin/settings-page/product-options-section/product-options-section.php:151
+msgid "Apply all valid product settings"
+msgstr ""
+
+#: main/admin/metaboxes/product-options-tab/product-options-global.php:102
+#: main/admin/settings-page/product-options-section/product-options-section.php:155
+msgid "Apply first valid product settings (Premium)"
+msgstr ""
+
+#: main/admin/metaboxes/product-options-tab/product-options-global.php:103
+#: main/admin/settings-page/product-options-section/product-options-section.php:156
+msgid "Apply last valid product settings (Premium)"
+msgstr ""
+
+#: main/admin/metaboxes/product-options-tab/product-options-panel-conditions.php:41
+msgid "options &amp; promotions"
+msgstr ""
+
+#: main/admin/metaboxes/product-options-tab/product-options-panel-options.php:63
+#: main/admin/settings-page/product-options-section/product-options-panel-options.php:60
+msgid ""
+"List of product settings to apply, empty list will not apply any settings"
+msgstr ""
+
+#: main/admin/metaboxes/product-options-tab/product-options.php:36
+#: main/admin/settings-page/product-options-section/product-options-section.php:70
+msgid "Please upgrade to premium version in order to add more settings"
+msgstr ""
+
+#: main/admin/metaboxes/product-options-tab/product-options.php:52
+#: main/admin/settings-page/product-options-section/product-options-section.php:83
+msgid "New Product Settings"
+msgstr ""
+
+#: main/admin/metaboxes/product-prices-tab/product-prices-box.php:37
+msgid "Please upgrade to premium version in order to add more prices"
+msgstr ""
+
+#: main/admin/metaboxes/product-prices-tab/product-prices-box.php:53
+#: main/admin/settings-page/product-prices-section/product-prices-section.php:109
+msgid "New Product Pricing"
+msgstr ""
+
+#: main/admin/metaboxes/product-prices-tab/product-prices-box.php:75
+#: main/admin/metaboxes/product-prices-tab/product-prices-global.php:37
+#: main/admin/metaboxes/product-prices-tab/product-prices-tab.php:28
+#: main/admin/settings-page/product-prices-section/product-prices-section.php:123
+msgid "Product Pricing"
+msgstr ""
+
+#: main/admin/metaboxes/product-prices-tab/product-prices-global.php:38
+msgid "Enables product pricing on this product"
+msgstr ""
+
+#: main/admin/metaboxes/product-prices-tab/product-prices-global.php:54
+msgid "Overrides global product pricing settings"
+msgstr ""
+
+#: main/admin/metaboxes/product-prices-tab/product-prices-global.php:75
+msgid "Controls pricing apply method"
+msgstr ""
+
+#: main/admin/metaboxes/product-prices-tab/product-prices-global.php:99
+#: main/admin/settings-page/product-prices-section/product-prices-section.php:174
+msgid "Apply all valid product pricing"
+msgstr ""
+
+#: main/admin/metaboxes/product-prices-tab/product-prices-global.php:103
+#: main/admin/settings-page/product-prices-section/product-prices-section.php:178
+msgid "Apply first valid product pricing (Premium)"
+msgstr ""
+
+#: main/admin/metaboxes/product-prices-tab/product-prices-global.php:104
+#: main/admin/settings-page/product-prices-section/product-prices-section.php:179
+msgid "Apply last valid product pricing (Premium)"
+msgstr ""
+
+#: main/admin/metaboxes/product-prices-tab/product-prices-panel-conditions.php:41
+#: main/admin/settings-page/product-prices-section/product-prices-panel-conditions.php:41
+msgid "product pricing"
+msgstr ""
+
+#: main/admin/metaboxes/product-prices-tab/product-prices-panel-max.php:57
+msgid "Pricing Limit"
+msgstr ""
+
+#: main/admin/metaboxes/product-prices-tab/product-prices-panel-max.php:58
+msgid "Controls pricing limits"
+msgstr ""
+
+#: main/admin/metaboxes/product-prices-tab/product-prices-panel-max.php:62
+#: main/admin/settings-page/product-prices-section/product-prices-panel-max.php:78
+#: main/admin/settings-page/product-prices-section/product-prices-section.php:51
+msgid "No limit"
+msgstr ""
+
+#: main/admin/metaboxes/product-prices-tab/product-prices-panel-max.php:63
+#: main/admin/product-price-types/product-price-types-sale.php:45
+#: main/admin/settings-page/product-prices-section/product-prices-panel-max.php:79
+#: main/admin/settings-page/product-prices-section/product-prices-section.php:52
+msgid "Fixed discount amount (Premium)"
+msgstr ""
+
+#: main/admin/metaboxes/product-prices-tab/product-prices-panel-max.php:64
+#: main/admin/product-price-types/product-price-types-sale.php:46
+#: main/admin/settings-page/product-prices-section/product-prices-panel-max.php:80
+#: main/admin/settings-page/product-prices-section/product-prices-section.php:53
+msgid "Fixed fee amount (Premium)"
+msgstr ""
+
+#: main/admin/metaboxes/product-prices-tab/product-prices-panel-max.php:65
+#: main/admin/settings-page/product-prices-section/product-prices-panel-max.php:81
+#: main/admin/settings-page/product-prices-section/product-prices-section.php:54
+msgid "Percentage discount amount (Premium)"
+msgstr ""
+
+#: main/admin/metaboxes/product-prices-tab/product-prices-panel-max.php:66
+#: main/admin/product-price-types/product-price-types-sale.php:51
+#: main/admin/settings-page/product-prices-section/product-prices-panel-max.php:82
+#: main/admin/settings-page/product-prices-section/product-prices-section.php:55
+msgid "Percentage fee amount (Premium)"
+msgstr ""
+
+#: main/admin/metaboxes/product-prices-tab/product-prices-panel-options.php:37
+#: main/admin/settings-page/product-prices-section/product-prices-panel-options.php:36
+msgid "Mode"
+msgstr ""
+
+#: main/admin/metaboxes/product-prices-tab/product-prices-panel-options.php:38
+#: main/admin/settings-page/product-prices-section/product-prices-panel-options.php:37
+msgid "Controls product prices mode"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-authors.php:19
+msgid "Product Authors (Multi Vendor)"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-authors.php:26
+msgid "Product Authors (Premium)"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-authors.php:27
+msgid "Product Author's Roles (Premium)"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-authors.php:28
+msgid "Product Author's Capabilities (Premium)"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-authors.php:29
+msgid "Product Author's Meta Fields (Premium)"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-dimensions.php:21
+msgid "Product Dimensions (%s)"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-dimensions.php:30
+msgid "Product Length (%s) (Premium)"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-dimensions.php:31
+msgid "Product Width (%s) (Premium)"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-dimensions.php:32
+msgid "Product Height (%s) (Premium)"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-dimensions.php:33
+msgid "Product Surface Area (square %s) (Premium)"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-dimensions.php:34
+msgid "Product Volume (cubic %s) (Premium)"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-prices.php:19
+msgid "Product Prices"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-prices.php:26
+msgid "Regular Price (Premium)"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-prices.php:27
+msgid "Sale Price (Premium)"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-products.php:31
+msgid "Specific Products"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-products.php:32
+msgid "Product SKUs (Premium)"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-products.php:33
+msgid "Product Variations (Premium)"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-products.php:34
+msgid "Product Categories"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-products.php:35
+msgid "Product Tags"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-products.php:36
+msgid "Product Attributes (Premium)"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-products.php:37
+msgid "Product Quantity In Cart (Premium)"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-products.php:61
+msgid "Search products..."
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-products.php:98
+msgid "Search categories..."
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-products.php:135
+msgid "Search tags..."
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-properties.php:19
+msgid "Product Properties"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-properties.php:26
+msgid "Product Is Virtual (Premium)"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-properties.php:27
+msgid "Product Is Downloadable (Premium)"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-properties.php:28
+msgid "Product Is Featured (Premium)"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-properties.php:29
+msgid "Product Total Number Of Sales (Premium)"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-properties.php:30
+msgid "Product Is On Sale (Premium)"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-properties.php:31
+msgid "Product Stock Status (Premium)"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-properties.php:32
+msgid "Product Stock Quantity (Premium)"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-properties.php:33
+msgid "Product Shipping Class (Premium)"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-properties.php:34
+msgid "Product Is Taxable (Premium)"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-properties.php:35
+msgid "Product Tax Class (Premium)"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-properties.php:36
+msgid "Product Meta Field (Premium)"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-weights.php:21
+msgid "Product Weights"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-weights.php:30
+msgid "Product Weight - Weight (%s) (Premium)"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types-weights.php:31
+msgid "Product Weight - Weight Calculator (%s) (Premium)"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types.php:38
+msgid "Required"
+msgstr ""
+
+#: main/admin/product-filter-types/product-filter-types.php:39
+msgid "Optional"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-badge.php:22
+msgid "Product Badge (Premium)"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-button-list.php:22
+msgid "Link Button List (Premium)"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-countdown.php:22
+msgid "Countdown (Premium)"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-downloads.php:23
+msgid "Downloads Settings (Premium)"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-enquiry-form.php:22
+msgid "Inline Enquiry Form (Premium)"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-groups.php:20
+msgid "Promotion Settings"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-heading.php:22
+msgid "Heading (Premium)"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-image-countdown.php:22
+msgid "Image Countdown (Premium)"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-label-list.php:22
+msgid "Product Label List (Premium)"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-label.php:21
+msgid "Product Label"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-label.php:45
+#: main/admin/product-option-types/product-option-types-label.php:201
+#: main/admin/product-option-types/product-option-types-textblock.php:53
+#: main/admin/product-option-types/product-option-types-textblock.php:177
+msgid "Shop Loops"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-label.php:46
+msgid "Use these settings to control the label's visibility in shop loops"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-label.php:74
+#: main/admin/product-option-types/product-option-types-textblock.php:83
+msgid "Product Summary"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-label.php:75
+msgid ""
+"Use these settings to control the label's visibility in product summary area"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-label.php:92
+msgid "Text Mode"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-label.php:93
+msgid "Controls what text should be shown as text on the frontend"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-label.php:97
+msgid "Plain text"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-label.php:98
+msgid "Discount amount"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-label.php:99
+msgid "Discount percantage"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-label.php:108
+msgid "Text"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-label.php:109
+msgid "Enter the text to be shown on the frontend"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-label.php:119
+msgid "Replace Previous Labels"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-label.php:120
+msgid "Determines whether or not the previous labels should be removed"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-label.php:141
+#: main/admin/product-option-types/product-option-types-textblock.php:119
+msgid "Show In Shop Loops"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-label.php:142
+msgid "Determines whether or not the label should be shown in shop loops"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-label.php:158
+#: main/admin/product-option-types/product-option-types-textblock.php:134
+msgid "Shop Loops - Location"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-label.php:159
+msgid "Controls the label's location in the shop loops"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-label.php:176
+#: main/admin/product-option-types/product-option-types-textblock.php:152
+msgid "Shop Loops - UI Design"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-label.php:177
+msgid "Controls the label's UI design in the shop loops"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-label.php:202
+msgid "Determines which of the shop loops the label should be visible in"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-label.php:206
+#: main/admin/product-option-types/product-option-types-textblock.php:182
+msgid "Select shop loops"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-label.php:216
+#: main/admin/product-option-types/product-option-types-textblock.php:192
+msgid "Equals To"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-label.php:217
+msgid "Determines how to validate the shop loops for the label's visibility"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-label.php:221
+#: main/admin/product-option-types/product-option-types-textblock.php:197
+msgid "Any NOT in the list"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-label.php:237
+#: main/admin/product-option-types/product-option-types-textblock.php:213
+msgid "Show In Product Summary"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-label.php:238
+msgid ""
+"Determines whether or not the label should be shown in product summary area"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-label.php:252
+#: main/admin/product-option-types/product-option-types-textblock.php:228
+msgid "Product Summary - Location"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-label.php:253
+msgid "Controls the label's location in the product summary area"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-label.php:270
+#: main/admin/product-option-types/product-option-types-textblock.php:246
+msgid "Product Summary - UI Design"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-label.php:271
+msgid "Controls the label's UI design in the single product summary area"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-line.php:22
+msgid "Horizontal Line (Premium)"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-price-details.php:22
+msgid "Product Price Details (Premium)"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-price-label.php:22
+msgid "Product Price Label (Premium)"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-price-table.php:22
+msgid "Product Price Table (Premium)"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-purchase.php:23
+msgid "Purchase Settings (Premium)"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-restriction.php:23
+msgid "Authorization Settings (Premium)"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-sale-bar.php:22
+msgid "Sales Bar (Premium)"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-sale-flash.php:22
+msgid "Hide Sale Flash (Premium)"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-saleschedule.php:23
+msgid "Sale Schedule"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-saleschedule.php:57
+msgid "Schedule Mode"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-saleschedule.php:58
+msgid "Controls sale schedule mode"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-saleschedule.php:74
+#: main/admin/product-option-types/product-option-types-saleschedule.php:151
+msgid "Specific Date"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-saleschedule.php:75
+msgid "Enter a specific date to schedule sale"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-saleschedule.php:82
+#: main/admin/product-option-types/product-option-types-saleschedule.php:106
+#: main/admin/product-option-types/product-option-types-saleschedule.php:130
+msgid "yy-mm-dd"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-saleschedule.php:98
+#: main/admin/product-option-types/product-option-types-saleschedule.php:152
+msgid "From Date"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-saleschedule.php:99
+#: main/admin/product-option-types/product-option-types-saleschedule.php:123
+msgid "User role to apply"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-saleschedule.php:122
+#: main/admin/product-option-types/product-option-types-saleschedule.php:153
+msgid "To Date"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-saleschedule.php:149
+msgid "Date"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-saleschedule.php:154
+msgid "Between Date"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-saleschedule.php:158
+msgid "Time"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-saleschedule.php:160
+msgid "From Time (Premium)"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-saleschedule.php:161
+msgid "To Time (Premium)"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-saleschedule.php:162
+msgid "Between Time (Premium)"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-saleschedule.php:168
+msgid "Specific Date &amp; Time (Premium)"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-saleschedule.php:169
+msgid "From Date &amp; Time (Premium)"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-saleschedule.php:170
+msgid "To Date &amp; Time (Premium)"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-saleschedule.php:171
+msgid "Between Date &amp; Time (Premium)"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-saleschedule.php:175
+msgid "Days &amp; Months"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-saleschedule.php:177
+msgid "Days of Week (Premium)"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-saleschedule.php:178
+msgid "Days of Month (Premium)"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-saleschedule.php:179
+msgid "Months of Year (Premium)"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-shipping.php:23
+msgid "Shipping Settings"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-shipping.php:57
+msgid "Is Virtual"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-shipping.php:58
+msgid ""
+"Makes the product a virtual product, virtual products are intangible and are "
+"not shipped"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-shipping.php:72
+msgid "Needs Shipping"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-shipping.php:73
+msgid "Makes the product shippable product on the frontend"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-shipping.php:90
+msgid "Shipping Class"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-shipping.php:91
+msgid "Controls the shipping class of the product on the frontend"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-stock.php:23
+msgid "Stock Settings"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-stock.php:77
+#: main/admin/product-option-types/product-option-types-stock.php:130
+msgid "Manage Stock"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-stock.php:78
+#: main/admin/product-option-types/product-option-types-stock.php:131
+msgid "Enables stock management at product level"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-stock.php:83
+#: main/admin/product-option-types/product-option-types-stock.php:136
+msgid "Yes (%) (Premium)"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-stock.php:94
+#: main/admin/product-option-types/product-option-types-stock.php:147
+msgid "Stock Status"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-stock.php:95
+#: main/admin/product-option-types/product-option-types-stock.php:148
+msgid ""
+"Controls whether or not the product is listed as \"in stock\" or \"out of "
+"stock\" on the frontend"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-stock.php:112
+#: main/admin/product-option-types/product-option-types-stock.php:165
+msgid "Sold Individually"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-stock.php:113
+#: main/admin/product-option-types/product-option-types-stock.php:166
+msgid ""
+"Enable this to only allow one of this item to be bought in a single order"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-stock.php:183
+msgid "Availability Text"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-stock.php:184
+msgid "Controls product availability text on the frontend"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-stock.php:194
+msgid "Is Featured"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-stock.php:195
+msgid "Sets product as featured product on the frontend"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-tax.php:22
+msgid "Tax Settings (Premium)"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-textblock.php:54
+msgid "Use these settings to control the text block's visibility in shop loops"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-textblock.php:84
+msgid ""
+"Use these settings to control the text block's visibility in product summary "
+"area"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-textblock.php:100
+msgid "Contents"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-textblock.php:101
+msgid "Enter the text block's contents here"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-textblock.php:120
+msgid "Determines whether or not the text block should be shown in shop loops"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-textblock.php:135
+msgid "Controls the text block's location in the shop loops"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-textblock.php:153
+msgid "Controls the text block's UI design in the shop loops"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-textblock.php:178
+msgid "Determines which of the shop loops the text block should be visible in"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-textblock.php:193
+msgid ""
+"Determines how to validate the shop loops for the text block's visibility"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-textblock.php:214
+msgid ""
+"Determines whether or not the text block should be shown in product summary "
+"area"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-textblock.php:229
+msgid "Controls the text block's location in the product summary area"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-textblock.php:247
+msgid "Controls the text block's UI design in the single product summary area"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types-weight.php:23
+msgid "Dimentional Weight (Premium)"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types.php:67
+msgid "Main Shop &amp; Archive Loops"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types.php:68
+msgid "Widget Loops"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types.php:69
+msgid "Shortcode Loops"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types.php:74
+msgid "Related Products Loops"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types.php:75
+msgid "Up-Sells Loops"
+msgstr ""
+
+#: main/admin/product-option-types/product-option-types.php:76
+msgid "Cart Collaterals Loops"
+msgstr ""
+
+#: main/admin/product-price-types/product-price-types-regular.php:18
+msgid "Regular / Sale Price Adjustment (Premium)"
+msgstr ""
+
+#: main/admin/product-price-types/product-price-types-regular.php:19
+msgid "Regular Price Adjustment (Premium)"
+msgstr ""
+
+#: main/admin/product-price-types/product-price-types-sale.php:23
+#: main/admin/product-price-types/product-price-types-sale.php:82
+#: main/admin/product-price-types/product-price-types-sale.php:179
+msgid "Sale Price Adjustment"
+msgstr ""
+
+#: main/admin/product-price-types/product-price-types-sale.php:43
+msgid "Fixed price"
+msgstr ""
+
+#: main/admin/product-price-types/product-price-types-sale.php:47
+msgid "Percentage price (Premium)"
+msgstr ""
+
+#: main/admin/product-price-types/product-price-types-sale.php:49
+msgid "Percentage discount amount"
+msgstr ""
+
+#: main/admin/product-price-types/product-price-types-sale.php:61
+msgid "Regular price (Premium)"
+msgstr ""
+
+#: main/admin/product-price-types/product-price-types-sale.php:63
+msgid "Sale price"
+msgstr ""
+
+#: main/admin/product-price-types/product-price-types-sale.php:65
+msgid "Previous regular price (Premium)"
+msgstr ""
+
+#: main/admin/product-price-types/product-price-types-sale.php:66
+msgid "Previous sale price (Premium)"
+msgstr ""
+
+#: main/admin/product-price-types/product-price-types-sale.php:83
+#: main/admin/product-price-types/product-price-types-sale.php:180
+msgid "Controls sale price adjusment mode"
+msgstr ""
+
+#: main/admin/product-price-types/product-price-types-sale.php:95
+#: main/admin/product-price-types/product-price-types-sale.php:192
+msgid "Controls sale adjusment amount to apply"
+msgstr ""
+
+#: main/admin/product-price-types/product-price-types-sale.php:96
+#: main/admin/product-price-types/product-price-types-sale.php:193
+msgid "Amount"
+msgstr ""
+
+#: main/admin/product-price-types/product-price-types-sale.php:109
+msgid "Adjust Amount From"
+msgstr ""
+
+#: main/admin/product-price-types/product-price-types-sale.php:110
+#: main/admin/product-price-types/product-price-types-sale.php:216
+msgid "Calculates sale price from original/previous product prices"
+msgstr ""
+
+#: main/admin/product-price-types/product-price-types-sale.php:126
+#: main/admin/product-price-types/product-price-types-sale.php:232
+msgid "Percentage Based On"
+msgstr ""
+
+#: main/admin/product-price-types/product-price-types-sale.php:127
+#: main/admin/product-price-types/product-price-types-sale.php:233
+msgid ""
+"Controls sale percentage adjusment amount based on the original/previous "
+"product prices"
+msgstr ""
+
+#: main/admin/product-price-types/product-price-types-sale.php:215
+msgid "Adjust Price From"
+msgstr ""
+
+#: main/admin/settings-page/catalog-mode-section/catalog-mode-panel-modes.php:60
+msgid ""
+"List of catalog modes settings to apply, empty list will not apply any "
+"catalog mode option"
+msgstr ""
+
+#: main/admin/settings-page/catalog-mode-section/catalog-mode-section.php:42
+#: main/admin/settings-page/product-options-section/product-options-section.php:40
+msgid "Apply Method"
+msgstr ""
+
+#: main/admin/settings-page/catalog-mode-section/catalog-mode-section.php:137
+#: main/admin/settings-page/product-options-section/product-options-section.php:135
+#: main/admin/settings-page/product-prices-section/product-prices-section.php:160
+#: main/admin/settings-page/settings-section/settings-sale-query.php:65
+msgid "Enable"
+msgstr ""
+
+#: main/admin/settings-page/catalog-mode-section/catalog-mode-section.php:138
+#: main/admin/settings-page/product-options-section/product-options-section.php:136
+#: main/admin/settings-page/product-prices-section/product-prices-section.php:161
+msgid "Disable"
+msgstr ""
+
+#: main/admin/settings-page/catalog-mode-section/catalog-mode-section.php:152
+msgid "Apply all valid catalog mode settings"
+msgstr ""
+
+#: main/admin/settings-page/catalog-mode-section/catalog-mode-section.php:162
+msgid "Do not apply any catalog mode settings"
+msgstr ""
+
+#: main/admin/settings-page/catalog-mode-section/catalog-mode-section.php:170
+msgid "Apply this and other catalog mode settings"
+msgstr ""
+
+#: main/admin/settings-page/catalog-mode-section/catalog-mode-section.php:174
+msgid "Apply only this catalog mode settings (Premium)"
+msgstr ""
+
+#: main/admin/settings-page/catalog-mode-section/catalog-mode-section.php:175
+msgid "Apply if other catalog mode settings are valid (Premium)"
+msgstr ""
+
+#: main/admin/settings-page/catalog-mode-section/catalog-mode-section.php:176
+msgid "Apply if no other valid catalog mode settings (Premium)"
+msgstr ""
+
+#: main/admin/settings-page/product-options-section/product-options-panel-conditions.php:21
+msgid "product settings"
+msgstr ""
+
+#: main/admin/settings-page/product-options-section/product-options-section.php:41
+msgid "Controls product option apply method"
+msgstr ""
+
+#: main/admin/settings-page/product-options-section/product-options-section.php:161
+msgid "Do not apply any product settings"
+msgstr ""
+
+#: main/admin/settings-page/product-options-section/product-options-section.php:169
+msgid "Apply this and other product settings"
+msgstr ""
+
+#: main/admin/settings-page/product-options-section/product-options-section.php:173
+msgid "Apply only this product settings (Premium)"
+msgstr ""
+
+#: main/admin/settings-page/product-options-section/product-options-section.php:174
+msgid "Apply if other product settings are valid (Premium)"
+msgstr ""
+
+#: main/admin/settings-page/product-options-section/product-options-section.php:175
+msgid "Apply if no other valid product settings (Premium)"
+msgstr ""
+
+#: main/admin/settings-page/product-prices-section/product-prices-panel-max.php:73
+#: main/admin/settings-page/product-prices-section/product-prices-section.php:46
+msgid "Pricing Limit (Per Product)"
+msgstr ""
+
+#: main/admin/settings-page/product-prices-section/product-prices-panel-max.php:74
+#: main/admin/settings-page/product-prices-section/product-prices-section.php:47
+msgid "Controls pricing limits per product"
+msgstr ""
+
+#: main/admin/settings-page/product-prices-section/product-prices-section.php:63
+msgid "Apply Method (Per Product)"
+msgstr ""
+
+#: main/admin/settings-page/product-prices-section/product-prices-section.php:64
+msgid "Controls product pricing apply method per product"
+msgstr ""
+
+#: main/admin/settings-page/product-prices-section/product-prices-section.php:184
+msgid "Do not apply any product pricing"
+msgstr ""
+
+#: main/admin/settings-page/product-prices-section/product-prices-section.php:192
+msgid "Apply this and other product pricing"
+msgstr ""
+
+#: main/admin/settings-page/product-prices-section/product-prices-section.php:196
+msgid "Apply only this product pricing (Premium)"
+msgstr ""
+
+#: main/admin/settings-page/product-prices-section/product-prices-section.php:197
+msgid "Apply if other product pricing are valid (Premium)"
+msgstr ""
+
+#: main/admin/settings-page/product-prices-section/product-prices-section.php:198
+msgid "Apply if no other valid product pricing (Premium)"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:76
+msgid "Lite v%s"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:80
+msgid "Premium v%s"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:97
+msgid "Catalog Mode"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:98
+msgid "Pricing, Enquiry Forms & Promotions"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:108
+#: main/admin/settings-page/settings-page.php:110
+msgid "Done!!"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:109
+msgid "Unable to save your settings"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:111
+msgid "Unable to reset reset your settings"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:112
+msgid "invalid nonce"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:116
+#: main/admin/settings-page/settings-page.php:117
+msgid "Catalog Mode - Pricing, Enquiry Forms & Promotions"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:126
+#: main/admin/settings-page/settings-page.php:442
+msgid "Import / Export"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:128
+msgid "Import Settings"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:129
+msgid ""
+"Here you can import new settings. Simply paste the settings url or data on "
+"the field below."
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:130
+msgid "Import from url"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:131
+msgid ""
+"Paste the url to another site's settings below and click the 'Import Now' "
+"button."
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:132
+msgid "Paste the url to another site's settings here..."
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:133
+msgid "Import Data"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:134
+msgid "Paste your backup settings below and click the 'Import Now' button."
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:135
+msgid "Paste your backup settings here..."
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:136
+msgid "Import Now"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:137
+msgid ""
+"Warning! This will override all existing settings. proceed with caution!"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:140
+msgid "Export Settings"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:141
+msgid ""
+"Here you can backup your current settings. You can later use it to restore "
+"your settings."
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:142
+msgid "Download Data"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:143
+msgid "Export url"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:144
+msgid "Copy the url below, use it to transfer the settings from this site."
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:145
+msgid "Export Data"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:146
+msgid "Copy the data below, use it as your backup."
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:150
+#: main/admin/settings-page/settings-page.php:155
+msgid "Reset All"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:151
+#: main/admin/settings-page/settings-page.php:156
+msgid "Reset Section"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:152
+#: main/admin/settings-page/settings-page.php:157
+msgid "Save Section"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:175
+#: main/admin/settings-page/settings-page.php:435
+msgid "Products Pricing"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:182
+#: main/admin/settings-page/settings-page.php:436
+msgid "Products Settings"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:188
+msgid "UI Designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:194
+#: main/admin/settings-page/settings-page.php:437
+#: main/admin/settings-page/settings-page.php:438
+msgid "Product Badge Designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:201
+#: main/admin/settings-page/settings-page.php:439
+msgid "Countdown Designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:208
+#: main/admin/settings-page/settings-page.php:440
+msgid "Other UI Designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:215
+#: main/admin/settings-page/settings-page.php:441
+msgid "General Settings"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:269
+msgid "WooCommerce Catalog Mode - Premium (Add-On)"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:271
+msgid "Required by %s"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:280
+#: main/admin/settings-page/settings-page.php:363
+msgid "Documentation"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:296
+msgid "This feature is available on premium version"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:297
+msgid "Premium Feature"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:375
+msgid "Help"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:385
+msgid "Premium Version"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:401
+msgid "Facebook"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:408
+msgid "LinkedIn"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:415
+msgid "Stack Overflow"
+msgstr ""
+
+#: main/admin/settings-page/settings-page.php:422
+msgid "Instagram"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-cart-popup.php:40
+msgid "Cart Pop-Up Windows"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-cart-popup.php:41
+msgid "Use these settings to control cart pop-up windows"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-custom-css.php:44
+msgid "Style Sheet &amp; Font Icons"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-custom-css.php:45
+msgid ""
+"Use these settings to control the cascaded style sheet (CSS) and font icons"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-custom-css.php:75
+msgid "Use External CSS"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-custom-css.php:76
+msgid "Determines whether or no to use external css"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-custom-css.php:89
+msgid "Include Font Awesome Icons"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-custom-css.php:90
+msgid ""
+"Determines or no the font awesome icon should be included on the front-end "
+"pages"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-custom-css.php:105
+msgid "Custom CSS"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-custom-css.php:106
+msgid "Adds additional custom stylesheet to the plugin's components"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-inline-enquiry-form.php:40
+msgid "Inline Enquiry Forms"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-inline-enquiry-form.php:41
+msgid "Use these settings to control inline enquiry forms"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-meta-boxes.php:40
+msgid "Product Data Metabox"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-meta-boxes.php:41
+msgid ""
+"Use these settings to enable catalog mode, product pricing, product settings "
+"&amp; promotions on \"Product Data\" metabox"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-meta-boxes.php:54
+msgid "Enables catalog mode settings on \"Product Data\" metabox"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-meta-boxes.php:55
+msgid "Enable Catalog Mode"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-meta-boxes.php:67
+msgid "Enables product pricing settings on \"Product Data\" metabox"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-meta-boxes.php:68
+msgid "Enable Product Pricing"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-meta-boxes.php:80
+msgid ""
+"Enables product settings &amp; promotions settings on \"Product Data\" "
+"metabox"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-meta-boxes.php:81
+msgid "Enable Product Settings &amp; Promotions"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-product-popup.php:40
+msgid "Products Pop-Up Windows"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-product-popup.php:41
+msgid "Use these settings to control products pop-up windows"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-sale-query.php:42
+msgid "On-Sale Products Query"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-sale-query.php:43
+msgid ""
+"Use this panel to control on-sale products query settings, use <a "
+"href=\"https://docs.woocommerce.com/document/woocommerce-shortcodes/\" "
+"target=\"_blank\">WooCommerce shortcodes</a> to display your products"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-sale-query.php:66
+msgid "Enables on-sale products query"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-sale-query.php:81
+msgid "Number of Products"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-sale-query.php:82
+msgid "Determines the maximum total number of the query result"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-sale-query.php:84
+#: main/admin/settings-page/settings-section/settings-sale-query.php:107
+msgid "0.00"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-sale-query.php:104
+msgid "Cache Duration"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-sale-query.php:105
+msgid "Determines the cache duration of the query result in minutes"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-sale-query.php:126
+msgid "Cache Parameters"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-sale-query.php:127
+msgid "Determines how the query result should cached based on parameters"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-totals.php:40
+msgid "Cart Totals Calculation"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-totals.php:41
+msgid ""
+"Use these settings to control what are included in the \"Cart Totals\" "
+"conditions"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-weight-calculator.php:40
+msgid "Dimentional Weight Calculation"
+msgstr ""
+
+#: main/admin/settings-page/settings-section/settings-weight-calculator.php:41
+msgid "Use these settings to control how item weights should be calculated"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-badge-section/settings-ui-badge-arrow.php:40
+msgid "Products Badge - Arrow Designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-badge-section/settings-ui-badge-arrow.php:41
+msgid "Use these settings to create and manage arrow product badge designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-badge-section/settings-ui-badge-circle.php:40
+msgid "Products Badge - Circle Designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-badge-section/settings-ui-badge-circle.php:41
+msgid "Use these settings to create and manage circle product badge designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-badge-section/settings-ui-badge-flag.php:40
+msgid "Products Badge - Flag Designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-badge-section/settings-ui-badge-flag.php:41
+msgid "Use these settings to create and manage flag product badge designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-badge-section/settings-ui-badge-hexagon.php:40
+msgid "Products Badge - Hexagon Designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-badge-section/settings-ui-badge-hexagon.php:41
+msgid "Use these settings to create and manage hexagon product badge designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-badge-section/settings-ui-badge-ribbon.php:40
+msgid "Products Badge - Ribbon Designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-badge-section/settings-ui-badge-ribbon.php:41
+msgid "Use these settings to create and manage ribbon product badge designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-badge-section/settings-ui-badge-simple.php:39
+msgid "Products Badge - Simple Designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-badge-section/settings-ui-badge-simple.php:40
+msgid "Use these settings to create and manage simple product badge designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-badge-section/settings-ui-badge-star.php:40
+msgid "Products Badge - Star Designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-badge-section/settings-ui-badge-star.php:41
+msgid "Use these settings to create and manage star product badge designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-badge-section/settings-ui-badge-triangle.php:40
+msgid "Products Badge - Triangle Designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-badge-section/settings-ui-badge-triangle.php:41
+msgid "Use these settings to create and manage triangle product badge designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-countdown-sections/settings-ui-countdown-bar.php:41
+msgid "Countdown - Style 4 Designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-countdown-sections/settings-ui-countdown-bar.php:42
+msgid "Use these settings to create and manage countdown style 4 designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-countdown-sections/settings-ui-countdown-blockbar.php:41
+msgid "Countdown - Style 3 Designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-countdown-sections/settings-ui-countdown-blockbar.php:42
+msgid "Use these settings to create and manage countdown style 3 designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-countdown-sections/settings-ui-countdown-blockouts.php:41
+msgid "Countdown - Style 5 Designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-countdown-sections/settings-ui-countdown-blockouts.php:42
+msgid "Use these settings to create and manage countdown style 5 designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-countdown-sections/settings-ui-countdown-blocks.php:41
+msgid "Countdown - Style 2 Designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-countdown-sections/settings-ui-countdown-blocks.php:42
+msgid "Use these settings to create and manage countdown style 2 designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-countdown-sections/settings-ui-countdown-circleouts.php:41
+msgid "Countdown - Style 7 Designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-countdown-sections/settings-ui-countdown-circleouts.php:42
+msgid "Use these settings to create and manage countdown style 7 designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-countdown-sections/settings-ui-countdown-circles.php:41
+msgid "Countdown - Style 6 Designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-countdown-sections/settings-ui-countdown-circles.php:42
+msgid "Use these settings to create and manage countdown style 6 designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-countdown-sections/settings-ui-countdown-inline.php:39
+msgid "Countdown - Style 1 Designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-countdown-sections/settings-ui-countdown-inline.php:40
+msgid "Use these settings to create and manage countdown style 1 designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-button.php:40
+msgid "Link Button / Link Button List Designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-button.php:41
+msgid ""
+"Use these settings to create and manage link button / link button list "
+"container designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-enquiry-form.php:40
+msgid "Inline Enquiry Form Designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-enquiry-form.php:41
+msgid "Use these settings to create and manage inline enquiry form designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-heading.php:40
+msgid "Heading Designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-heading.php:41
+msgid "Use these settings to create and manage heading designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:85
+msgid "Design Settings"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:86
+msgid "Use these settings to control the look and feel of the label"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:118
+msgid "Text Settings"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:119
+msgid "Use these settings to control the text settings"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:131
+msgid "Icon Settings"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:132
+msgid "Use these settings to control the icon settings"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:147
+msgid "Label Designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:148
+msgid "Use these settings to create and manage label designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:158
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:142
+msgid "Please upgrade to premium version in order to add more design options"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:177
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:161
+msgid "New Design"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:186
+msgid "Label List Designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:187
+msgid "Use these settings to create and manage label list container designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:226
+msgid "Layout"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:227
+msgid "Controls the text and icon layout mode"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:231
+msgid "Inline"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:232
+msgid "Stacked (Premium)"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:243
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:295
+msgid "Width"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:244
+msgid "Determines the width of the label"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:255
+msgid "Height"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:256
+msgid "Determines the height of the label"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:265
+msgid "Color"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:266
+msgid "Controls the text and icon color of the label"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:268
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:279
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:371
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:193
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:285
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:376
+msgid "Pick color"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:276
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:282
+msgid "Background Color"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:277
+msgid "Controls the background color of the label"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:292
+msgid "Icon / Text Gap"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:293
+msgid "Controls the space between icon and text of the label"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:305
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:325
+msgid "Margin"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:307
+msgid "Determines the margins of the label"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:318
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:312
+msgid "Padding"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:320
+msgid "Determines the paddings of the label"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:338
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:343
+msgid "Border Radius"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:339
+msgid "Determines the border radius of the label"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:348
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:353
+msgid "Border Style"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:349
+msgid "Determines the border style of the label"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:352
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:357
+msgid "None"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:353
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:358
+msgid "Solid"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:354
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:359
+msgid "Dotted"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:355
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:360
+msgid "Dashed"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:368
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:373
+msgid "Border Color"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:369
+msgid "Controls the border color of the label"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:391
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:396
+msgid "Border Width"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:393
+msgid "Controls the border thickness of the label"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:414
+msgid "Text Format"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:415
+msgid "Determines the prefix and suffix text of the label on products"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:425
+msgid "Variation Text Format"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:426
+msgid "Determines the prefix and suffix text of the label on variable products"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:438
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:203
+msgid "Font Size"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:439
+msgid "Controls the font size of the text"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:450
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:215
+msgid "Line Height"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:451
+msgid "Controls the line height of the text"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:465
+msgid "Icon Type"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:466
+msgid "Determines the type of icon"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:470
+msgid "No icon"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:471
+msgid "Font icon (Premium)"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-label.php:472
+msgid "Image icon (Premium)"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-line.php:40
+msgid "Horizantal Line Designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-line.php:41
+msgid "Use these settings to create and manage horizontal line designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-popup.php:40
+msgid "Pop-Up Window Designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-popup.php:41
+msgid "Use these settings to create and manage pop-up designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-price-details.php:40
+msgid "Price Detail Designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-price-details.php:41
+msgid "Use these settings to create and manage price detail designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-price-label.php:40
+msgid "Price Label Designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-price-label.php:41
+msgid "Use these settings to create and manage price label designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-price-table.php:41
+msgid "Pricing Table Designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-price-table.php:42
+msgid "Use these settings to create and manage pricing table designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-sale-bar.php:40
+msgid "Sale Bar Designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-sale-bar.php:41
+msgid "Use these settings to create and manage sale bar designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:86
+msgid "Content Settings"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:87
+msgid "Use these settings to control the text block content"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:99
+msgid "Container Settings"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:100
+msgid "Use these settings to control the text block container"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:131
+msgid "Text Block Designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:132
+msgid "Use these settings to create and manage text block designs"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:190
+msgid "Text Color"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:191
+msgid "Controls the header's text color of the content"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:204
+msgid "Controls the font size of the content"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:216
+msgid "Controls the line height of the content"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:225
+msgid "Font Weight"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:226
+msgid "Controls the title's font weight of the content"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:229
+msgid "Defualt"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:230
+msgid "100"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:231
+msgid "200"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:232
+msgid "300"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:233
+msgid "400"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:234
+msgid "500"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:235
+msgid "600"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:236
+msgid "700"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:237
+msgid "800"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:238
+msgid "900"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:239
+msgid "lighter"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:240
+msgid "Normal"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:241
+msgid "Bold"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:242
+msgid "Bolder"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:251
+msgid "Font Family"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:252
+msgid "Controls the title's font family of the content"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:254
+msgid "Font family..."
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:267
+msgid "Justify Content"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:268
+msgid "Determines the contents alignment of the text block containter"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:271
+msgid "Justify left"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:272
+msgid "Justify center"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:273
+msgid "Justify right"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:283
+msgid "Controls the header's background color of the container"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:296
+msgid "Controls the width of the container"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:314
+msgid "Determines the padding of the text block's container"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:327
+msgid "Determines the margins of the text block's container"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:344
+msgid "Determines the border radius of the text block's container"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:354
+msgid "Controls the border style of the text block's container"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:374
+msgid "Controls the border color of the text block's container"
+msgstr ""
+
+#: main/admin/settings-page/settings-ui-sections/settings-ui-textblock.php:398
+msgid "Controls the border width of the text block's container"
+msgstr ""
+
+#: main/admin/settings-page/settings-utils.php:46
+#: main/admin/settings-page/settings-utils.php:163
+msgid "rem"
+msgstr ""
+
+#: main/admin/settings-page/settings-utils.php:47
+#: main/admin/settings-page/settings-utils.php:164
+msgid "vh"
+msgstr ""
+
+#: main/admin/settings-page/settings-utils.php:48
+#: main/admin/settings-page/settings-utils.php:165
+msgid "vw"
+msgstr ""
+
+#: main/admin/settings-page/settings-utils.php:49
+#: main/admin/settings-page/settings-utils.php:166
+msgid "em"
+msgstr ""
+
+#: main/admin/settings-page/settings-utils.php:50
+#: main/admin/settings-page/settings-utils.php:167
+msgid "px"
+msgstr ""
+
+#: main/admin/settings-page/settings-utils.php:51
+#: main/admin/settings-page/settings-utils.php:168
+msgid "%"
+msgstr ""
+
+#: main/admin/settings-page/settings-utils.php:97
+msgid "TOP"
+msgstr ""
+
+#: main/admin/settings-page/settings-utils.php:114
+msgid "RIGHT"
+msgstr ""
+
+#: main/admin/settings-page/settings-utils.php:131
+msgid "BOTTOM"
+msgstr ""
+
+#: main/admin/settings-page/settings-utils.php:148
+msgid "LEFT"
+msgstr ""
+
+#: main/public/views/views.php:88 main/public/views/views.php:130
+msgid "Product Thumbnail"
+msgstr ""
+
+#: main/public/views/views.php:94
+msgid "Before Loop Title"
+msgstr ""
+
+#: main/public/views/views.php:100
+msgid "After Loop Title"
+msgstr ""
+
+#: main/public/views/views.php:106
+msgid "After Loop Rating"
+msgstr ""
+
+#: main/public/views/views.php:112
+msgid "After Loop Price"
+msgstr ""
+
+#: main/public/views/views.php:118
+msgid "After Loop Add to Cart"
+msgstr ""
+
+#: main/public/views/views.php:136
+msgid "Before Product Summary"
+msgstr ""
+
+#: main/public/views/views.php:142
+msgid "Before Summary Title"
+msgstr ""
+
+#: main/public/views/views.php:148
+msgid "After Summary Title"
+msgstr ""
+
+#: main/public/views/views.php:154
+msgid "After Summary Rating &amp; Price"
+msgstr ""
+
+#: main/public/views/views.php:160
+msgid "After Summary Excerpts"
+msgstr ""
+
+#: main/public/views/views.php:166
+msgid "After Summary Add to Cart"
+msgstr ""
+
+#: main/public/views/views.php:172
+msgid "After Summary Meta"
+msgstr ""
+
+#: main/public/views/views.php:178
+msgid "After Summary Share"
+msgstr ""
+
+#: main/public/views/views.php:184
+msgid "After Product Summary"
+msgstr ""

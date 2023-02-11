@@ -20,7 +20,7 @@ if ( !class_exists( 'WModes_Admin_Product_Option_Type_Purchase' ) && !defined( '
         public static function get_types( $in_options, $args = array() ) {
 
             $in_options[ 'prem_3' ] = array(
-                'title' => esc_html__( 'Purchase Settings (Premium)', 'zcwm-tdm' ),
+                'title' => esc_html__( 'Purchase Settings (Premium)', 'wmodes-tdm' ),
             );
 
             return $in_options;

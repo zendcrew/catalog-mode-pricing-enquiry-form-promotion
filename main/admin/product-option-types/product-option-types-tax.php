@@ -19,7 +19,7 @@ if ( !class_exists( 'WModes_Admin_Product_Option_Type_Tax' ) && !defined( 'WMODE
         public static function get_types( $in_options, $args = array() ) {
 
             $in_options[ 'prem_1' ] = array(
-                'title' => esc_html__( 'Tax Settings (Premium)', 'zcwm-tdm' ),
+                'title' => esc_html__( 'Tax Settings (Premium)', 'wmodes-tdm' ),
             );
 
             return $in_options;

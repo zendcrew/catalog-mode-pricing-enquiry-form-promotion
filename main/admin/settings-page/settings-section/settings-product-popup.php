@@ -37,8 +37,8 @@ if ( !class_exists( 'WModes_Admin_Products_Popup_Settings' ) && !defined( 'WMODE
                 'type' => 'paneltitle',
                 'full_width' => true,
                 'center_head' => true,
-                'title' => esc_html__( 'Products Pop-Up Windows', 'zcwm-tdm' ),
-                'desc' => esc_html__( 'Use these settings to control products pop-up windows', 'zcwm-tdm' ),
+                'title' => esc_html__( 'Products Pop-Up Windows', 'wmodes-tdm' ),
+                'desc' => esc_html__( 'Use these settings to control products pop-up windows', 'wmodes-tdm' ),
             );
             
             $in_fields[] = array(

@@ -17,14 +17,14 @@ if ( !class_exists( 'WModes_Admin_Condition_Type_Page' ) && !defined( 'WMODES_PR
 
         public static function get_groups( $in_groups, $args ) {
 
-            $in_groups[ 'current_pages' ] = esc_html__( 'Current Page', 'zcwm-tdm' );
+            $in_groups[ 'current_pages' ] = esc_html__( 'Current Page', 'wmodes-tdm' );
 
             return $in_groups;
         }
 
         public static function get_conditions( $in_list, $args ) {
 
-            $in_list[ 'prem_1' ] = esc_html__( 'Current Page Type (Premium)', 'zcwm-tdm' );
+            $in_list[ 'prem_1' ] = esc_html__( 'Current Page Type (Premium)', 'wmodes-tdm' );
 
             return $in_list;
         }

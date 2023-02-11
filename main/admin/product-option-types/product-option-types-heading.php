@@ -19,7 +19,7 @@ if ( !class_exists( 'WModes_Admin_Product_Option_Type_Heading' ) && !defined( 'W
         public static function get_types( $in_options, $args = array() ) {
 
             $in_options[ 'prem_17' ] = array(
-                'title' => esc_html__( 'Heading (Premium)', 'zcwm-tdm' ),
+                'title' => esc_html__( 'Heading (Premium)', 'wmodes-tdm' ),
             );
 
             return $in_options;

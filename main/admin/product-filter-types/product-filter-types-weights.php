@@ -18,7 +18,7 @@ if ( !class_exists( 'WModes_Admin_Product_Filter_Type_Weights' ) && !defined( 'W
 
             $unit = get_option( 'woocommerce_weight_unit' );
 
-            $in_groups[ 'weights' ] = sprintf( esc_html__( 'Product Weights', 'zcwm-tdm' ), $unit );
+            $in_groups[ 'weights' ] = sprintf( esc_html__( 'Product Weights', 'wmodes-tdm' ), $unit );
 
             return $in_groups;
         }
@@ -27,8 +27,8 @@ if ( !class_exists( 'WModes_Admin_Product_Filter_Type_Weights' ) && !defined( 'W
 
             $unit = get_option( 'woocommerce_weight_unit' );
 
-            $in_list[ 'prem_1' ] = sprintf( esc_html__( 'Product Weight - Weight (%s) (Premium)', 'zcwm-tdm' ), $unit );
-            $in_list[ 'prem_2' ] = sprintf( esc_html__( 'Product Weight - Weight Calculator (%s) (Premium)', 'zcwm-tdm' ), $unit );
+            $in_list[ 'prem_1' ] = sprintf( esc_html__( 'Product Weight - Weight (%s) (Premium)', 'wmodes-tdm' ), $unit );
+            $in_list[ 'prem_2' ] = sprintf( esc_html__( 'Product Weight - Weight Calculator (%s) (Premium)', 'wmodes-tdm' ), $unit );
 
             return $in_list;
         }

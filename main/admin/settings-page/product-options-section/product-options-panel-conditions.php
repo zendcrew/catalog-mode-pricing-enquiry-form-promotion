@@ -18,7 +18,7 @@ if ( !class_exists( 'WModes_Admin_Product_Options_Panel_Conditions' ) ) {
             $args = array(
                 'module' => 'product-options',
                 'is_global' => true,
-                'text' => esc_html__( 'product settings', 'zcwm-tdm' ),
+                'text' => esc_html__( 'product settings', 'wmodes-tdm' ),
             );
 
             $in_fields[] = array(

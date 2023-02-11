@@ -19,7 +19,7 @@ if ( !class_exists( 'WModes_Admin_Product_Option_Type_CountDown' ) && !defined( 
         public static function get_types( $in_options, $args = array() ) {
 
             $in_options[ 'prem_6' ] = array(
-                'title' => esc_html__( 'Countdown (Premium)', 'zcwm-tdm' ),
+                'title' => esc_html__( 'Countdown (Premium)', 'wmodes-tdm' ),
             );
 
             return $in_options;

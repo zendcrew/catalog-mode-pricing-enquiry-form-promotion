@@ -37,8 +37,8 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Heading_Settings' ) && !define
                 'type' => 'paneltitle',
                 'full_width' => true,
                 'center_head' => true,
-                'title' => esc_html__( 'Heading Designs', 'zcwm-tdm' ),
-                'desc' => esc_html__( 'Use these settings to create and manage heading designs', 'zcwm-tdm' ),
+                'title' => esc_html__( 'Heading Designs', 'wmodes-tdm' ),
+                'desc' => esc_html__( 'Use these settings to create and manage heading designs', 'wmodes-tdm' ),
             );
 
             $in_fields[] = array(

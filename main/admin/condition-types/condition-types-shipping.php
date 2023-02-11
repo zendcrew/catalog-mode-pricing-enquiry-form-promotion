@@ -17,17 +17,17 @@ if ( !class_exists( 'WModes_Admin_Condition_Type_Shipping' ) && !defined( 'WMODE
 
         public static function get_groups( $in_groups, $args ) {
 
-            $in_groups[ 'shipping' ] = esc_html__( 'Shipping', 'zcwm-tdm' );
+            $in_groups[ 'shipping' ] = esc_html__( 'Shipping', 'wmodes-tdm' );
 
             return $in_groups;
         }
 
         public static function get_conditions( $in_list, $args ) {
 
-            $in_list[ 'prem_1' ] = esc_html__( 'Needs Shipping (Premium)', 'zcwm-tdm' );
-            $in_list[ 'prem_2' ] = esc_html__( 'Shipping Zones (Premium)', 'zcwm-tdm' );
-            $in_list[ 'prem_3' ] = esc_html__( 'Shipping Methods (Premium)', 'zcwm-tdm' );
-            $in_list[ 'prem_4' ] = esc_html__( 'Shipping Rates (Premium)', 'zcwm-tdm' );
+            $in_list[ 'prem_1' ] = esc_html__( 'Needs Shipping (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_2' ] = esc_html__( 'Shipping Zones (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_3' ] = esc_html__( 'Shipping Methods (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_4' ] = esc_html__( 'Shipping Rates (Premium)', 'wmodes-tdm' );
 
 
             return $in_list;

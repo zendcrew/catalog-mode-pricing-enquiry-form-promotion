@@ -23,7 +23,7 @@ if ( !class_exists( 'WModes_Admin_Catalog_Mode_Types_Checkout' ) && !defined( 'W
             }
 
             $in_options[ 'checkout' ] = array(
-                'title' => esc_html__( 'Checkout Page Settings', 'zcwm-tdm' ),
+                'title' => esc_html__( 'Checkout Page Settings', 'wmodes-tdm' ),
             );
 
             return $in_options;
@@ -54,12 +54,12 @@ if ( !class_exists( 'WModes_Admin_Catalog_Mode_Types_Checkout' ) && !defined( 'W
                 'id' => 'restrict_checkout',
                 'type' => 'select2',
                 'column_size' => 1,
-                'column_title' => esc_html__( 'Restrict Access', 'zcwm-tdm' ),
-                'tooltip' => esc_html__( 'Restricts access to "Checkout" page and disable all checkout functions', 'zcwm-tdm' ),
+                'column_title' => esc_html__( 'Restrict Access', 'wmodes-tdm' ),
+                'tooltip' => esc_html__( 'Restricts access to "Checkout" page and disable all checkout functions', 'wmodes-tdm' ),
                 'default' => 'no',
                 'options' => array(
-                    'yes' => esc_html__( 'Yes', 'zcwm-tdm' ),
-                    'no' => esc_html__( 'No', 'zcwm-tdm' ),
+                    'yes' => esc_html__( 'Yes', 'wmodes-tdm' ),
+                    'no' => esc_html__( 'No', 'wmodes-tdm' ),
                 ),
                 'width' => '100%',
                 'fold_id' => 'restrict_checkout'
@@ -69,8 +69,8 @@ if ( !class_exists( 'WModes_Admin_Catalog_Mode_Types_Checkout' ) && !defined( 'W
                 'id' => 'is_any',
                 'type' => 'textblock',
                 'column_size' => 1,
-                'column_title' => esc_html__( 'Restriction Mode', 'zcwm-tdm' ),
-                'tooltip' => esc_html__( 'Determines how the "Checkout" page should be restricted', 'zcwm-tdm' ),
+                'column_title' => esc_html__( 'Restriction Mode', 'wmodes-tdm' ),
+                'tooltip' => esc_html__( 'Determines how the "Checkout" page should be restricted', 'wmodes-tdm' ),
                 'show_box' => true,
                 'text' => WModes_Admin_Page::get_premium_messages( 'short' ),
                 'width' => '100%',

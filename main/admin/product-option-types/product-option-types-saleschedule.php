@@ -20,7 +20,7 @@ if ( !class_exists( 'WModes_Admin_Product_Option_Type_SaleSchedule' ) && !define
         public static function get_types( $in_options, $args = array() ) {
 
             $in_options[ 'sale_schedule' ] = array(
-                'title' => esc_html__( 'Sale Schedule', 'zcwm-tdm' ),
+                'title' => esc_html__( 'Sale Schedule', 'wmodes-tdm' ),
             );
 
             return $in_options;
@@ -54,8 +54,8 @@ if ( !class_exists( 'WModes_Admin_Product_Option_Type_SaleSchedule' ) && !define
                 'id' => 'mode',
                 'type' => 'select2',
                 'column_size' => 3,
-                'column_title' => esc_html__( 'Schedule Mode', 'zcwm-tdm' ),
-                'tooltip' => esc_html__( 'Controls sale schedule mode', 'zcwm-tdm' ),
+                'column_title' => esc_html__( 'Schedule Mode', 'wmodes-tdm' ),
+                'tooltip' => esc_html__( 'Controls sale schedule mode', 'wmodes-tdm' ),
                 'disabled_list_filter' => 'wmodes-admin/get-disabled-grouped-list',
                 'options' => self::get_mode(),
                 'width' => '100%',
@@ -71,15 +71,15 @@ if ( !class_exists( 'WModes_Admin_Product_Option_Type_SaleSchedule' ) && !define
                 'id' => 'date',
                 'type' => 'date',
                 'column_size' => 4,
-                'column_title' => esc_html__( 'Specific Date', 'zcwm-tdm' ),
-                'tooltip' => esc_html__( 'Enter a specific date to schedule sale', 'zcwm-tdm' ),
+                'column_title' => esc_html__( 'Specific Date', 'wmodes-tdm' ),
+                'tooltip' => esc_html__( 'Enter a specific date to schedule sale', 'wmodes-tdm' ),
                 'number_of_months' => 1,
                 'show_button_panel' => false,
                 'change_month' => true,
                 'change_year' => true,
                 'first_day' => 0,
                 'default' => '',
-                'placeholder' => esc_html__( 'yy-mm-dd', 'zcwm-tdm' ),
+                'placeholder' => esc_html__( 'yy-mm-dd', 'wmodes-tdm' ),
                 'date_format' => 'yy-mm-dd',
                 'fold' => array(
                     'target' => 'sale_schedule_mode',
@@ -95,15 +95,15 @@ if ( !class_exists( 'WModes_Admin_Product_Option_Type_SaleSchedule' ) && !define
                 'id' => 'from_date',
                 'type' => 'date',
                 'column_size' => 4,
-                'column_title' => esc_html__( 'From Date', 'zcwm-tdm' ),
-                'tooltip' => esc_html__( 'User role to apply', 'zcwm-tdm' ),
+                'column_title' => esc_html__( 'From Date', 'wmodes-tdm' ),
+                'tooltip' => esc_html__( 'User role to apply', 'wmodes-tdm' ),
                 'number_of_months' => 1,
                 'show_button_panel' => false,
                 'change_month' => true,
                 'change_year' => true,
                 'first_day' => 0,
                 'default' => '',
-                'placeholder' => esc_html__( 'yy-mm-dd', 'zcwm-tdm' ),
+                'placeholder' => esc_html__( 'yy-mm-dd', 'wmodes-tdm' ),
                 'date_format' => 'yy-mm-dd',
                 'fold' => array(
                     'target' => 'sale_schedule_mode',
@@ -119,15 +119,15 @@ if ( !class_exists( 'WModes_Admin_Product_Option_Type_SaleSchedule' ) && !define
                 'id' => 'to_date',
                 'type' => 'date',
                 'column_size' => 4,
-                'column_title' => esc_html__( 'To Date', 'zcwm-tdm' ),
-                'tooltip' => esc_html__( 'User role to apply', 'zcwm-tdm' ),
+                'column_title' => esc_html__( 'To Date', 'wmodes-tdm' ),
+                'tooltip' => esc_html__( 'User role to apply', 'wmodes-tdm' ),
                 'number_of_months' => 1,
                 'show_button_panel' => false,
                 'change_month' => true,
                 'change_year' => true,
                 'first_day' => 0,
                 'default' => '',
-                'placeholder' => esc_html__( 'yy-mm-dd', 'zcwm-tdm' ),
+                'placeholder' => esc_html__( 'yy-mm-dd', 'wmodes-tdm' ),
                 'date_format' => 'yy-mm-dd',
                 'fold' => array(
                     'target' => 'sale_schedule_mode',
@@ -146,37 +146,37 @@ if ( !class_exists( 'WModes_Admin_Product_Option_Type_SaleSchedule' ) && !define
 
             $options = array(
                 'date' => array(
-                    'label' => esc_html__( 'Date', 'zcwm-tdm' ),
+                    'label' => esc_html__( 'Date', 'wmodes-tdm' ),
                     'options' => array(
-                        'date' => esc_html__( 'Specific Date', 'zcwm-tdm' ),
-                        'from_date' => esc_html__( 'From Date', 'zcwm-tdm' ),
-                        'to_date' => esc_html__( 'To Date', 'zcwm-tdm' ),
-                        'range_date' => esc_html__( 'Between Date', 'zcwm-tdm' ),
+                        'date' => esc_html__( 'Specific Date', 'wmodes-tdm' ),
+                        'from_date' => esc_html__( 'From Date', 'wmodes-tdm' ),
+                        'to_date' => esc_html__( 'To Date', 'wmodes-tdm' ),
+                        'range_date' => esc_html__( 'Between Date', 'wmodes-tdm' ),
                     )
                 ),
                 'time' => array(
-                    'label' => esc_html__( 'Time', 'zcwm-tdm' ),
+                    'label' => esc_html__( 'Time', 'wmodes-tdm' ),
                     'options' => array(
-                        'prem_1' => esc_html__( 'From Time (Premium)', 'zcwm-tdm' ),
-                        'prem_2' => esc_html__( 'To Time (Premium)', 'zcwm-tdm' ),
-                        'prem_3' => esc_html__( 'Between Time (Premium)', 'zcwm-tdm' ),
+                        'prem_1' => esc_html__( 'From Time (Premium)', 'wmodes-tdm' ),
+                        'prem_2' => esc_html__( 'To Time (Premium)', 'wmodes-tdm' ),
+                        'prem_3' => esc_html__( 'Between Time (Premium)', 'wmodes-tdm' ),
                     )
                 ),
                 'date_time' => array(
-                    'label' => esc_html__( 'Date &amp; Time', 'zcwm-tdm' ),
+                    'label' => esc_html__( 'Date &amp; Time', 'wmodes-tdm' ),
                     'options' => array(
-                        'prem_1' => esc_html__( 'Specific Date &amp; Time (Premium)', 'zcwm-tdm' ),
-                        'prem_2' => esc_html__( 'From Date &amp; Time (Premium)', 'zcwm-tdm' ),
-                        'prem_3' => esc_html__( 'To Date &amp; Time (Premium)', 'zcwm-tdm' ),
-                        'prem_4' => esc_html__( 'Between Date &amp; Time (Premium)', 'zcwm-tdm' ),
+                        'prem_1' => esc_html__( 'Specific Date &amp; Time (Premium)', 'wmodes-tdm' ),
+                        'prem_2' => esc_html__( 'From Date &amp; Time (Premium)', 'wmodes-tdm' ),
+                        'prem_3' => esc_html__( 'To Date &amp; Time (Premium)', 'wmodes-tdm' ),
+                        'prem_4' => esc_html__( 'Between Date &amp; Time (Premium)', 'wmodes-tdm' ),
                     )
                 ),
                 'days_months' => array(
-                    'label' => esc_html__( 'Days &amp; Months', 'zcwm-tdm' ),
+                    'label' => esc_html__( 'Days &amp; Months', 'wmodes-tdm' ),
                     'options' => array(
-                        'prem_1' => esc_html__( 'Days of Week (Premium)', 'zcwm-tdm' ),
-                        'prem_2' => esc_html__( 'Days of Month (Premium)', 'zcwm-tdm' ),
-                        'prem_3' => esc_html__( 'Months of Year (Premium)', 'zcwm-tdm' ),
+                        'prem_1' => esc_html__( 'Days of Week (Premium)', 'wmodes-tdm' ),
+                        'prem_2' => esc_html__( 'Days of Month (Premium)', 'wmodes-tdm' ),
+                        'prem_3' => esc_html__( 'Months of Year (Premium)', 'wmodes-tdm' ),
                     )
                 ),
             );

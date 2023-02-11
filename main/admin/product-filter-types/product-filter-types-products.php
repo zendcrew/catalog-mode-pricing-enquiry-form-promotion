@@ -21,20 +21,20 @@ if ( !class_exists( 'WModes_Admin_Product_Filter_Type_Products' ) && !defined( '
 
         public static function get_groups( $in_groups, $args ) {
 
-            $in_groups[ 'products' ] = esc_html__( 'Products', 'zcwm-tdm' );
+            $in_groups[ 'products' ] = esc_html__( 'Products', 'wmodes-tdm' );
 
             return $in_groups;
         }
 
         public static function get_filters( $in_list, $args ) {
 
-            $in_list[ 'spec_products' ] = esc_html__( 'Specific Products', 'zcwm-tdm' );
-            $in_list[ 'prem_1' ] = esc_html__( 'Product SKUs (Premium)', 'zcwm-tdm' );
-            $in_list[ 'prem_2' ] = esc_html__( 'Product Variations (Premium)', 'zcwm-tdm' );
-            $in_list[ 'product_cats' ] = esc_html__( 'Product Categories', 'zcwm-tdm' );
-            $in_list[ 'product_tags' ] = esc_html__( 'Product Tags', 'zcwm-tdm' );
-            $in_list[ 'prem_3' ] = esc_html__( 'Product Attributes (Premium)', 'zcwm-tdm' );
-            $in_list[ 'prem_4' ] = esc_html__( 'Product Quantity In Cart (Premium)', 'zcwm-tdm' );
+            $in_list[ 'spec_products' ] = esc_html__( 'Specific Products', 'wmodes-tdm' );
+            $in_list[ 'prem_1' ] = esc_html__( 'Product SKUs (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_2' ] = esc_html__( 'Product Variations (Premium)', 'wmodes-tdm' );
+            $in_list[ 'product_cats' ] = esc_html__( 'Product Categories', 'wmodes-tdm' );
+            $in_list[ 'product_tags' ] = esc_html__( 'Product Tags', 'wmodes-tdm' );
+            $in_list[ 'prem_3' ] = esc_html__( 'Product Attributes (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_4' ] = esc_html__( 'Product Quantity In Cart (Premium)', 'wmodes-tdm' );
 
             return $in_list;
         }
@@ -46,8 +46,8 @@ if ( !class_exists( 'WModes_Admin_Product_Filter_Type_Products' ) && !defined( '
                 'type' => 'select2',
                 'default' => 'in_list',
                 'options' => array(
-                    'in_list' => esc_html__( 'Any in the list', 'zcwm-tdm' ),
-                    'none' => esc_html__( 'None in the list', 'zcwm-tdm' ),
+                    'in_list' => esc_html__( 'Any in the list', 'wmodes-tdm' ),
+                    'none' => esc_html__( 'None in the list', 'wmodes-tdm' ),
                 ),
                 'width' => '98%',
                 'box_width' => '25%',
@@ -58,7 +58,7 @@ if ( !class_exists( 'WModes_Admin_Product_Filter_Type_Products' ) && !defined( '
                 'type' => 'select2',
                 'multiple' => true,
                 'minimum_input_length' => 2,
-                'placeholder' => esc_html__( 'Search products...', 'zcwm-tdm' ),
+                'placeholder' => esc_html__( 'Search products...', 'wmodes-tdm' ),
                 'allow_clear' => true,
                 'minimum_results_forsearch' => 10,
                 'data' => array(
@@ -80,11 +80,11 @@ if ( !class_exists( 'WModes_Admin_Product_Filter_Type_Products' ) && !defined( '
                 'type' => 'select2',
                 'default' => 'in_list',
                 'options' => array(
-                    'in_list' => esc_html__( 'Any in the list', 'zcwm-tdm' ),
-                    'in_all_list' => esc_html__( 'All in the list', 'zcwm-tdm' ),
-                    'in_list_only' => esc_html__( 'Only in the list', 'zcwm-tdm' ),
-                    'in_all_list_only' => esc_html__( 'Only all in the list', 'zcwm-tdm' ),
-                    'none' => esc_html__( 'None in the list', 'zcwm-tdm' ),
+                    'in_list' => esc_html__( 'Any in the list', 'wmodes-tdm' ),
+                    'in_all_list' => esc_html__( 'All in the list', 'wmodes-tdm' ),
+                    'in_list_only' => esc_html__( 'Only in the list', 'wmodes-tdm' ),
+                    'in_all_list_only' => esc_html__( 'Only all in the list', 'wmodes-tdm' ),
+                    'none' => esc_html__( 'None in the list', 'wmodes-tdm' ),
                 ),
                 'width' => '98%',
                 'box_width' => '25%',
@@ -95,7 +95,7 @@ if ( !class_exists( 'WModes_Admin_Product_Filter_Type_Products' ) && !defined( '
                 'type' => 'select2',
                 'multiple' => true,
                 'minimum_input_length' => 1,
-                'placeholder' => esc_html__( 'Search categories...', 'zcwm-tdm' ),
+                'placeholder' => esc_html__( 'Search categories...', 'wmodes-tdm' ),
                 'allow_clear' => true,
                 'minimum_results_forsearch' => 10,
                 'data' => array(
@@ -117,11 +117,11 @@ if ( !class_exists( 'WModes_Admin_Product_Filter_Type_Products' ) && !defined( '
                 'type' => 'select2',
                 'default' => 'in_list',
                 'options' => array(
-                    'in_list' => esc_html__( 'Any in the list', 'zcwm-tdm' ),
-                    'in_all_list' => esc_html__( 'All in the list', 'zcwm-tdm' ),
-                    'in_list_only' => esc_html__( 'Only in the list', 'zcwm-tdm' ),
-                    'in_all_list_only' => esc_html__( 'Only all in the list', 'zcwm-tdm' ),
-                    'none' => esc_html__( 'None in the list', 'zcwm-tdm' ),
+                    'in_list' => esc_html__( 'Any in the list', 'wmodes-tdm' ),
+                    'in_all_list' => esc_html__( 'All in the list', 'wmodes-tdm' ),
+                    'in_list_only' => esc_html__( 'Only in the list', 'wmodes-tdm' ),
+                    'in_all_list_only' => esc_html__( 'Only all in the list', 'wmodes-tdm' ),
+                    'none' => esc_html__( 'None in the list', 'wmodes-tdm' ),
                 ),
                 'width' => '98%',
                 'box_width' => '25%',
@@ -132,7 +132,7 @@ if ( !class_exists( 'WModes_Admin_Product_Filter_Type_Products' ) && !defined( '
                 'type' => 'select2',
                 'multiple' => true,
                 'minimum_input_length' => 1,
-                'placeholder' => esc_html__( 'Search tags...', 'zcwm-tdm' ),
+                'placeholder' => esc_html__( 'Search tags...', 'wmodes-tdm' ),
                 'allow_clear' => true,
                 'minimum_results_forsearch' => 10,
                 'data' => array(

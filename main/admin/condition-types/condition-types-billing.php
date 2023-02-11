@@ -17,14 +17,14 @@ if ( !class_exists( 'WModes_Admin_Condition_Type_Billing' ) && !defined( 'WMODES
 
         public static function get_groups( $in_groups, $args ) {
 
-            $in_groups[ 'billing' ] = esc_html__( 'Billing', 'zcwm-tdm' );
+            $in_groups[ 'billing' ] = esc_html__( 'Billing', 'wmodes-tdm' );
 
             return $in_groups;
         }
 
         public static function get_conditions( $in_list, $args ) {
 
-            $in_list[ 'prem_1' ] = esc_html__( 'Payment Methods (Premium)', 'zcwm-tdm' );
+            $in_list[ 'prem_1' ] = esc_html__( 'Payment Methods (Premium)', 'wmodes-tdm' );
 
 
             return $in_list;

@@ -40,7 +40,7 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Label_Settings' ) && !defined(
                 'id' => 'ui_default',
                 'head' => array(
                     'title' => '',
-                    'defaut_title' => esc_html__( 'Label', 'zcwm-tdm' ),
+                    'defaut_title' => esc_html__( 'Label', 'wmodes-tdm' ),
                     'title_field' => 'admin_note',
                 ),
                 'empy_button' => true,
@@ -50,7 +50,7 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Label_Settings' ) && !defined(
                 'id' => 'ui_option',
                 'head' => array(
                     'title' => '',
-                    'defaut_title' => esc_html__( 'Label', 'zcwm-tdm' ),
+                    'defaut_title' => esc_html__( 'Label', 'wmodes-tdm' ),
                     'title_field' => 'admin_note',
                 ),
             );
@@ -82,8 +82,8 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Label_Settings' ) && !defined(
                 'full_width' => true,
                 'center_head' => true,
                 'merge_fields' => false,
-                'title' => esc_html__( 'Design Settings', 'zcwm-tdm' ),
-                'desc' => esc_html__( 'Use these settings to control the look and feel of the label', 'zcwm-tdm' ),
+                'title' => esc_html__( 'Design Settings', 'wmodes-tdm' ),
+                'desc' => esc_html__( 'Use these settings to control the look and feel of the label', 'wmodes-tdm' ),
                 'field_css_class' => array( 'wmodes_subtitles' ),
                 'fields' => self::design_fields( array() ),
             );
@@ -115,8 +115,8 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Label_Settings' ) && !defined(
                 'merge_fields' => false,
                 'full_width' => true,
                 'center_head' => true,
-                'title' => esc_html__( 'Text Settings', 'zcwm-tdm' ),
-                'desc' => esc_html__( 'Use these settings to control the text settings', 'zcwm-tdm' ),
+                'title' => esc_html__( 'Text Settings', 'wmodes-tdm' ),
+                'desc' => esc_html__( 'Use these settings to control the text settings', 'wmodes-tdm' ),
                 'field_css_class' => array( 'wmodes_subtitles' ),
                 'fields' => self::get_text_fields( array() ),
             );
@@ -128,8 +128,8 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Label_Settings' ) && !defined(
                 'merge_fields' => false,
                 'full_width' => true,
                 'center_head' => true,
-                'title' => esc_html__( 'Icon Settings', 'zcwm-tdm' ),
-                'desc' => esc_html__( 'Use these settings to control the icon settings', 'zcwm-tdm' ),
+                'title' => esc_html__( 'Icon Settings', 'wmodes-tdm' ),
+                'desc' => esc_html__( 'Use these settings to control the icon settings', 'wmodes-tdm' ),
                 'field_css_class' => array( 'wmodes_subtitles' ),
                 'fields' => self::get_icon_fields( array() ),
             );
@@ -144,8 +144,8 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Label_Settings' ) && !defined(
                 'type' => 'paneltitle',
                 'full_width' => true,
                 'center_head' => true,
-                'title' => esc_html__( 'Label Designs', 'zcwm-tdm' ),
-                'desc' => esc_html__( 'Use these settings to create and manage label designs', 'zcwm-tdm' ),
+                'title' => esc_html__( 'Label Designs', 'wmodes-tdm' ),
+                'desc' => esc_html__( 'Use these settings to create and manage label designs', 'wmodes-tdm' ),
             );
 
             $in_fields[] = array(
@@ -155,7 +155,7 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Label_Settings' ) && !defined(
                 'white_repeater' => true,
                 'repeater_size' => 'smaller',
                 'max_sections' => 2,
-                'max_sections_msg' => esc_html__( 'Please upgrade to premium version in order to add more design options', 'zcwm-tdm' ),
+                'max_sections_msg' => esc_html__( 'Please upgrade to premium version in order to add more design options', 'wmodes-tdm' ),
                 'accordions' => true,
                 'buttons_sep' => false,
                 'delete_button' => true,
@@ -174,7 +174,7 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Label_Settings' ) && !defined(
                 'template_adder' => array(
                     'position' => 'right',
                     'show_list' => false,
-                    'button_text' => esc_html__( 'New Design', 'zcwm-tdm' ),
+                    'button_text' => esc_html__( 'New Design', 'wmodes-tdm' ),
                 ),
             );
 
@@ -183,8 +183,8 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Label_Settings' ) && !defined(
                 'type' => 'paneltitle',
                 'full_width' => true,
                 'center_head' => true,
-                'title' => esc_html__( 'Label List Designs', 'zcwm-tdm' ),
-                'desc' => esc_html__( 'Use these settings to create and manage label list container designs', 'zcwm-tdm' ),
+                'title' => esc_html__( 'Label List Designs', 'wmodes-tdm' ),
+                'desc' => esc_html__( 'Use these settings to create and manage label list container designs', 'wmodes-tdm' ),
             );
 
             $in_fields[] = array(
@@ -206,11 +206,11 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Label_Settings' ) && !defined(
             $in_fields[] = array(
                 'id' => 'admin_note',
                 'type' => 'textbox',
-                'tooltip' => esc_html__( 'Adds a private note for reference purposes', 'zcwm-tdm' ),
+                'tooltip' => esc_html__( 'Adds a private note for reference purposes', 'wmodes-tdm' ),
                 'column_size' => 1,
-                'column_title' => esc_html__( 'Admin Note', 'zcwm-tdm' ),
+                'column_title' => esc_html__( 'Admin Note', 'wmodes-tdm' ),
                 'default' => '',
-                'placeholder' => esc_html__( 'Type here...', 'zcwm-tdm' ),
+                'placeholder' => esc_html__( 'Type here...', 'wmodes-tdm' ),
                 'width' => '100%',
             );
 
@@ -223,13 +223,13 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Label_Settings' ) && !defined(
                 'id' => 'layout',
                 'type' => 'select2',
                 'column_size' => 1,
-                'column_title' => esc_html__( 'Layout', 'zcwm-tdm' ),
-                'tooltip' => esc_html__( 'Controls the text and icon layout mode', 'zcwm-tdm' ),
+                'column_title' => esc_html__( 'Layout', 'wmodes-tdm' ),
+                'tooltip' => esc_html__( 'Controls the text and icon layout mode', 'wmodes-tdm' ),
                 'default' => 'inline',
                 'disabled_list_filter' => 'wmodes-admin/get-disabled-list',
                 'options' => array(
-                    'inline' => esc_html__( 'Inline', 'zcwm-tdm' ),
-                    'prem_1' => esc_html__( 'Stacked (Premium)', 'zcwm-tdm' )
+                    'inline' => esc_html__( 'Inline', 'wmodes-tdm' ),
+                    'prem_1' => esc_html__( 'Stacked (Premium)', 'wmodes-tdm' )
                 ),
                 'width' => '100%',
             );
@@ -240,8 +240,8 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Label_Settings' ) && !defined(
                 'merge_fields' => true,
                 'fluid-group' => true,
                 'column_size' => 1,
-                'column_title' => esc_html__( 'Width', 'zcwm-tdm' ),
-                'tooltip' => esc_html__( 'Determines the width of the label', 'zcwm-tdm' ),
+                'column_title' => esc_html__( 'Width', 'wmodes-tdm' ),
+                'tooltip' => esc_html__( 'Determines the width of the label', 'wmodes-tdm' ),
                 'width' => '100%',
                 'fields' => WModes_Admin_Utils::get_size_fields( array( 'default_size' => 110, 'placeholder' => 'auto' ) ),
             );
@@ -252,8 +252,8 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Label_Settings' ) && !defined(
                 'merge_fields' => true,
                 'fluid-group' => true,
                 'column_size' => 1,
-                'column_title' => esc_html__( 'Height', 'zcwm-tdm' ),
-                'tooltip' => esc_html__( 'Determines the height of the label', 'zcwm-tdm' ),
+                'column_title' => esc_html__( 'Height', 'wmodes-tdm' ),
+                'tooltip' => esc_html__( 'Determines the height of the label', 'wmodes-tdm' ),
                 'width' => '100%',
                 'fields' => WModes_Admin_Utils::get_size_fields( array( 'default_size' => 32, 'placeholder' => 'auto' ) ),
             );
@@ -262,10 +262,10 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Label_Settings' ) && !defined(
                 'id' => 'color',
                 'type' => 'colorpicker',
                 'column_size' => 1,
-                'column_title' => esc_html__( 'Color', 'zcwm-tdm' ),
-                'tooltip' => esc_html__( 'Controls the text and icon color of the label', 'zcwm-tdm' ),
+                'column_title' => esc_html__( 'Color', 'wmodes-tdm' ),
+                'tooltip' => esc_html__( 'Controls the text and icon color of the label', 'wmodes-tdm' ),
                 'default' => WModes_Admin_Utils::get_theme_value( 'color_2' ),
-                'buton_text' => esc_html__( 'Pick color', 'zcwm-tdm' ),
+                'buton_text' => esc_html__( 'Pick color', 'wmodes-tdm' ),
                 'width' => '100%',
             );
 
@@ -273,10 +273,10 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Label_Settings' ) && !defined(
                 'id' => 'bg_color',
                 'type' => 'colorpicker',
                 'column_size' => 1,
-                'column_title' => esc_html__( 'Background Color', 'zcwm-tdm' ),
-                'tooltip' => esc_html__( 'Controls the background color of the label', 'zcwm-tdm' ),
+                'column_title' => esc_html__( 'Background Color', 'wmodes-tdm' ),
+                'tooltip' => esc_html__( 'Controls the background color of the label', 'wmodes-tdm' ),
                 'default' =>WModes_Admin_Utils::get_theme_value( 'color_4' ),
-                'buton_text' => esc_html__( 'Pick color', 'zcwm-tdm' ),
+                'buton_text' => esc_html__( 'Pick color', 'wmodes-tdm' ),
                 'width' => '100%',
             );
 
@@ -289,8 +289,8 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Label_Settings' ) && !defined(
                 'id' => 'is_any',
                 'type' => 'textblock',
                 'column_width' => '180px',
-                'column_title' => esc_html__( 'Icon / Text Gap', 'zcwm-tdm' ),
-                'tooltip' => esc_html__( 'Controls the space between icon and text of the label', 'zcwm-tdm' ),
+                'column_title' => esc_html__( 'Icon / Text Gap', 'wmodes-tdm' ),
+                'tooltip' => esc_html__( 'Controls the space between icon and text of the label', 'wmodes-tdm' ),
                 'show_box' => true,
                 'text' => WModes_Admin_Page::get_premium_messages( 'short' ),
                 'width' => '100%',
@@ -302,9 +302,9 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Label_Settings' ) && !defined(
                 'column_no_size' => true,
                 'merge_fields' => true,
                 'fluid-group' => true,
-                'column_title' => esc_html__( 'Margin', 'zcwm-tdm' ),
+                'column_title' => esc_html__( 'Margin', 'wmodes-tdm' ),
                 'column_classes' => array( 'wmodes_box_hint' ),
-                'tooltip' => esc_html__( 'Determines the margins of the label', 'zcwm-tdm' ),
+                'tooltip' => esc_html__( 'Determines the margins of the label', 'wmodes-tdm' ),
                 'width' => '100%',
                 'fields' => WModes_Admin_Utils::get_boundary_sizes_fields( array( 'default_size' => '', 'placeholder' => '', 'default_unit' => 'px' ) ),
             );
@@ -315,9 +315,9 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Label_Settings' ) && !defined(
                 'column_no_size' => true,
                 'merge_fields' => true,
                 'fluid-group' => true,
-                'column_title' => esc_html__( 'Padding', 'zcwm-tdm' ),
+                'column_title' => esc_html__( 'Padding', 'wmodes-tdm' ),
                 'column_classes' => array( 'wmodes_box_hint' ),
-                'tooltip' => esc_html__( 'Determines the paddings of the label', 'zcwm-tdm' ),
+                'tooltip' => esc_html__( 'Determines the paddings of the label', 'wmodes-tdm' ),
                 'width' => '100%',
                 'fields' => WModes_Admin_Utils::get_boundary_sizes_fields( array( 'default_size' => '', 'placeholder' => '', 'default_unit' => 'px' ) ),
             );
@@ -335,8 +335,8 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Label_Settings' ) && !defined(
                 'column_width' => '170px',
                 'merge_fields' => true,
                 'fluid-group' => true,
-                'column_title' => esc_html__( 'Border Radius', 'zcwm-tdm' ),
-                'tooltip' => esc_html__( 'Determines the border radius of the label', 'zcwm-tdm' ),
+                'column_title' => esc_html__( 'Border Radius', 'wmodes-tdm' ),
+                'tooltip' => esc_html__( 'Determines the border radius of the label', 'wmodes-tdm' ),
                 'width' => '100%',
                 'fields' => WModes_Admin_Utils::get_size_fields( array( 'default_size' => '4', 'default_unit' => 'px' ) ),
             );
@@ -345,14 +345,14 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Label_Settings' ) && !defined(
                 'id' => 'border_style',
                 'type' => 'select2',
                 'column_no_size' => true,
-                'column_title' => esc_html__( 'Border Style', 'zcwm-tdm' ),
-                'tooltip' => esc_html__( 'Determines the border style of the label', 'zcwm-tdm' ),
+                'column_title' => esc_html__( 'Border Style', 'wmodes-tdm' ),
+                'tooltip' => esc_html__( 'Determines the border style of the label', 'wmodes-tdm' ),
                 'default' => 'inline',
                 'options' => array(
-                    'none' => esc_html__( 'None', 'zcwm-tdm' ),
-                    'solid' => esc_html__( 'Solid', 'zcwm-tdm' ),
-                    'dotted' => esc_html__( 'Dotted', 'zcwm-tdm' ),
-                    'dashed' => esc_html__( 'Dashed', 'zcwm-tdm' )
+                    'none' => esc_html__( 'None', 'wmodes-tdm' ),
+                    'solid' => esc_html__( 'Solid', 'wmodes-tdm' ),
+                    'dotted' => esc_html__( 'Dotted', 'wmodes-tdm' ),
+                    'dashed' => esc_html__( 'Dashed', 'wmodes-tdm' )
                 ),
                 'width' => '100%',
                 'column_attributes' => array(
@@ -365,10 +365,10 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Label_Settings' ) && !defined(
                 'id' => 'border_color',
                 'type' => 'colorpicker',
                 'column_no_size' => true,
-                'column_title' => esc_html__( 'Border Color', 'zcwm-tdm' ),
-                'tooltip' => esc_html__( 'Controls the border color of the label', 'zcwm-tdm' ),
+                'column_title' => esc_html__( 'Border Color', 'wmodes-tdm' ),
+                'tooltip' => esc_html__( 'Controls the border color of the label', 'wmodes-tdm' ),
                 'default' => WModes_Admin_Utils::get_theme_value( 'color_2' ),
-                'buton_text' => esc_html__( 'Pick color', 'zcwm-tdm' ),
+                'buton_text' => esc_html__( 'Pick color', 'wmodes-tdm' ),
                 'width' => '100%',
                 'column_attributes' => array(
                     'style' => 'min-width:170px;'
@@ -388,9 +388,9 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Label_Settings' ) && !defined(
                 'merge_fields' => true,
                 'fluid-group' => true,
                 'column_no_size' => true,
-                'column_title' => esc_html__( 'Border Width', 'zcwm-tdm' ),
+                'column_title' => esc_html__( 'Border Width', 'wmodes-tdm' ),
                 'column_classes' => array( 'wmodes_box_hint' ),
-                'tooltip' => esc_html__( 'Controls the border thickness of the label', 'zcwm-tdm' ),
+                'tooltip' => esc_html__( 'Controls the border thickness of the label', 'wmodes-tdm' ),
                 'width' => '100%',
                 'fields' => WModes_Admin_Utils::get_boundary_sizes_fields( array( 'default_size' => 1, 'default_unit' => 'px' ) ),
                 'fold' => array(
@@ -411,8 +411,8 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Label_Settings' ) && !defined(
                 'id' => 'is_any',
                 'type' => 'textblock',
                 'column_no_size' => true,
-                'column_title' => esc_html__( 'Text Format', 'zcwm-tdm' ),
-                'tooltip' => esc_html__( 'Determines the prefix and suffix text of the label on products', 'zcwm-tdm' ),
+                'column_title' => esc_html__( 'Text Format', 'wmodes-tdm' ),
+                'tooltip' => esc_html__( 'Determines the prefix and suffix text of the label on products', 'wmodes-tdm' ),
                 'show_box' => true,
                 'text' => WModes_Admin_Page::get_premium_messages( 'short' ),
                 'width' => '100%',
@@ -422,8 +422,8 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Label_Settings' ) && !defined(
                 'id' => 'is_any',
                 'type' => 'textblock',
                 'column_no_size' => true,
-                'column_title' => esc_html__( 'Variation Text Format', 'zcwm-tdm' ),
-                'tooltip' => esc_html__( 'Determines the prefix and suffix text of the label on variable products', 'zcwm-tdm' ),
+                'column_title' => esc_html__( 'Variation Text Format', 'wmodes-tdm' ),
+                'tooltip' => esc_html__( 'Determines the prefix and suffix text of the label on variable products', 'wmodes-tdm' ),
                 'show_box' => true,
                 'text' => WModes_Admin_Page::get_premium_messages( 'short' ),
                 'width' => '100%',
@@ -435,8 +435,8 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Label_Settings' ) && !defined(
                 'column_width' => '170px',
                 'merge_fields' => true,
                 'fluid-group' => true,
-                'column_title' => esc_html__( 'Font Size', 'zcwm-tdm' ),
-                'tooltip' => esc_html__( 'Controls the font size of the text', 'zcwm-tdm' ),
+                'column_title' => esc_html__( 'Font Size', 'wmodes-tdm' ),
+                'tooltip' => esc_html__( 'Controls the font size of the text', 'wmodes-tdm' ),
                 'width' => '100%',
                 'fields' => WModes_Admin_Utils::get_size_fields( array( 'default_size' => 12, 'default_unit' => 'px' ) ),
             );
@@ -447,8 +447,8 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Label_Settings' ) && !defined(
                 'column_width' => '170px',
                 'merge_fields' => true,
                 'fluid-group' => true,
-                'column_title' => esc_html__( 'Line Height', 'zcwm-tdm' ),
-                'tooltip' => esc_html__( 'Controls the line height of the text', 'zcwm-tdm' ),
+                'column_title' => esc_html__( 'Line Height', 'wmodes-tdm' ),
+                'tooltip' => esc_html__( 'Controls the line height of the text', 'wmodes-tdm' ),
                 'width' => '100%',
                 'fields' => WModes_Admin_Utils::get_size_fields( array( 'default_size' => 12, 'default_unit' => 'px' ) ),
             );
@@ -462,14 +462,14 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Label_Settings' ) && !defined(
                 'id' => 'icon_type',
                 'type' => 'select2',
                 'column_width' => '250px',
-                'column_title' => esc_html__( 'Icon Type', 'zcwm-tdm' ),
-                'tooltip' => esc_html__( 'Determines the type of icon', 'zcwm-tdm' ),
+                'column_title' => esc_html__( 'Icon Type', 'wmodes-tdm' ),
+                'tooltip' => esc_html__( 'Determines the type of icon', 'wmodes-tdm' ),
                 'default' => 'no',
                 'disabled_list_filter' => 'wmodes-admin/get-disabled-list',
                 'options' => array(
-                    'no' => esc_html__( 'No icon', 'zcwm-tdm' ),
-                    'prem_1' => esc_html__( 'Font icon (Premium)', 'zcwm-tdm' ),
-                    'prem_2' => esc_html__( 'Image icon (Premium)', 'zcwm-tdm' ),
+                    'no' => esc_html__( 'No icon', 'wmodes-tdm' ),
+                    'prem_1' => esc_html__( 'Font icon (Premium)', 'wmodes-tdm' ),
+                    'prem_2' => esc_html__( 'Image icon (Premium)', 'wmodes-tdm' ),
                 ),
                 'width' => '100%',
             );

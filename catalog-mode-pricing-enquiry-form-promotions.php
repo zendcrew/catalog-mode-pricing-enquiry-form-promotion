@@ -7,7 +7,7 @@
  * Version: 1.0
  * Author: zendcrew
  * Author URI: https://codecanyon.net/user/zendcrew
- * Text Domain: zcwm-tdm
+ * Text Domain: wmodes-tdm
  * Domain Path: /languages/
  * Requires at least: 5.8
  * Tested up to: 6.1.1
@@ -44,7 +44,7 @@ if ( !class_exists( 'WModes_Init' ) ) {
 
             add_action( 'plugins_loaded', array( $this, 'plugin_loaded' ), 1 );
 
-            load_plugin_textdomain( 'zcwm-tdm', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+            load_plugin_textdomain( 'wmodes-tdm', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
         }
 
         public function plugin_loaded() {
@@ -60,7 +60,7 @@ if ( !class_exists( 'WModes_Init' ) ) {
 
         public function missing_notice() {
 
-            echo '<div class="error"><p><strong>' . esc_html__( 'WooCommerce Catalog Mode - Pricing, Enquiry Forms & Promotions be installed and activated.', 'zcwm-tdm' ) . '</strong></p></div>';
+            echo '<div class="error"><p><strong>' . esc_html__( 'WooCommerce Catalog Mode - Pricing, Enquiry Forms & Promotions be installed and activated.', 'wmodes-tdm' ) . '</strong></p></div>';
         }
 
         private function main() {

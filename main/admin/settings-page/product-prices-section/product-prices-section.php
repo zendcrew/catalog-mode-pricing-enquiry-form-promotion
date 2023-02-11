@@ -43,16 +43,16 @@ if ( !class_exists( 'WModes_Admin_Product_Prices_Page' ) ) {
                                 'id' => 'limit_type',
                                 'type' => 'select2',
                                 'column_size' => 2,
-                                'column_title' => esc_html__( 'Pricing Limit (Per Product)', 'zcwm-tdm' ),
-                                'tooltip' => esc_html__( 'Controls pricing limits per product', 'zcwm-tdm' ),
+                                'column_title' => esc_html__( 'Pricing Limit (Per Product)', 'wmodes-tdm' ),
+                                'tooltip' => esc_html__( 'Controls pricing limits per product', 'wmodes-tdm' ),
                                 'default' => 'no',
                                 'disabled_list_filter' => 'wmodes-admin/get-disabled-list',
                                 'options' => array(
-                                    'no' => esc_html__( 'No limit', 'zcwm-tdm' ),
-                                    'prem_1' => esc_html__( 'Fixed discount amount (Premium)', 'zcwm-tdm' ),
-                                    'prem_2' => esc_html__( 'Fixed fee amount (Premium)', 'zcwm-tdm' ),
-                                    'prem_3' => esc_html__( 'Percentage discount amount (Premium)', 'zcwm-tdm' ),
-                                    'prem_4' => esc_html__( 'Percentage fee amount (Premium)', 'zcwm-tdm' ),
+                                    'no' => esc_html__( 'No limit', 'wmodes-tdm' ),
+                                    'prem_1' => esc_html__( 'Fixed discount amount (Premium)', 'wmodes-tdm' ),
+                                    'prem_2' => esc_html__( 'Fixed fee amount (Premium)', 'wmodes-tdm' ),
+                                    'prem_3' => esc_html__( 'Percentage discount amount (Premium)', 'wmodes-tdm' ),
+                                    'prem_4' => esc_html__( 'Percentage fee amount (Premium)', 'wmodes-tdm' ),
                                 ),
                                 'width' => '100%',
                             ),
@@ -60,8 +60,8 @@ if ( !class_exists( 'WModes_Admin_Product_Prices_Page' ) ) {
                                 'id' => 'mode',
                                 'type' => 'select2',
                                 'column_size' => 3,
-                                'column_title' => esc_html__( 'Apply Method (Per Product)', 'zcwm-tdm' ),
-                                'tooltip' => esc_html__( 'Controls product pricing apply method per product', 'zcwm-tdm' ),
+                                'column_title' => esc_html__( 'Apply Method (Per Product)', 'wmodes-tdm' ),
+                                'tooltip' => esc_html__( 'Controls product pricing apply method per product', 'wmodes-tdm' ),
                                 'default' => 'all',
                                 'disabled_list_filter' => 'wmodes-admin/get-disabled-list',
                                 'options' => self::get_apply_method(),
@@ -92,7 +92,7 @@ if ( !class_exists( 'WModes_Admin_Product_Prices_Page' ) ) {
                 'delete_button' => true,
                 'clone_button' => true,
                 'max_sections' => $max_sections,
-                'max_sections_msg' => esc_html__( 'Please upgrade to premium version in order to add more options', 'zcwm-tdm' ),
+                'max_sections_msg' => esc_html__( 'Please upgrade to premium version in order to add more options', 'wmodes-tdm' ),
                 'width' => '100%',
                 'field_css_class' => array( 'wmodes_options' ),
                 'css_class' => 'wmodes_extension_options',
@@ -106,7 +106,7 @@ if ( !class_exists( 'WModes_Admin_Product_Prices_Page' ) ) {
                 'template_adder' => array(
                     'position' => 'right',
                     'show_list' => false,
-                    'button_text' => esc_html__( 'New Product Pricing', 'zcwm-tdm' ),
+                    'button_text' => esc_html__( 'New Product Pricing', 'wmodes-tdm' ),
                 ),
             );
 
@@ -120,7 +120,7 @@ if ( !class_exists( 'WModes_Admin_Product_Prices_Page' ) ) {
                     'id' => 'product_pricing',
                     'head' => array(
                         'title' => '',
-                        'defaut_title' => esc_html__( 'Product Pricing', 'zcwm-tdm' ),
+                        'defaut_title' => esc_html__( 'Product Pricing', 'wmodes-tdm' ),
                         'title_field' => 'admin_note',
                         'subtitle_field' => 'mode',
                     )
@@ -157,8 +157,8 @@ if ( !class_exists( 'WModes_Admin_Product_Prices_Page' ) ) {
                         'type' => 'select2',
                         'default' => 'yes',
                         'options' => array(
-                            'yes' => esc_html__( 'Enable', 'zcwm-tdm' ),
-                            'no' => esc_html__( 'Disable', 'zcwm-tdm' ),
+                            'yes' => esc_html__( 'Enable', 'wmodes-tdm' ),
+                            'no' => esc_html__( 'Disable', 'wmodes-tdm' ),
                         ),
                         'width' => '95px',
                     ),
@@ -171,17 +171,17 @@ if ( !class_exists( 'WModes_Admin_Product_Prices_Page' ) ) {
         private static function get_apply_method() {
 
             $apply_methods = array(
-                'all' => esc_html__( 'Apply all valid product pricing', 'zcwm-tdm' ),
+                'all' => esc_html__( 'Apply all valid product pricing', 'wmodes-tdm' ),
             );
 
             if ( !defined( 'WMODES_PREMIUM_ADDON' ) ) {
-                $apply_methods[ 'prem_1' ] = esc_html__( 'Apply first valid product pricing (Premium)', 'zcwm-tdm' );
-                $apply_methods[ 'prem_2' ] = esc_html__( 'Apply last valid product pricing (Premium)', 'zcwm-tdm' );
+                $apply_methods[ 'prem_1' ] = esc_html__( 'Apply first valid product pricing (Premium)', 'wmodes-tdm' );
+                $apply_methods[ 'prem_2' ] = esc_html__( 'Apply last valid product pricing (Premium)', 'wmodes-tdm' );
             }
 
             $apply_methods = apply_filters( 'wmodes-admin/product-pricing/get-apply-methods', $apply_methods );
 
-            $apply_methods[ 'no' ] = esc_html__( 'Do not apply any product pricing', 'zcwm-tdm' );
+            $apply_methods[ 'no' ] = esc_html__( 'Do not apply any product pricing', 'wmodes-tdm' );
 
             return $apply_methods;
         }
@@ -189,13 +189,13 @@ if ( !class_exists( 'WModes_Admin_Product_Prices_Page' ) ) {
         private static function get_apply_modes() {
 
             $apply_modes = array(
-                'with_others' => esc_html__( 'Apply this and other product pricing', 'zcwm-tdm' ),
+                'with_others' => esc_html__( 'Apply this and other product pricing', 'wmodes-tdm' ),
             );
 
             if ( !defined( 'WMODES_PREMIUM_ADDON' ) ) {
-                $apply_modes[ 'prem_1' ] = esc_html__( 'Apply only this product pricing (Premium)', 'zcwm-tdm' );
-                $apply_modes[ 'prem_2' ] = esc_html__( 'Apply if other product pricing are valid (Premium)', 'zcwm-tdm' );
-                $apply_modes[ 'prem_3' ] = esc_html__( 'Apply if no other valid product pricing (Premium)', 'zcwm-tdm' );
+                $apply_modes[ 'prem_1' ] = esc_html__( 'Apply only this product pricing (Premium)', 'wmodes-tdm' );
+                $apply_modes[ 'prem_2' ] = esc_html__( 'Apply if other product pricing are valid (Premium)', 'wmodes-tdm' );
+                $apply_modes[ 'prem_3' ] = esc_html__( 'Apply if no other valid product pricing (Premium)', 'wmodes-tdm' );
             }
 
             $apply_modes = apply_filters( 'wmodes-admin/product-pricing/get-apply-modes', $apply_modes );

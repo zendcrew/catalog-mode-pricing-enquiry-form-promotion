@@ -16,17 +16,17 @@ if ( !class_exists( 'WModes_Admin_Product_Filter_Type_Authors' ) && !defined( 'W
 
         public static function get_groups( $in_groups, $args ) {
 
-            $in_groups[ 'product_authors' ] = esc_html__( 'Product Authors (Multi Vendor)', 'zcwm-tdm' );
+            $in_groups[ 'product_authors' ] = esc_html__( 'Product Authors (Multi Vendor)', 'wmodes-tdm' );
 
             return $in_groups;
         }
 
         public static function get_filters( $in_list, $args ) {
 
-            $in_list[ 'prem_1' ] = esc_html__( 'Product Authors (Premium)', 'zcwm-tdm' );
-            $in_list[ 'prem_2' ] = esc_html__( "Product Author's Roles (Premium)", 'zcwm-tdm' );
-            $in_list[ 'prem_3' ] = esc_html__( "Product Author's Capabilities (Premium)", 'zcwm-tdm' );
-            $in_list[ 'prem_4' ] = esc_html__( "Product Author's Meta Fields (Premium)", 'zcwm-tdm' );
+            $in_list[ 'prem_1' ] = esc_html__( 'Product Authors (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_2' ] = esc_html__( "Product Author's Roles (Premium)", 'wmodes-tdm' );
+            $in_list[ 'prem_3' ] = esc_html__( "Product Author's Capabilities (Premium)", 'wmodes-tdm' );
+            $in_list[ 'prem_4' ] = esc_html__( "Product Author's Meta Fields (Premium)", 'wmodes-tdm' );
 
             return $in_list;
         }

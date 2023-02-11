@@ -48,13 +48,13 @@ if ( !class_exists( 'WModes_Admin_Data_List_Label_Designs' ) && !defined( 'WMODE
                     return $option[ 'admin_note' ];
                 }
             }
-            return esc_html__( 'Label', 'zcwm-tdm' );
+            return esc_html__( 'Label', 'wmodes-tdm' );
         }
 
         private static function get_default_options() {
             return array(
                 array(
-                    'admin_note' => esc_html__( 'Label', 'zcwm-tdm' ),
+                    'admin_note' => esc_html__( 'Label', 'wmodes-tdm' ),
                     'ui_id' => '2234343',
                 ),
             );

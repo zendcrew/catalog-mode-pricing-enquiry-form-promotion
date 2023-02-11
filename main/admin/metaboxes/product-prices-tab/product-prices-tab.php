@@ -25,7 +25,7 @@ if (!class_exists('WModes_Admin_Product_Prices_MetaBox_Tab')) {
         public static function init_metabox() {
             
             Reon::set_wc_product_meta_box(array(
-                'title' => esc_html__('Product Pricing', 'zcwm-tdm'),
+                'title' => esc_html__('Product Pricing', 'wmodes-tdm'),
                 'id' => self::$metabox_id,
                 'sanitize_mode' => 'recursive',
                 'save_metabox' => true,
