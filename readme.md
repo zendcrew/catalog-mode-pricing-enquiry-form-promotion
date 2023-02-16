@@ -13,7 +13,7 @@ WooCommerce Catalog Mode, WooCommerce Product Pricing, WooCommerce Enquiry Forms
 
 == Description ==
 
-Use the [WooCommerce Catalog Mode – Pricing, Enquiry Forms & Promotions](https://codecanyon.net/item/woocommerce-catalog-mode-pricing-enquiry-forms-promotions/43498179?ref=zendcrew) plugin to easily set up **catalog modes**,  **prices and marketing** strategies on your **WooCommerce** store.
+Use the [WooCommerce Catalog Mode â€“ Pricing, Enquiry Forms & Promotions](https://codecanyon.net/item/woocommerce-catalog-mode-pricing-enquiry-forms-promotions/43498179?ref=zendcrew) plugin to easily set up **catalog modes**,  **prices and marketing** strategies on your **WooCommerce** store.
 
 The plugin provides options for removing shop functions (like **product prices**, the **add-to-cart button**, and the **cart** and **checkout** pages).
 
@@ -23,18 +23,30 @@ This plugin features three separate modules: **Catalog Modes**, **Product Pricin
 
 [TRY LIVE DEMO](https://demo.zendcrew.com/catalog-mode/) | [DOCUMENTATION](https://zencrew.freshdesk.com/support/solutions/51000070103) | [HELP CENTER](https://zencrew.freshdesk.com/support/tickets)
 
-= WooCommerce Catalog Modes =
+### WooCommerce Catalog Modes
 With the **catalog modes** module, you can easily create and manage multiple **catalog mode** options, such as **hiding product prices**, **disabling the add-to-cart buttons**, **adding enquiry forms**, and **disabling shop**, **cart**, and checkout functions**. These options can be based on **conditions and product rules**.
 
-= WooCommerce Product Pricing =
+### WooCommerce Product Pricing
 The **product pricing** module makes it easy to create and manage multiple **product pricing options**, such as **regular price adjustments** and **sale price adjustments**. The price adjustment amount can be based on a **fixed price**, **fixed discount or fee**, **percentage price**, or **percentage discount or fee**. These options can also be based on **conditions and product rules**.
 
 
-= WooCommerce Product Settings =
+### WooCommerce Product Settings
 Quickly set up multiple **product settings** (including **promotional settings**) options, such as **stock settings**, **tax settings**, **weight**, **pricing labels**, **product badges**, **countdown timer**, and more using the plugin. These options can also be based on **conditions and product rules**.
 
-= Product Rules & Conditional Logics =
+### Product Rules & Conditional Logics
 The plugin allows you to easily set up all module functions based on product rules like **product sku**, **categories**, **tags e.t.c**  as well as conditional logics like **customers**, **user roles**, and **GeoIP Locations** e.t.c. With **product rules and conditional logics** available, the options are virtually limitless
+
+
+### YOU MAY ALSO NEED THESE OTHER PLUGINS
+
+&#9989;&nbsp;[WooCommerce Partial COD - Payment Gateway Restrictions & Fees](https://wordpress.org/plugins/partial-cod-payment-gateway-restrictions-fees): A powerful, flexible and easy-to-use WooCommerce extension that can be used to manage payment availability and other gateway-related cart settings based on product rules and conditions.
+
+&#9989;&nbsp;[Table Rate Shipping Method for WooCommerce by Shipped â€“ WooCommerce Table Rate Shipping](https://wordpress.org/plugins/table-rate-shipping-rates): A powerful, flexible and easy-to-use shipping plugin for **WooCommerce**, it can be used to create multiple shipping rates based on product rules and conditions.
+
+&#9989;&nbsp;[Dynamic Pricing & Discounts for WooCommerce](https://codecanyon.net/item/woopricely-dynamic-pricing-fees-discounts/23844181?ref=zendcrew): A multi-purpose pricing and discounts toolkit for **WooCommerce**. The dynamic pricing and discounts plugin allows you to automate product pricing, simple discount pricing, bulk discount pricing, tiered discount pricing, buy x get x discount pricing, buy x get y discount pricing, group discount pricing, cart discounts and cart fees by defining rules and conditions. These features are grouped into four easy-to-use modules, the modules include Product Pricing, Checkout Pricing, Checkout Discounts, and Checkout Fees.
+
+&#9989;&nbsp;[WooCommerce Smart Pack - Gift Card, Wallet, Refund & Reward](https://codecanyon.net/item/woocommerce-smart-pack-gift-card-wallet-refund-reward/20265145?ref=zendcrew): A WordPress plugin that allows merchants to implement a wallet system, reward or refund customers and sell an unlimited number of gift card products on their website. These features are grouped into four different extensions, the extensions include **WooCommerce Wallets**, **WooCommerce Refunds**, **WooCommerce Rewards** and **WooCommerce Gift Cards**. Each of these extensions can be enabled or disabled depending on what features are needed on a website.
+
 
 == Screenshots ==
 1. WooCommerce Catalog Mode - Catalog Mode Settings 1
