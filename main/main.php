@@ -11,6 +11,7 @@ if ( !class_exists( 'WModes_Main' ) ) {
         public function __construct() {
 
             if ( !defined( 'WMODES_ASSETS_URL' ) ) {
+                
                 define( 'WMODES_ASSETS_URL', plugins_url( 'assets/', __FILE__ ) );
             }
 
@@ -47,6 +48,8 @@ if ( !class_exists( 'WModes_Main' ) ) {
         public function enqueue_admin_scripts() {
 
             wp_enqueue_style( 'wmodes-admin-styles', WMODES_ASSETS_URL . 'admin-styles.css', array(), '1.0', 'all' );
+
+            WModes_Admin_Notices::get_instance()->enqueue_scripts();
         }
 
         public function enqueue_public_scripts() {

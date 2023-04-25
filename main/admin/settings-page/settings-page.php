@@ -292,7 +292,7 @@ if ( !class_exists( 'WModes_Admin_Page' ) ) {
 
         public static function get_premium_messages( $message_id = '' ) {
 
-            $premium_url = "#";
+            $premium_url = "https://codecanyon.net/item/woocommerce-catalog-mode-pricing-enquiry-forms-promotions/43498179?ref=zendcrew";
             $message = esc_html__( 'This feature is available on premium version', 'wmodes-tdm' );
             $link_text = esc_html__( 'Premium Feature', 'wmodes-tdm' );
 

@@ -12,3 +12,4 @@ require_once (dirname( __FILE__ ) . '/logic-types/logic-types.php');
 require_once (dirname( __FILE__ ) . '/product-filter-types/product-filter-types.php');
 require_once (dirname( __FILE__ ) . '/condition-types/condition-types.php');
 require_once (dirname( __FILE__ ) . '/admin-data-list/admin-data-list.php');
+require_once (dirname( __FILE__ ) . '/notices/notices.php');

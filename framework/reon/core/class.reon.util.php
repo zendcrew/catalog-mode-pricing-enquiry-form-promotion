@@ -346,6 +346,7 @@ if (!class_exists('ReonUtil')) {
         public static function get_allow_html( ) {
             
             $allowed_html = array(
+                'br' => array(),
                 'div' => array(
                     'id' => true,
                     'title' => true,
@@ -380,7 +381,7 @@ if (!class_exists('ReonUtil')) {
                 ),
             );
 
-            $allowed_html;
+          return $allowed_html;
         }
 
         public static function recursive_require( $dir, $ingore_list = array(), $subdirs = array() ) {

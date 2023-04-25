@@ -3,8 +3,8 @@ Contributors: zendcrew, sundayfanz
 Donate link: 
 Tags: catalog, catalog mode, catalogue mode, enquiry form, remove add to cart, remove price, product pricing, promotions, countdown, countdown timer, badges, product badges, b2b, ecommerce, woocommerce
 Requires at least: 5.8
-Tested up to: 6.1
-Stable tag: 1.0
+Tested up to: 6.2
+Stable tag: 1.0.2
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -21,10 +21,10 @@ The plugin also provides options for **setting prices** (including **flash sales
 
 This plugin features three separate modules: **Catalog Modes**, **Product Pricing**, and **Product Settings** (which includes **promotional settings**).
 
-[TRY LIVE DEMO](https://demo.zendcrew.com/catalog-mode/) | [DOCUMENTATION](https://zencrew.freshdesk.com/support/solutions/51000070103) | [HELP CENTER](https://zencrew.freshdesk.com/support/tickets)
+[TRY LIVE DEMO](https://demo.zendcrew.cc/catalog-mode/) | [DOCUMENTATION](https://zencrew.freshdesk.com/support/solutions/51000070103) | [HELP CENTER](https://zencrew.freshdesk.com/support/tickets)
 
 ### WooCommerce Catalog Modes
-With the **catalog modes** module, you can easily create and manage multiple **catalog mode** options, such as **hiding product prices**, **disabling the add-to-cart buttons**, **adding enquiry forms**, and **disabling shop**, **cart**, and checkout functions**. These options can be based on **conditions and product rules**.
+With the **catalog modes** module, you can easily create and manage multiple **catalog mode** options, such as **hiding product prices**, **disabling the add-to-cart buttons**, **adding enquiry forms**, and **disabling shop**, **cart**, and **checkout functions**. These options can be based on **conditions and product rules**.
 
 ### WooCommerce Product Pricing
 The **product pricing** module makes it easy to create and manage multiple **product pricing options**, such as **regular price adjustments** and **sale price adjustments**. The price adjustment amount can be based on a **fixed price**, **fixed discount or fee**, **percentage price**, or **percentage discount or fee**. These options can also be based on **conditions and product rules**.
@@ -57,6 +57,9 @@ The plugin allows you to easily set up all module functions based on product rul
 6. WooCommerce Catalog Mode - Product Settings 2
 
 == Changelog ==
+
+= 1.0.2 - 25/04/2023 =
+Added Admin Notices
 
 = 1.0 - 10/02/2023 =
 Initial Release
