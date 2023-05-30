@@ -11,7 +11,7 @@ if ( !class_exists( 'WModes_Main' ) ) {
         public function __construct() {
 
             if ( !defined( 'WMODES_ASSETS_URL' ) ) {
-                
+
                 define( 'WMODES_ASSETS_URL', plugins_url( 'assets/', __FILE__ ) );
             }
 
@@ -105,9 +105,14 @@ if ( !class_exists( 'WModes_Main' ) ) {
                     'title' => true,
                     'class' => true,
                 ),
+                'del' => array(
+                    'aria-hidden' => true,
+                ),
+                'bdi' => array(),
+                'ins' => array(),
             );
 
-            $allowed_html;
+            return $allowed_html;
         }
 
     }

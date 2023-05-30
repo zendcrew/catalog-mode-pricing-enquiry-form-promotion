@@ -15,7 +15,7 @@ if ( !class_exists( 'WModes_Pipeline_Prices' ) && !defined( 'WMODES_PREMIUM_ADDO
         public function __construct() {
 
             $this->prices = array();
-            $this->hash_data;
+            $this->hash_data = array();
 
             add_filter( 'woocommerce_product_get_sale_price', array( $this, 'get_sale_price' ), 999, 2 );
             add_filter( 'woocommerce_product_variation_get_sale_price', array( $this, 'get_sale_price' ), 99999, 2 );

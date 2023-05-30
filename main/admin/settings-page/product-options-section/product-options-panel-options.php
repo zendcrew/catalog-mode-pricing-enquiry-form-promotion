@@ -63,11 +63,6 @@ if ( !class_exists( 'WModes_Admin_Product_Options_Panel_Options' ) ) {
             );
 
 
-            $max_sections = 3;
-            if ( defined( 'WMODES_PREMIUM_ADDON' ) ) {
-                $max_sections = 99999;
-            }
-
             $in_fields[] = array(
                 'id' => 'options',
                 'filter_id' => 'wmodes-options',
@@ -181,12 +176,13 @@ if ( !class_exists( 'WModes_Admin_Product_Options_Panel_Options' ) ) {
             $in_flds = apply_filters( 'wmodes-admin/product-options/get-option-type-' . $template_id . '-fields', array(), $args );
 
             foreach ( $in_flds as $flds ) {
+                
                 $in_fields[] = $flds;
             }
 
-            self::get_requires_products( $args );
+            $requires_products = self::get_requires_products( $args );
 
-            if ( in_array( $template_id, self::get_requires_products( $args ) ) ) {
+            if ( in_array( $template_id, $requires_products ) ) {
 
                 return WModes_Admin_Logic_Types_Product_Filters::get_fields( $in_fields, $args );
             }

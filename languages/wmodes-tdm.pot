@@ -1,26 +1,25 @@
 # Copyright (C) 2023 zendcrew
-# This file is distributed under the same license as the WooCommerce Catalog Mode - Pricing, Enquiry Forms & Promotions plugin.
+# This file is distributed under the same license as the WooCommerce Catalog Mode - Product Pricing, Enquiry Forms & Promotions plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce Catalog Mode - Pricing, Enquiry Forms & Promotions 1.0\n"
+"Project-Id-Version: WooCommerce Catalog Mode - Product Pricing, Enquiry Forms & Promotions 1.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/catalog-mode-pricing-enquiry-form-promotion\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-02-02T03:41:36+01:00\n"
+"POT-Creation-Date: 2023-05-30T06:16:55+02:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: wmodes-tdm\n"
 
 #. Plugin Name of the plugin
-msgid "WooCommerce Catalog Mode - Pricing, Enquiry Forms & Promotions"
+msgid "WooCommerce Catalog Mode - Product Pricing, Enquiry Forms & Promotions"
 msgstr ""
 
 #. Plugin URI of the plugin
-#. Author URI of the plugin
-msgid "https://codecanyon.net/user/zendcrew"
+msgid "https://codecanyon.net/item/woocommerce-catalog-mode-pricing-enquiry-forms-promotions/43498179?ref=zendcrew"
 msgstr ""
 
 #. Description of the plugin
@@ -31,8 +30,12 @@ msgstr ""
 msgid "zendcrew"
 msgstr ""
 
-#: catalog-mode-pricing-enquiry-form-promotions.php:63
-msgid "WooCommerce Catalog Mode - Pricing, Enquiry Forms & Promotions be installed and activated."
+#. Author URI of the plugin
+msgid "https://codecanyon.net/user/zendcrew?ref=zendcrew"
+msgstr ""
+
+#: catalog-mode-pricing-enquiry-forms-promotions.php:63
+msgid "WooCommerce Catalog Mode - Pricing, Enquiry Forms & Promotions requires WooCommerce be installed and activated."
 msgstr ""
 
 #: main/admin/admin-data-list/admin-data-list-label-designs.php:51
@@ -1158,7 +1161,7 @@ msgstr ""
 #: main/admin/metaboxes/catalog-mode-tab/catalog-mode-panel-modes.php:104
 #: main/admin/metaboxes/product-options-tab/product-options-panel-options.php:103
 #: main/admin/settings-page/catalog-mode-section/catalog-mode-panel-modes.php:96
-#: main/admin/settings-page/product-options-section/product-options-panel-options.php:100
+#: main/admin/settings-page/product-options-section/product-options-panel-options.php:95
 msgid "Add Settings"
 msgstr ""
 
@@ -1335,6 +1338,26 @@ msgstr ""
 #: main/admin/metaboxes/product-prices-tab/product-prices-panel-options.php:38
 #: main/admin/settings-page/product-prices-section/product-prices-panel-options.php:37
 msgid "Controls product prices mode"
+msgstr ""
+
+#: main/admin/notices/notices-view-pro.php:2
+#: main/admin/notices/notices-view.php:2
+msgid "Hey, I noticed you having been using <strong>WooCommerce Catalog Mode - Pricing, Enquiry Forms & Promotions</strong>, that’s awesome! Could you please do me a favor and give it a 5-star rating to help us spread the word?"
+msgstr ""
+
+#: main/admin/notices/notices-view-pro.php:4
+#: main/admin/notices/notices-view.php:4
+msgid "Yes! You deserve it"
+msgstr ""
+
+#: main/admin/notices/notices-view-pro.php:5
+#: main/admin/notices/notices-view.php:5
+msgid "Nah, maybe later"
+msgstr ""
+
+#: main/admin/notices/notices-view-pro.php:6
+#: main/admin/notices/notices-view.php:6
+msgid "I already did"
 msgstr ""
 
 #: main/admin/product-filter-types/product-filter-types-authors.php:19

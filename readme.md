@@ -1,10 +1,10 @@
-=== WooCommerce Catalog Mode - Pricing, Enquiry Forms & Promotions ===
+=== WooCommerce Catalog Mode - Product Pricing, Enquiry Forms & Promotions ===
 Contributors: zendcrew, sundayfanz
 Donate link: 
 Tags: catalog, catalog mode, catalogue mode, enquiry form, remove add to cart, remove price, product pricing, promotions, countdown, countdown timer, badges, product badges, b2b, ecommerce, woocommerce
 Requires at least: 5.8
-Tested up to: 6.2
-Stable tag: 1.0.2
+Tested up to: 6.2.2
+Stable tag: 1.1
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -13,7 +13,7 @@ WooCommerce Catalog Mode, WooCommerce Product Pricing, WooCommerce Enquiry Forms
 
 == Description ==
 
-Use the [WooCommerce Catalog Mode â€“ Pricing, Enquiry Forms & Promotions](https://codecanyon.net/item/woocommerce-catalog-mode-pricing-enquiry-forms-promotions/43498179?ref=zendcrew) plugin to easily set up **catalog modes**,  **prices and marketing** strategies on your **WooCommerce** store.
+Use the [WooCommerce Catalog Mode - Product Pricing, Enquiry Forms & Promotions](https://codecanyon.net/item/woocommerce-catalog-mode-pricing-enquiry-forms-promotions/43498179?ref=zendcrew) plugin to easily set up **catalog modes**,  **prices and marketing** strategies on your **WooCommerce** store.
 
 The plugin provides options for removing shop functions (like **product prices**, the **add-to-cart button**, and the **cart** and **checkout** pages).
 
@@ -58,8 +58,12 @@ The plugin allows you to easily set up all module functions based on product rul
 
 == Changelog ==
 
+= 1.1 - 30/05/2023 =
+Tweaks - Minor tweaks
+Update - Updated framework
+
 = 1.0.2 - 25/04/2023 =
-Added Admin Notices
+Added - Added Admin Notices
 
 = 1.0 - 10/02/2023 =
 Initial Release
