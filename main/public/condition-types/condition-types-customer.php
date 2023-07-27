@@ -64,10 +64,6 @@ if ( !class_exists( 'WModes_Condition_Type_Customer' ) && !defined( 'WMODES_PREM
 
             $user_email = WModes_Customer_Util::get_user_email( $data );
 
-            if ( $user_email == '' ) {
-                return false;
-            }
-
             $rule_compare = $condition[ 'compare' ];
 
             return WModes_Validation_Util::validate_value_list( $user_email, $rule_user_emails, $rule_compare );
@@ -87,10 +83,6 @@ if ( !class_exists( 'WModes_Condition_Type_Customer' ) && !defined( 'WMODES_PREM
 
 
             $user_roles = WModes_Customer_Util::get_user_roles( $data );
-
-            if ( !count( $user_roles ) ) {
-                return false;
-            }
 
             $rule_compare = $condition[ 'compare' ];
 

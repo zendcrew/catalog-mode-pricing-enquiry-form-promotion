@@ -8,11 +8,13 @@ if ( !class_exists( 'WModes_Cart_Session' ) && !defined( 'WMODES_PREMIUM_ADDON' 
         private $cart_data;
         private $default_cart_data;
         private $cart;
+        private $current_user;
 
         private function __construct() {
 
             $this->cart_data = array();
             $this->default_cart_data = array();
+            $this->current_user = array();
 
 
             add_action( 'woocommerce_load_cart_from_session', array( $this, 'load_cart_from_session' ) );
@@ -35,6 +37,11 @@ if ( !class_exists( 'WModes_Cart_Session' ) && !defined( 'WMODES_PREMIUM_ADDON' 
             if ( !count( $this->cart_data ) ) {
 
                 return $this->get_default_cart_data();
+            }
+
+            if ( !isset( $this->cart_data[ 'customer' ] ) || !$this->cart_data[ 'customer' ] ) {
+
+                return $this->process_customer( $this->cart_data );
             }
 
             return $this->cart_data;
@@ -156,6 +163,11 @@ if ( !class_exists( 'WModes_Cart_Session' ) && !defined( 'WMODES_PREMIUM_ADDON' 
 
             $customer = WC()->session->get( 'customer', false );
 
+            if ( !$customer ) {
+
+                $customer = $this->get_current_user( false );
+            }
+
             if ( $customer ) {
 
                 $cart_data[ 'customer' ] = array(
@@ -180,6 +192,33 @@ if ( !class_exists( 'WModes_Cart_Session' ) && !defined( 'WMODES_PREMIUM_ADDON' 
             }
 
             return false;
+        }
+
+        private function get_current_user( $defualt ) {
+
+            if ( count( $this->current_user ) ) {
+
+                return $this->current_user;
+            }
+
+            $user_data = wp_get_current_user();
+
+            if ( !$user_data instanceof WP_User ) {
+
+                return $defualt;
+            }
+
+            if ( !$user_data->ID ) {
+
+                return $defualt;
+            }
+
+            $this->current_user = array(
+                'id' => $user_data->ID,
+                'email' => $user_data->get( 'user_email' )
+            );
+
+            return $this->current_user;
         }
 
     }

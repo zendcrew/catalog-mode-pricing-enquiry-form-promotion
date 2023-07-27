@@ -4,7 +4,7 @@ Donate link:
 Tags: catalog, catalog mode, catalogue mode, enquiry form, remove add to cart, remove price, product pricing, promotions, countdown, countdown timer, badges, product badges, b2b, ecommerce, woocommerce
 Requires at least: 5.8
 Tested up to: 6.2.2
-Stable tag: 1.1
+Stable tag: 1.1.2
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -58,12 +58,16 @@ The plugin allows you to easily set up all module functions based on product rul
 
 == Changelog ==
 
+= 1.1.2 - 24/07/2023 =
+[Update] - WooCommerce 7.9 &amp; HPOS update
+[Tweaks] - Minor tweaks
+
 = 1.1 - 30/05/2023 =
-Tweaks - Minor tweaks
-Update - Updated framework
+[Tweaks] - Minor tweaks
+[Update] - Updated framework
 
 = 1.0.2 - 25/04/2023 =
-Added - Added Admin Notices
+[New] - Added Admin Notices
 
 = 1.0 - 10/02/2023 =
-Initial Release
+[Release] - Initial Release

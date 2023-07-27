@@ -116,7 +116,7 @@ if ( !class_exists( 'WModes_Admin_Page' ) ) {
                     'title' => esc_html__( 'Catalog Mode - Pricing, Enquiry Forms & Promotions', 'wmodes-tdm' ),
                     'page_title' => esc_html__( 'Catalog Mode - Pricing, Enquiry Forms & Promotions', 'wmodes-tdm' ),
                     'icon' => 'dashicons-admin-generic',
-                    'priority' => '999',
+                    'priority' => 2,
                     'parent' => 'woocommerce',
                     'capability' => 'manage_woocommerce',
                 ),

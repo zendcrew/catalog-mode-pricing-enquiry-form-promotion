@@ -1,9 +1,13 @@
+= 1.1.2 - 24/07/2023 =
+[Update] - WooCommerce 7.9 &amp; HPOS update
+[Tweaks] - Minor tweaks
+
 = 1.1 - 30/05/2023 =
-Tweaks - Minor tweaks
-Update - Updated framework
+[Tweaks] - Minor tweaks
+[Update] - Updated framework
 
 = 1.0.2 - 25/04/2023 =
-Added - Added Admin Notices
+[New] - Added Admin Notices
 
 = 1.0 - 10/02/2023 =
-Initial Release
+[Release] - Initial Release
