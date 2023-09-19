@@ -384,7 +384,7 @@ if ( !class_exists( 'WModes_Admin_Page' ) ) {
                     'id' => 'wmds_get_premium',
                     'title' => esc_html__( 'Premium Version', 'wmodes-tdm' ),
                     'icon' => 'fa fa-file-text-o',
-                    'href' => esc_url( '#' ),
+                    'href' => esc_url( 'https://codecanyon.net/item/woocommerce-catalog-mode-pricing-enquiry-forms-promotions/43498179?ref=zendcrew' ),
                     'target' => '_blank',
                     'show_in' => 'both'
                 );

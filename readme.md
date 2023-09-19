@@ -3,8 +3,8 @@ Contributors: zendcrew, sundayfanz
 Donate link: 
 Tags: catalog, catalog mode, catalogue mode, enquiry form, remove add to cart, remove price, product pricing, promotions, countdown, countdown timer, badges, product badges, b2b, ecommerce, woocommerce
 Requires at least: 5.8
-Tested up to: 6.2.2
-Stable tag: 1.1.2
+Tested up to: 6.3
+Stable tag: 1.1.3
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -13,7 +13,7 @@ WooCommerce Catalog Mode, WooCommerce Product Pricing, WooCommerce Enquiry Forms
 
 == Description ==
 
-Use the [WooCommerce Catalog Mode - Product Pricing, Enquiry Forms & Promotions](https://codecanyon.net/item/woocommerce-catalog-mode-pricing-enquiry-forms-promotions/43498179?ref=zendcrew) plugin to easily set up **catalog modes**,  **prices and marketing** strategies on your **WooCommerce** store.
+Use the [WooCommerce Catalog Mode, Product Pricing, Enquiry Forms & Promotions](https://codecanyon.net/item/woocommerce-catalog-mode-pricing-enquiry-forms-promotions/43498179?ref=zendcrew) plugin to easily set up **catalog modes**,  **prices and marketing** strategies on your **WooCommerce** store.
 
 The plugin provides options for removing shop functions (like **product prices**, the **add-to-cart button**, and the **cart** and **checkout** pages).
 
@@ -58,7 +58,11 @@ The plugin allows you to easily set up all module functions based on product rul
 
 == Changelog ==
 
-= 1.1.2 - 24/07/2023 =
+= 1.1.3 - 19/09/2023 =
+[Check] - WooCommerce 8.0 compatibility check
+[Update] - Updated framework
+
+= 1.1.2 - 27/07/2023 =
 [Update] - WooCommerce 7.9 &amp; HPOS update
 [Tweaks] - Minor tweaks
 

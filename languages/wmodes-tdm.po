@@ -3,11 +3,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce Catalog Mode - Product Pricing, Enquiry "
-"Forms & Promotions 1.1\n"
+"Forms & Promotions 1.1.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/catalog-mode-"
 "pricing-enquiry-form-promotion\n"
-"POT-Creation-Date: 2023-05-30T06:16:55+02:00\n"
-"PO-Revision-Date: 2023-05-30 05:18+0100\n"
+"POT-Creation-Date: 2023-09-19T02:34:07+02:00\n"
+"PO-Revision-Date: 2023-09-19 01:35+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -42,7 +42,7 @@ msgstr ""
 msgid "https://codecanyon.net/user/zendcrew?ref=zendcrew"
 msgstr ""
 
-#: catalog-mode-pricing-enquiry-forms-promotions.php:63
+#: catalog-mode-pricing-enquiry-forms-promotions.php:77
 msgid ""
 "WooCommerce Catalog Mode - Pricing, Enquiry Forms & Promotions requires "
 "WooCommerce be installed and activated."
