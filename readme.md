@@ -3,8 +3,8 @@ Contributors: zendcrew, sundayfanz
 Donate link: 
 Tags: catalog, catalog mode, catalogue mode, enquiry form, remove add to cart, remove price, product pricing, promotions, countdown, countdown timer, badges, product badges, b2b, ecommerce, woocommerce
 Requires at least: 5.8
-Tested up to: 6.3
-Stable tag: 1.1.3
+Tested up to: 6.4
+Stable tag: 1.1.4
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -57,6 +57,10 @@ The plugin allows you to easily set up all module functions based on product rul
 6. WooCommerce Catalog Mode - Product Settings 2
 
 == Changelog ==
+
+= 1.1.4 - 06/11/2023 =
+[Update] - Updated framework
+[Check] - WooCommerce 8.2 compatibility check
 
 = 1.1.3 - 19/09/2023 =
 [Check] - WooCommerce 8.0 compatibility check
