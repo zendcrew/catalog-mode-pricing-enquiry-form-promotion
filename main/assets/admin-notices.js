@@ -1,11 +1,13 @@
- "use strict";
+"use strict";
 jQuery(document).ready(function($) {
 
     setTimeout(function() {
-        init_shipped_notice();
+
+        init_wmodes_notice();
+
     }, 50);
 
-    function init_shipped_notice() {
+    function init_wmodes_notice() {
 
         $('.wmodes-notice').each(function() {
 
@@ -38,6 +40,7 @@ jQuery(document).ready(function($) {
                         if (btn.hasClass('wmodes-btn-secondary')) {
 
                             event.preventDefault();
+
                             btn_is_wp = false;
 
                         }
@@ -47,10 +50,9 @@ jQuery(document).ready(function($) {
                         dismiss_notice_id: notice_id,
                         mayme_later: remind_me,
                     });
-
                     if (!btn_is_wp) {
 
-                        obj.animate({ height: '0px', opacity: 0 }, 300, 'swing', function() {
+                        obj.animate({height: '0px', opacity: 0}, 300, 'swing', function() {
 
                             obj.remove();
                         });
