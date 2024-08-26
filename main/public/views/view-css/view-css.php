@@ -99,6 +99,10 @@ if ( !class_exists( 'WModes_Views_CSS' ) && !defined( 'WMODES_PREMIUM_ADDON' ) )
             $css = $textblock_css->compose_css( $css, $options );
 
 
+            if ( has_filter( 'wmodes/compose-css' ) ) {
+                
+                $css = apply_filters( 'wmodes/compose-css', $css, $options );
+            }
 
             return $css;
         }

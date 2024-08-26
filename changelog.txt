@@ -1,3 +1,8 @@
+= 1.1.6 - 26/08/2024 =
+[Tweaks] - Minor tweaks
+[Check] - WordPress 6.6 compatibility check
+[Check] - WooCommerce 9.2 compatibility check
+
 = 1.1.5 - 08/04/2024 =
 [Update] - Updated framework
 [Check] - WordPress 6.5 compatibility check
