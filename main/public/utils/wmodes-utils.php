@@ -37,7 +37,7 @@ if ( !class_exists( 'WModes_Util' ) && !defined( 'WMODES_PREMIUM_ADDON' ) ) {
                     $product_ids[] = $row[ 'id' ];
                 }
 
-                set_transient( $sql_hash, $product_ids, MINUTE_IN_SECONDS + 30 );
+                set_transient( $sql_hash, $product_ids, MINUTE_IN_SECONDS * 30 );
             } catch ( Exception $ex ) {
                 return $product_ids;
             }
@@ -72,7 +72,7 @@ if ( !class_exists( 'WModes_Util' ) && !defined( 'WMODES_PREMIUM_ADDON' ) ) {
                     $term_ids[] = $row[ 'term_id' ];
                 }
 
-                set_transient( $sql_hash, $term_ids, MINUTE_IN_SECONDS + 30 );
+                set_transient( $sql_hash, $term_ids, MINUTE_IN_SECONDS * 30 );
             } catch ( Exception $ex ) {
                 return $term_ids;
             }

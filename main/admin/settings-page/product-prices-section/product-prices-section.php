@@ -137,6 +137,18 @@ if ( !class_exists( 'WModes_Admin_Product_Prices_Page' ) ) {
 
         public static function get_head_fields( $in_fields, $repeater_args ) {
 
+            $is_own_screen = false;
+
+            if ( $repeater_args[ 'screen' ] == 'option-page' && $repeater_args[ 'option_name' ] == WModes_Admin_Page::get_option_name() ) {
+
+                $is_own_screen = true;
+            }
+
+            if ( !$is_own_screen ) {
+
+                return $in_fields;
+            }
+
             $in_fields[] = array(
                 'id' => 'any_id',
                 'type' => 'group-field',

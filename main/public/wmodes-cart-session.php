@@ -51,7 +51,7 @@ if ( !class_exists( 'WModes_Cart_Session' ) && !defined( 'WMODES_PREMIUM_ADDON' 
 
             if ( !$this->is_checkout() ) {
 
-                $this->cart_data = WC()->session->get( 'wmodes_cart_data', $this->get_default_cart_data() );
+                $this->cart_data = $this->get_session( 'wmodes_cart_data', $this->get_default_cart_data() );
             }
         }
 
@@ -59,7 +59,7 @@ if ( !class_exists( 'WModes_Cart_Session' ) && !defined( 'WMODES_PREMIUM_ADDON' 
 
             if ( !$this->is_checkout() ) {
 
-                $this->cart_data = WC()->session->get( 'wmodes_cart_data', $this->get_default_cart_data() );
+                $this->cart_data = $this->get_session( 'wmodes_cart_data', $this->get_default_cart_data() );
             }
         }
 
@@ -67,7 +67,7 @@ if ( !class_exists( 'WModes_Cart_Session' ) && !defined( 'WMODES_PREMIUM_ADDON' 
 
             if ( !$cart || $cart->is_empty() ) {
 
-                WC()->session->set( 'wmodes_cart_data', $this->get_default_cart_data() );
+                $this->set_session( 'wmodes_cart_data', $this->get_default_cart_data() );
             }
         }
 
@@ -77,7 +77,7 @@ if ( !class_exists( 'WModes_Cart_Session' ) && !defined( 'WMODES_PREMIUM_ADDON' 
 
             $this->cart_data = $this->process_cart_data( array() );
 
-            WC()->session->set( 'wmodes_cart_data', $this->cart_data );
+            $this->set_session( 'wmodes_cart_data', $this->cart_data );
         }
 
         private function get_default_cart_data() {
@@ -161,7 +161,7 @@ if ( !class_exists( 'WModes_Cart_Session' ) && !defined( 'WMODES_PREMIUM_ADDON' 
 
             $cart_data[ 'customer' ] = array();
 
-            $customer = WC()->session->get( 'customer', false );
+            $customer = $this->get_session( 'customer', false );
 
             if ( !$customer ) {
 
@@ -219,6 +219,26 @@ if ( !class_exists( 'WModes_Cart_Session' ) && !defined( 'WMODES_PREMIUM_ADDON' 
             );
 
             return $this->current_user;
+        }
+
+        private function get_session( $key, $default = false ) {
+
+            if ( is_null( WC()->session ) ) {
+
+                return $default;
+            }
+
+            return WC()->session->get( $key, $default );
+        }
+
+        private function set_session( $key, $value ) {
+
+            if ( is_null( WC()->session ) ) {
+
+                return;
+            }
+
+            WC()->session->set( $key, $value );
         }
 
     }

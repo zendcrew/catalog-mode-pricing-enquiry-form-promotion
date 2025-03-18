@@ -135,23 +135,7 @@ if ( !class_exists( 'WModes_Pipeline_Query' ) && !defined( 'WMODES_PREMIUM_ADDON
 
         private function get_cache_key() {
 
-            $settings = $this->get_settings();
-
-            if ( !isset( $settings[ 'cache_parameters' ] ) || !is_array( $settings[ 'cache_parameters' ] ) ) {
-
-                return '';
-            }
-
-            return $this->get_cache_hash( $settings[ 'cache_parameters' ] );
-        }
-
-        private function get_cache_hash( $cache_parameters ) {
-
-            $cache_hash_data = array();
-
-           $cache_hash_data[ 'param' ] = apply_filters( 'wmodes/get-query-cache-parameter', false, '' );
-
-            return md5( wp_json_encode( $cache_hash_data ) );
+            return md5( 'wmodes' );
         }
 
         private function load_cache( $key ) {
@@ -193,12 +177,13 @@ if ( !class_exists( 'WModes_Pipeline_Query' ) && !defined( 'WMODES_PREMIUM_ADDON
                     'expiration' => $this->get_expiration( $duration )
                 );
 
-                WC()->session->set( $this->transient_id, $session_data );
+                $this->set_session( $this->transient_id, $session_data );
+            } else {
+
+                $transient_key = $this->get_transient_key( $key );
+
+                set_transient( $transient_key, $cache_data, $this->get_duration_in_seconds( $duration ) );
             }
-
-            $transient_key = $this->get_transient_key( $key );
-
-            set_transient( $transient_key, $cache_data, $this->get_expiration( $duration ) );
         }
 
         private function can_store_in_session() {
@@ -215,20 +200,22 @@ if ( !class_exists( 'WModes_Pipeline_Query' ) && !defined( 'WMODES_PREMIUM_ADDON
 
         private function get_expiration( $duration ) {
 
+            return current_time( 'U' ) + $this->get_duration_in_seconds( $duration );
+        }
+
+        private function get_duration_in_seconds( $duration ) {
+
             if ( !is_numeric( $duration ) ) {
 
-                $duration = 30;
+                return 30 * MINUTE_IN_SECONDS;
             }
 
+            if ( $duration <= 0 ) {
 
-            $total_seconds = 5;
-
-            if ( $duration > 0 ) {
-
-                $total_seconds = $duration * MINUTE_IN_SECONDS;
+                return MINUTE_IN_SECONDS + 5;
             }
 
-            return current_time( 'U' ) + $total_seconds;
+            return $duration * MINUTE_IN_SECONDS;
         }
 
         private function get_transient_key( $key ) {
@@ -243,7 +230,22 @@ if ( !class_exists( 'WModes_Pipeline_Query' ) && !defined( 'WMODES_PREMIUM_ADDON
 
         private function get_session( $key, $default ) {
 
+            if ( is_null( WC()->session ) ) {
+
+                return $default;
+            }
+
             return WC()->session->get( $key, $default );
+        }
+
+        private function set_session( $key, $value ) {
+
+            if ( is_null( WC()->session ) ) {
+
+                return;
+            }
+
+            WC()->session->set( $key, $value );
         }
 
         private function get_settings() {

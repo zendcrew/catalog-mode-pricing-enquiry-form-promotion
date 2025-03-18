@@ -4,7 +4,7 @@
  * Plugin Name: WooCommerce Catalog Mode - Product Pricing, Enquiry Forms & Promotions
  * Plugin URI: https://codecanyon.net/item/woocommerce-catalog-mode-pricing-enquiry-forms-promotions/43498179?ref=zendcrew
  * Description: An All-purpose WooCommerce catalog mode, product pricing and promotion toolkit.
- * Version: 1.1.6
+ * Version: 1.1.7
  * Author: zendcrew
  * Author URI: https://codecanyon.net/user/zendcrew?ref=zendcrew
  * Text Domain: wmodes-tdm
@@ -13,8 +13,10 @@
  * Requires PHP: 5.6
  * WC requires at least: 5.6
  * 
- * Tested up to: 6.6
- * WC tested up to: 9.2
+ * Tested up to: 6.7
+ * WC tested up to: 9.7
+ * 
+ * Requires Plugins: woocommerce
  */
 
 if ( !defined( 'ABSPATH' ) ) {
@@ -28,7 +30,7 @@ if ( is_admin() ) {
 
 if ( !defined( 'WMODES_VERSION' ) ) {
 
-    define( 'WMODES_VERSION', '1.1.6' );
+    define( 'WMODES_VERSION', '1.1.7' );
 }
 
 if ( !defined( 'WMODES_MAIN_FILE' ) ) {
@@ -46,6 +48,11 @@ if ( !class_exists( 'WModes_Init' ) ) {
 
             add_action( 'before_woocommerce_init', array( $this, 'before_woocommerce_init' ) );
 
+            add_action( 'init', array( $this, 'load_textdomain' ) );
+        }
+
+        public function load_textdomain() {
+
             load_plugin_textdomain( 'wmodes-tdm', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
         }
 
@@ -61,7 +68,7 @@ if ( !class_exists( 'WModes_Init' ) ) {
 
         public function before_woocommerce_init() {
 
-             // Check for HPOS
+            // Check for HPOS
             if ( !class_exists( \Automattic\WooCommerce\Utilities\FeaturesUtil::class ) ) {
 
                 return;
@@ -69,7 +76,6 @@ if ( !class_exists( 'WModes_Init' ) ) {
 
             // Adds support for HPOS
             \Automattic\WooCommerce\Utilities\FeaturesUtil::declare_compatibility( 'custom_order_tables', WMODES_MAIN_FILE, true );
-
         }
 
         public function missing_notice() {

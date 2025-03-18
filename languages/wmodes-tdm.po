@@ -49,7 +49,7 @@ msgstr ""
 msgid "https://codecanyon.net/user/zendcrew?ref=zendcrew"
 msgstr ""
 
-#: catalog-mode-pricing-enquiry-forms-promotions.php:77
+#: catalog-mode-pricing-enquiry-forms-promotions.php:83
 msgid "WooCommerce Catalog Mode - Pricing, Enquiry Forms & Promotions requires WooCommerce be installed and activated."
 msgstr ""
 
@@ -1285,17 +1285,17 @@ msgid "Controls pricing apply method"
 msgstr ""
 
 #: main/admin/metaboxes/product-prices-tab/product-prices-global.php:99
-#: main/admin/settings-page/product-prices-section/product-prices-section.php:174
+#: main/admin/settings-page/product-prices-section/product-prices-section.php:186
 msgid "Apply all valid product pricing"
 msgstr ""
 
 #: main/admin/metaboxes/product-prices-tab/product-prices-global.php:103
-#: main/admin/settings-page/product-prices-section/product-prices-section.php:178
+#: main/admin/settings-page/product-prices-section/product-prices-section.php:190
 msgid "Apply first valid product pricing (Premium)"
 msgstr ""
 
 #: main/admin/metaboxes/product-prices-tab/product-prices-global.php:104
-#: main/admin/settings-page/product-prices-section/product-prices-section.php:179
+#: main/admin/settings-page/product-prices-section/product-prices-section.php:191
 msgid "Apply last valid product pricing (Premium)"
 msgstr ""
 
@@ -2096,14 +2096,14 @@ msgstr ""
 
 #: main/admin/settings-page/catalog-mode-section/catalog-mode-section.php:137
 #: main/admin/settings-page/product-options-section/product-options-section.php:135
-#: main/admin/settings-page/product-prices-section/product-prices-section.php:160
+#: main/admin/settings-page/product-prices-section/product-prices-section.php:172
 #: main/admin/settings-page/settings-section/settings-sale-query.php:65
 msgid "Enable"
 msgstr ""
 
 #: main/admin/settings-page/catalog-mode-section/catalog-mode-section.php:138
 #: main/admin/settings-page/product-options-section/product-options-section.php:136
-#: main/admin/settings-page/product-prices-section/product-prices-section.php:161
+#: main/admin/settings-page/product-prices-section/product-prices-section.php:173
 msgid "Disable"
 msgstr ""
 
@@ -2177,23 +2177,23 @@ msgstr ""
 msgid "Controls product pricing apply method per product"
 msgstr ""
 
-#: main/admin/settings-page/product-prices-section/product-prices-section.php:184
+#: main/admin/settings-page/product-prices-section/product-prices-section.php:196
 msgid "Do not apply any product pricing"
 msgstr ""
 
-#: main/admin/settings-page/product-prices-section/product-prices-section.php:192
+#: main/admin/settings-page/product-prices-section/product-prices-section.php:204
 msgid "Apply this and other product pricing"
 msgstr ""
 
-#: main/admin/settings-page/product-prices-section/product-prices-section.php:196
+#: main/admin/settings-page/product-prices-section/product-prices-section.php:208
 msgid "Apply only this product pricing (Premium)"
 msgstr ""
 
-#: main/admin/settings-page/product-prices-section/product-prices-section.php:197
+#: main/admin/settings-page/product-prices-section/product-prices-section.php:209
 msgid "Apply if other product pricing are valid (Premium)"
 msgstr ""
 
-#: main/admin/settings-page/product-prices-section/product-prices-section.php:198
+#: main/admin/settings-page/product-prices-section/product-prices-section.php:210
 msgid "Apply if no other valid product pricing (Premium)"
 msgstr ""
 
