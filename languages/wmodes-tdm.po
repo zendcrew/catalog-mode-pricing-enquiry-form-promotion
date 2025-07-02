@@ -49,7 +49,7 @@ msgstr ""
 msgid "https://codecanyon.net/user/zendcrew?ref=zendcrew"
 msgstr ""
 
-#: catalog-mode-pricing-enquiry-forms-promotions.php:83
+#: catalog-mode-pricing-enquiry-forms-promotions.php:84
 msgid "WooCommerce Catalog Mode - Pricing, Enquiry Forms & Promotions requires WooCommerce be installed and activated."
 msgstr ""
 
