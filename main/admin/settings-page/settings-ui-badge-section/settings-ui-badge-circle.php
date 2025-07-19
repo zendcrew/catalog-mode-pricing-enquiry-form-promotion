@@ -1,5 +1,9 @@
 <?php
 
+if ( !defined( 'ABSPATH' ) ) {
+    exit;
+}
+
 if ( !class_exists( 'Reon' ) ) {
     return;
 }
@@ -37,8 +41,8 @@ if ( !class_exists( 'WModes_Admin_Settings_Styles_Badge_Circle_Settings' ) && !d
                 'type' => 'paneltitle',
                 'full_width' => true,
                 'center_head' => true,
-                'title' => esc_html__( 'Products Badge - Circle Designs', 'wmodes-tdm' ),
-                'desc' => esc_html__( 'Use these settings to create and manage circle product badge designs', 'wmodes-tdm' ),
+                'title' => esc_html__( 'Products Badge - Circle Designs', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                'desc' => esc_html__( 'Use these settings to create and manage circle product badge designs', 'catalog-mode-pricing-enquiry-forms-promotions' ),
             );
 
             $in_fields[] = array(

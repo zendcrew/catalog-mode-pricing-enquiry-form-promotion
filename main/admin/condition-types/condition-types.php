@@ -1,5 +1,9 @@
 <?php
 
+if ( !defined( 'ABSPATH' ) ) {
+    exit;
+}
+
 if ( !class_exists( 'WModes_Admin_Condition_Types' ) ) {
 
     require_once (dirname( __FILE__ ) . '/condition-types-customer.php');

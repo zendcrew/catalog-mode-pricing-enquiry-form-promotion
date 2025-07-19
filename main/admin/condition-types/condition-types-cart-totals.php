@@ -1,5 +1,9 @@
 <?php
 
+if ( !defined( 'ABSPATH' ) ) {
+    exit;
+}
+
 if ( !class_exists( 'WModes_Admin_Condition_Type_Cart_Totals' ) && !defined( 'WMODES_PREMIUM_ADDON' ) ) {
 
     class WModes_Admin_Condition_Type_Cart_Totals {
@@ -15,15 +19,15 @@ if ( !class_exists( 'WModes_Admin_Condition_Type_Cart_Totals' ) && !defined( 'WM
 
             $unit = get_option( 'woocommerce_weight_unit' );
 
-            $in_groups[ 'cart_totals' ] = sprintf( esc_html__( 'Cart Totals', 'wmodes-tdm' ), $unit );
+            $in_groups[ 'cart_totals' ] = sprintf( esc_html__( 'Cart Totals', 'catalog-mode-pricing-enquiry-forms-promotions' ), $unit );
 
             return $in_groups;
         }
 
         public static function get_conditions( $in_list, $args ) {
 
-            $in_list[ 'prem_1' ] = esc_html__( 'Subtotals Including Tax (Premium)', 'wmodes-tdm' );
-            $in_list[ 'prem_2' ] = esc_html__( 'Subtotals Excluding Tax (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_1' ] = esc_html__( 'Subtotals Including Tax (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' );
+            $in_list[ 'prem_2' ] = esc_html__( 'Subtotals Excluding Tax (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' );
 
             return $in_list;
         }

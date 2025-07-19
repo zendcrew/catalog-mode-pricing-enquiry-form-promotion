@@ -1,5 +1,9 @@
 <?php
 
+if ( !defined( 'ABSPATH' ) ) {
+    exit;
+}
+
 if ( !class_exists( 'Reon' ) ) {
     return;
 }
@@ -41,8 +45,8 @@ if ( !class_exists( 'WModes_Admin_Custom_CSS_Settings' ) && !defined( 'WMODES_PR
                 'type' => 'paneltitle',
                 'full_width' => true,
                 'center_head' => true,
-                'title' => esc_html__( 'Style Sheet &amp; Font Icons', 'wmodes-tdm' ),
-                'desc' => esc_html__( 'Use these settings to control the cascaded style sheet (CSS) and font icons', 'wmodes-tdm' ),
+                'title' => esc_html__( 'Style Sheet &amp; Font Icons', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                'desc' => esc_html__( 'Use these settings to control the cascaded style sheet (CSS) and font icons', 'catalog-mode-pricing-enquiry-forms-promotions' ),
             );
 
             $in_fields[] = array(
@@ -72,12 +76,12 @@ if ( !class_exists( 'WModes_Admin_Custom_CSS_Settings' ) && !defined( 'WMODES_PR
                 'id' => 'use_external_css',
                 'type' => 'select2',
                 'column_size' => 1,
-                'column_title' => esc_html__( 'Use External CSS', 'wmodes-tdm' ),
-                'tooltip' => esc_html__( 'Determines whether or no to use external css', 'wmodes-tdm' ),
+                'column_title' => esc_html__( 'Use External CSS', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                'tooltip' => esc_html__( 'Determines whether or no to use external css', 'catalog-mode-pricing-enquiry-forms-promotions' ),
                 'default' => 'no',
                 'options' => array(
-                    'yes' => esc_html__( 'Yes', 'wmodes-tdm' ),
-                    'no' => esc_html__( 'No', 'wmodes-tdm' ),
+                    'yes' => esc_html__( 'Yes', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                    'no' => esc_html__( 'No', 'catalog-mode-pricing-enquiry-forms-promotions' ),
                 ),
                 'width' => '100%',
             );
@@ -86,8 +90,8 @@ if ( !class_exists( 'WModes_Admin_Custom_CSS_Settings' ) && !defined( 'WMODES_PR
                 'id' => 'is_any',
                 'type' => 'textblock',
                 'column_size' => 1,
-                'column_title' => esc_html__( 'Include Font Awesome Icons', 'wmodes-tdm' ),
-                'tooltip' => esc_html__( 'Determines or no the font awesome icon should be included on the front-end pages', 'wmodes-tdm' ),
+                'column_title' => esc_html__( 'Include Font Awesome Icons', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                'tooltip' => esc_html__( 'Determines or no the font awesome icon should be included on the front-end pages', 'catalog-mode-pricing-enquiry-forms-promotions' ),
                 'show_box' => true,
                 'text' => WModes_Admin_Page::get_premium_messages( 'short' ),
                 'width' => '100%',
@@ -102,10 +106,10 @@ if ( !class_exists( 'WModes_Admin_Custom_CSS_Settings' ) && !defined( 'WMODES_PR
                 'id' => 'custom_css',
                 'type' => 'textarea',
                 'column_size' => 1,
-                'column_title' => esc_html__( 'Custom CSS', 'wmodes-tdm' ),
-                'tooltip' => esc_html__( "Adds additional custom stylesheet to the plugin's components", 'wmodes-tdm' ),
+                'column_title' => esc_html__( 'Custom CSS', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                'tooltip' => esc_html__( "Adds additional custom stylesheet to the plugin's components", 'catalog-mode-pricing-enquiry-forms-promotions' ),
                 'default' => '',
-                'placeholder' => esc_html__( 'Type here...', 'wmodes-tdm' ),
+                'placeholder' => esc_html__( 'Type here...', 'catalog-mode-pricing-enquiry-forms-promotions' ),
                 'rows' => 5,
                 'width' => '100%',
             );

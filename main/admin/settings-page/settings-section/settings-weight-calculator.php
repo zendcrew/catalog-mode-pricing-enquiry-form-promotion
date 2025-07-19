@@ -1,5 +1,9 @@
 <?php
 
+if ( !defined( 'ABSPATH' ) ) {
+    exit;
+}
+
 if ( !class_exists( 'Reon' ) ) {
     return;
 }
@@ -37,8 +41,8 @@ if ( !class_exists( 'WModes_Admin_Weight_Calc_Settings' ) && !defined( 'WMODES_P
                 'type' => 'paneltitle',
                 'full_width' => true,
                 'center_head' => true,
-                'title' => esc_html__( 'Dimentional Weight Calculation', 'wmodes-tdm' ),
-                'desc' => esc_html__( 'Use these settings to control how item weights should be calculated', 'wmodes-tdm' ),
+                'title' => esc_html__( 'Dimentional Weight Calculation', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                'desc' => esc_html__( 'Use these settings to control how item weights should be calculated', 'catalog-mode-pricing-enquiry-forms-promotions' ),
             );
 
             $in_fields[] = array(

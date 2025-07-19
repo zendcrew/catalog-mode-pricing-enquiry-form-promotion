@@ -1,5 +1,9 @@
 <?php
 
+if ( !defined( 'ABSPATH' ) ) {
+    exit;
+}
+
 if ( !class_exists( 'Reon' ) ) {
     return;
 }
@@ -17,18 +21,18 @@ if ( !class_exists( 'WModes_Admin_Condition_Type_Purchase_History' ) && !defined
 
         public static function get_groups( $in_groups, $args ) {
 
-            $in_groups[ 'purchase_history' ] = esc_html__( 'Purchase History', 'wmodes-tdm' );
+            $in_groups[ 'purchase_history' ] = esc_html__( 'Purchase History', 'catalog-mode-pricing-enquiry-forms-promotions' );
 
             return $in_groups;
         }
 
         public static function get_conditions( $in_list, $args ) {
 
-            $in_list[ 'prem_1' ] = esc_html__( 'Purchased Products (Premium)', 'wmodes-tdm' );
-            $in_list[ 'prem_2' ] = esc_html__( 'Purchased Variations (Premium)', 'wmodes-tdm' );
-            $in_list[ 'prem_3' ] = esc_html__( 'Purchased Categories (Premium)', 'wmodes-tdm' );
-            $in_list[ 'prem_4' ] = esc_html__( 'Purchased Tags (Premium)', 'wmodes-tdm' );
-            $in_list[ 'prem_5' ] = esc_html__( 'Purchased Attributes (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_1' ] = esc_html__( 'Purchased Products (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' );
+            $in_list[ 'prem_2' ] = esc_html__( 'Purchased Variations (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' );
+            $in_list[ 'prem_3' ] = esc_html__( 'Purchased Categories (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' );
+            $in_list[ 'prem_4' ] = esc_html__( 'Purchased Tags (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' );
+            $in_list[ 'prem_5' ] = esc_html__( 'Purchased Attributes (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' );
 
             return $in_list;
         }

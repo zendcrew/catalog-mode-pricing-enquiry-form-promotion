@@ -1,5 +1,9 @@
 <?php
 
+if ( !defined( 'ABSPATH' ) ) {
+    exit;
+}
+
 if ( !class_exists( 'Reon' ) ) {
     return;
 }
@@ -17,14 +21,14 @@ if ( !class_exists( 'WModes_Admin_Condition_Type_Billing' ) && !defined( 'WMODES
 
         public static function get_groups( $in_groups, $args ) {
 
-            $in_groups[ 'billing' ] = esc_html__( 'Billing', 'wmodes-tdm' );
+            $in_groups[ 'billing' ] = esc_html__( 'Billing', 'catalog-mode-pricing-enquiry-forms-promotions' );
 
             return $in_groups;
         }
 
         public static function get_conditions( $in_list, $args ) {
 
-            $in_list[ 'prem_1' ] = esc_html__( 'Payment Methods (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_1' ] = esc_html__( 'Payment Methods (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' );
 
 
             return $in_list;

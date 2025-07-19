@@ -1,5 +1,9 @@
 <?php
 
+if ( !defined( 'ABSPATH' ) ) {
+    exit;
+}
+
 if ( !class_exists( 'Reon' ) ) {
     return;
 }
@@ -18,7 +22,7 @@ if ( !class_exists( 'WModes_Admin_Product_Filter_Type_Weights' ) && !defined( 'W
 
             $unit = get_option( 'woocommerce_weight_unit' );
 
-            $in_groups[ 'weights' ] = sprintf( esc_html__( 'Product Weights', 'wmodes-tdm' ), $unit );
+            $in_groups[ 'weights' ] = sprintf( esc_html__( 'Product Weights', 'catalog-mode-pricing-enquiry-forms-promotions' ), $unit );
 
             return $in_groups;
         }
@@ -27,8 +31,10 @@ if ( !class_exists( 'WModes_Admin_Product_Filter_Type_Weights' ) && !defined( 'W
 
             $unit = get_option( 'woocommerce_weight_unit' );
 
-            $in_list[ 'prem_1' ] = sprintf( esc_html__( 'Product Weight - Weight (%s) (Premium)', 'wmodes-tdm' ), $unit );
-            $in_list[ 'prem_2' ] = sprintf( esc_html__( 'Product Weight - Weight Calculator (%s) (Premium)', 'wmodes-tdm' ), $unit );
+            /* translators: 1: weight unit */
+            $in_list[ 'prem_1' ] = sprintf( esc_html__( 'Product Weight - Weight (%s) (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' ), $unit );
+            /* translators: 1: weight unit */
+            $in_list[ 'prem_2' ] = sprintf( esc_html__( 'Product Weight - Weight Calculator (%s) (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' ), $unit );
 
             return $in_list;
         }

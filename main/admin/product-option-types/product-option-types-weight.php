@@ -1,5 +1,9 @@
 <?php
 
+if ( !defined( 'ABSPATH' ) ) {
+    exit;
+}
+
 if ( !class_exists( 'Reon' ) ) {
     return;
 }
@@ -20,7 +24,7 @@ if ( !class_exists( 'WModes_Admin_Product_Option_Type_Weight' ) && !defined( 'WM
         public static function get_types( $in_options, $args = array() ) {
 
             $in_options[ 'prem_5' ] = array(
-                'title' => esc_html__( 'Dimentional Weight (Premium)', 'wmodes-tdm' ),
+                'title' => esc_html__( 'Dimentional Weight (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' ),
             );
 
             return $in_options;

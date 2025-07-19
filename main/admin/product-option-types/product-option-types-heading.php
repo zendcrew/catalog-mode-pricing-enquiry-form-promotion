@@ -4,6 +4,10 @@ if ( !defined( 'ABSPATH' ) ) {
     exit;
 }
 
+if ( !class_exists( 'Reon' ) ) {
+    return;
+}
+
 if ( !class_exists( 'WModes_Admin_Product_Option_Type_Heading' ) && !defined( 'WMODES_PREMIUM_ADDON' ) ) {
 
     class WModes_Admin_Product_Option_Type_Heading {
@@ -19,7 +23,7 @@ if ( !class_exists( 'WModes_Admin_Product_Option_Type_Heading' ) && !defined( 'W
         public static function get_types( $in_options, $args = array() ) {
 
             $in_options[ 'prem_17' ] = array(
-                'title' => esc_html__( 'Heading (Premium)', 'wmodes-tdm' ),
+                'title' => esc_html__( 'Heading (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' ),
             );
 
             return $in_options;

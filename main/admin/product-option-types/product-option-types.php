@@ -1,5 +1,9 @@
 <?php
 
+if ( !defined( 'ABSPATH' ) ) {
+    exit;
+}
+
 if ( !class_exists( 'Reon' ) ) {
     return;
 }
@@ -64,16 +68,16 @@ if ( !class_exists( 'WModes_Admin_Product_Option_Types' ) ) {
         public static function get_shop_loop_types( $args ) {
 
             $shop_loop_types = array(
-                'main' => esc_html__( 'Main Shop &amp; Archive Loops', 'wmodes-tdm' ),
-                'widgets' => esc_html__( 'Widget Loops', 'wmodes-tdm' ),
-                'shortcode' => esc_html__( 'Shortcode Loops', 'wmodes-tdm' ),
+                'main' => esc_html__( 'Main Shop &amp; Archive Loops', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                'widgets' => esc_html__( 'Widget Loops', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                'shortcode' => esc_html__( 'Shortcode Loops', 'catalog-mode-pricing-enquiry-forms-promotions' ),
             );
 
             if ( !defined( 'WMODES_PREMIUM_ADDON' ) ) {
 
-                $shop_loop_types[ 'prem_1' ] = esc_html__( 'Related Products Loops', 'wmodes-tdm' );
-                $shop_loop_types[ 'prem_2' ] = esc_html__( 'Up-Sells Loops', 'wmodes-tdm' );
-                $shop_loop_types[ 'prem_3' ] = esc_html__( 'Cart Collaterals Loops', 'wmodes-tdm' );
+                $shop_loop_types[ 'prem_1' ] = esc_html__( 'Related Products Loops', 'catalog-mode-pricing-enquiry-forms-promotions' );
+                $shop_loop_types[ 'prem_2' ] = esc_html__( 'Up-Sells Loops', 'catalog-mode-pricing-enquiry-forms-promotions' );
+                $shop_loop_types[ 'prem_3' ] = esc_html__( 'Cart Collaterals Loops', 'catalog-mode-pricing-enquiry-forms-promotions' );
             }
 
             return apply_filters( 'wmodes-admin/product-options/get-shop-loop-types', $shop_loop_types, $args );

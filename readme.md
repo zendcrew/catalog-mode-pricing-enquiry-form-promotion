@@ -1,19 +1,19 @@
-=== WooCommerce Catalog Mode - Product Pricing, Enquiry Forms & Promotions ===
+=== wModes - Catalog Mode, Product Pricing, Enquiry Forms & Promotions | for WooCommerce ===
 Contributors: zendcrew, sundayfanz
 Donate link: 
-Tags: catalog, catalog mode, catalogue mode, enquiry form, remove add to cart, remove price, product pricing, promotions, countdown, countdown timer, badges, product badges, b2b, ecommerce, woocommerce
+Tags: catalog, catalog mode, catalogue mode, enquiry form, remove add to cart
 Requires at least: 5.8
 Tested up to: 6.8
-Stable tag: 1.1.8
+Stable tag: 1.2.1
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-WooCommerce Catalog Mode, WooCommerce Product Pricing, WooCommerce Enquiry Forms, WooCommerce Promotions
+Advanced Catalog Mode, Product Pricing, Enquiry Forms & Promotions for WooCommerce
 
 == Description ==
 
-Use the [WooCommerce Catalog Mode, Product Pricing, Enquiry Forms & Promotions](https://codecanyon.net/item/woocommerce-catalog-mode-pricing-enquiry-forms-promotions/43498179?ref=zendcrew) plugin to easily set up **catalog modes**,  **prices and marketing** strategies on your **WooCommerce** store.
+Use the [wModes - Catalog Mode, Product Pricing, Enquiry Forms & Promotions](https://codecanyon.net/item/woocommerce-catalog-mode-pricing-enquiry-forms-promotions/43498179?ref=zendcrew) plugin to easily set up **catalog modes**,  **prices and marketing** strategies on your **WooCommerce** store.
 
 The plugin provides options for removing shop functions (like **product prices**, the **add-to-cart button**, and the **cart** and **checkout** pages).
 
@@ -49,14 +49,24 @@ The plugin allows you to easily set up all module functions based on product rul
 
 
 == Screenshots ==
-1. WooCommerce Catalog Mode - Catalog Mode Settings 1
-2. WooCommerce Catalog Mode - Catalog Mode Settings 2
-3. WooCommerce Catalog Mode - Product Pricing 1
-4. WooCommerce Catalog Mode - Product Pricing 2
-5. WooCommerce Catalog Mode - Product Settings 1
-6. WooCommerce Catalog Mode - Product Settings 2
+1. wModes - Catalog Mode, Product Pricing, Enquiry Forms & Promotions | for WooCommerce - Catalog Mode Settings 1
+2. wModes - Catalog Mode, Product Pricing, Enquiry Forms & Promotions | for WooCommerce - Catalog Mode Settings 2
+3. wModes - Catalog Mode, Product Pricing, Enquiry Forms & Promotions | for WooCommerce - Product Pricing 1
+4. wModes - Catalog Mode, Product Pricing, Enquiry Forms & Promotions | for WooCommerce - Product Pricing 2
+5. wModes - Catalog Mode, Product Pricing, Enquiry Forms & Promotions | for WooCommerce - Product Settings 1
+6. wModes - Catalog Mode, Product Pricing, Enquiry Forms & Promotions | for WooCommerce - Product Settings 2
 
 == Changelog ==
+
+= 1.2.1 - 18/07/2025 =
+[Update] - Updated Framework
+[Check] - Full security check using Plugin Check (PCP)
+
+= 1.2 - 18/07/2025 =
+[Update] - Updated Framework
+[Tweaks] - Changed Plugin name and banner
+[Check] - WordPress 6.8 compatibility check
+[Check] - Full security check using Plugin Check (PCP)
 
 = 1.1.8 - 01/07/2025 =
 [Update] - Updated documentation links

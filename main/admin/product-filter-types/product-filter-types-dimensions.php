@@ -1,5 +1,9 @@
 <?php
 
+if ( !defined( 'ABSPATH' ) ) {
+    exit;
+}
+
 if ( !class_exists( 'Reon' ) ) {
     return;
 }
@@ -18,7 +22,8 @@ if ( !class_exists( 'WModes_Admin_Product_Filter_Type_Dimensions' ) && !defined(
 
             $dim_unit = get_option( 'woocommerce_dimension_unit' );
 
-            $in_groups[ 'dimensions' ] = sprintf( esc_html__( 'Product Dimensions (%s)', 'wmodes-tdm' ), $dim_unit );
+            /* translators: 1: dimensions unit */
+            $in_groups[ 'dimensions' ] = sprintf( esc_html__( 'Product Dimensions (%s)', 'catalog-mode-pricing-enquiry-forms-promotions' ), $dim_unit );
 
             return $in_groups;
         }
@@ -27,11 +32,16 @@ if ( !class_exists( 'WModes_Admin_Product_Filter_Type_Dimensions' ) && !defined(
 
             $dim_unit = get_option( 'woocommerce_dimension_unit' );
 
-            $in_list[ 'prem_1' ] = sprintf( esc_html__( 'Product Length (%s) (Premium)', 'wmodes-tdm' ), $dim_unit );
-            $in_list[ 'prem_2' ] = sprintf( esc_html__( 'Product Width (%s) (Premium)', 'wmodes-tdm' ), $dim_unit );
-            $in_list[ 'prem_3' ] = sprintf( esc_html__( 'Product Height (%s) (Premium)', 'wmodes-tdm' ), $dim_unit );
-            $in_list[ 'prem_4' ] = sprintf( esc_html__( 'Product Surface Area (square %s) (Premium)', 'wmodes-tdm' ), $dim_unit );
-            $in_list[ 'prem_5' ] = sprintf( esc_html__( 'Product Volume (cubic %s) (Premium)', 'wmodes-tdm' ), $dim_unit );
+            /* translators: 1: dimensions unit */
+            $in_list[ 'prem_1' ] = sprintf( esc_html__( 'Product Length (%s) (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' ), $dim_unit );
+            /* translators: 1: dimensions unit */
+            $in_list[ 'prem_2' ] = sprintf( esc_html__( 'Product Width (%s) (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' ), $dim_unit );
+            /* translators: 1: dimensions unit */
+            $in_list[ 'prem_3' ] = sprintf( esc_html__( 'Product Height (%s) (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' ), $dim_unit );
+            /* translators: 1: dimensions unit */
+            $in_list[ 'prem_4' ] = sprintf( esc_html__( 'Product Surface Area (square %s) (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' ), $dim_unit );
+            /* translators: 1: dimensions unit */
+            $in_list[ 'prem_5' ] = sprintf( esc_html__( 'Product Volume (cubic %s) (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' ), $dim_unit );
 
             return $in_list;
         }

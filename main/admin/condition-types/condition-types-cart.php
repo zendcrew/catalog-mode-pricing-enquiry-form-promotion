@@ -1,5 +1,9 @@
 <?php
 
+if ( !defined( 'ABSPATH' ) ) {
+    exit;
+}
+
 if ( !class_exists( 'Reon' ) ) {
     return;
 }
@@ -19,16 +23,16 @@ if ( !class_exists( 'WModes_Admin_Condition_Type_Cart' ) && !defined( 'WMODES_PR
 
         public static function get_groups( $in_groups, $args ) {
 
-            $in_groups[ 'cart' ] = esc_html__( 'Cart', 'wmodes-tdm' );
+            $in_groups[ 'cart' ] = esc_html__( 'Cart', 'catalog-mode-pricing-enquiry-forms-promotions' );
 
             return $in_groups;
         }
 
         public static function get_conditions( $in_list, $args ) {
 
-            $in_list[ 'prem_1' ] = esc_html__( 'Cart Total Quantity (Premium)', 'wmodes-tdm' );
-            $in_list[ 'cart_line_count' ] = esc_html__( 'Number Of Cart Items', 'wmodes-tdm' );
-            $in_list[ 'prem_2' ] = esc_html__( 'Applied Coupons (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_1' ] = esc_html__( 'Cart Total Quantity (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' );
+            $in_list[ 'cart_line_count' ] = esc_html__( 'Number Of Cart Items', 'catalog-mode-pricing-enquiry-forms-promotions' );
+            $in_list[ 'prem_2' ] = esc_html__( 'Applied Coupons (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' );
 
             return $in_list;
         }
@@ -41,13 +45,13 @@ if ( !class_exists( 'WModes_Admin_Condition_Type_Cart' ) && !defined( 'WMODES_PR
                 'disabled_list_filter' => 'wmodes-admin/get-disabled-list',
                 'default' => '>=',
                 'options' => array(
-                    'prem_1' => esc_html__( 'Between (Premium)', 'wmodes-tdm' ),
-                    '>=' => esc_html__( 'More than or equal to', 'wmodes-tdm' ),
-                    '>' => esc_html__( 'More than', 'wmodes-tdm' ),
-                    '<=' => esc_html__( 'Less than or equal to', 'wmodes-tdm' ),
-                    '<' => esc_html__( 'Less than', 'wmodes-tdm' ),
-                    'prem_2' => esc_html__( 'Equal to (Premium)', 'wmodes-tdm' ),
-                    'prem_3' => esc_html__( 'Not equal to (Premium)', 'wmodes-tdm' ),
+                    'prem_1' => esc_html__( 'Between (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                    '>=' => esc_html__( 'More than or equal to', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                    '>' => esc_html__( 'More than', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                    '<=' => esc_html__( 'Less than or equal to', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                    '<' => esc_html__( 'Less than', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                    'prem_2' => esc_html__( 'Equal to (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                    'prem_3' => esc_html__( 'Not equal to (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' ),
                 ),
                 'width' => '99%',
                 'box_width' => '44%',
@@ -58,7 +62,7 @@ if ( !class_exists( 'WModes_Admin_Condition_Type_Cart' ) && !defined( 'WMODES_PR
                 'type' => 'textbox',
                 'input_type' => 'number',
                 'default' => '0',
-                'placeholder' => esc_html__( '0', 'wmodes-tdm' ),
+                'placeholder' => esc_html__( '0', 'catalog-mode-pricing-enquiry-forms-promotions' ),
                 'width' => '100%',
                 'box_width' => '56%',
                 'attributes' => array(

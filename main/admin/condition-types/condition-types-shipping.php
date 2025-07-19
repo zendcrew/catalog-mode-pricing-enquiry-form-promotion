@@ -1,5 +1,9 @@
 <?php
 
+if ( !defined( 'ABSPATH' ) ) {
+    exit;
+}
+
 if ( !class_exists( 'Reon' ) ) {
     return;
 }
@@ -17,17 +21,17 @@ if ( !class_exists( 'WModes_Admin_Condition_Type_Shipping' ) && !defined( 'WMODE
 
         public static function get_groups( $in_groups, $args ) {
 
-            $in_groups[ 'shipping' ] = esc_html__( 'Shipping', 'wmodes-tdm' );
+            $in_groups[ 'shipping' ] = esc_html__( 'Shipping', 'catalog-mode-pricing-enquiry-forms-promotions' );
 
             return $in_groups;
         }
 
         public static function get_conditions( $in_list, $args ) {
 
-            $in_list[ 'prem_1' ] = esc_html__( 'Needs Shipping (Premium)', 'wmodes-tdm' );
-            $in_list[ 'prem_2' ] = esc_html__( 'Shipping Zones (Premium)', 'wmodes-tdm' );
-            $in_list[ 'prem_3' ] = esc_html__( 'Shipping Methods (Premium)', 'wmodes-tdm' );
-            $in_list[ 'prem_4' ] = esc_html__( 'Shipping Rates (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_1' ] = esc_html__( 'Needs Shipping (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' );
+            $in_list[ 'prem_2' ] = esc_html__( 'Shipping Zones (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' );
+            $in_list[ 'prem_3' ] = esc_html__( 'Shipping Methods (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' );
+            $in_list[ 'prem_4' ] = esc_html__( 'Shipping Rates (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' );
 
 
             return $in_list;

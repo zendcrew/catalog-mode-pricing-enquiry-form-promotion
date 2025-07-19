@@ -1,5 +1,9 @@
 <?php
 
+if ( !defined( 'ABSPATH' ) ) {
+    exit;
+}
+
 if ( !class_exists( 'Reon' ) ) {
     return;
 }
@@ -23,7 +27,7 @@ if ( !class_exists( 'WModes_Admin_Catalog_Mode_Types_Cart' ) && !defined( 'WMODE
             }
 
             $in_options[ 'cart' ] = array(
-                'title' => esc_html__( 'Cart Page Settings', 'wmodes-tdm' ),
+                'title' => esc_html__( 'Cart Page Settings', 'catalog-mode-pricing-enquiry-forms-promotions' ),
             );
 
             return $in_options;
@@ -87,12 +91,12 @@ if ( !class_exists( 'WModes_Admin_Catalog_Mode_Types_Cart' ) && !defined( 'WMODE
                 'id' => 'restrict_cart',
                 'type' => 'select2',
                 'column_size' => 1,
-                'column_title' => esc_html__( 'Restrict Access', 'wmodes-tdm' ),
-                'tooltip' => esc_html__( 'Restricts access to "Cart" page and disable all cart functions', 'wmodes-tdm' ),
+                'column_title' => esc_html__( 'Restrict Access', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                'tooltip' => esc_html__( 'Restricts access to "Cart" page and disable all cart functions', 'catalog-mode-pricing-enquiry-forms-promotions' ),
                 'default' => 'no',
                 'options' => array(
-                    'yes' => esc_html__( 'Yes', 'wmodes-tdm' ),
-                    'no' => esc_html__( 'No', 'wmodes-tdm' ),
+                    'yes' => esc_html__( 'Yes', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                    'no' => esc_html__( 'No', 'catalog-mode-pricing-enquiry-forms-promotions' ),
                 ),
                 'width' => '100%',
                 'fold_id' => 'restrict_cart'
@@ -102,8 +106,8 @@ if ( !class_exists( 'WModes_Admin_Catalog_Mode_Types_Cart' ) && !defined( 'WMODE
                 'id' => 'is_any',
                 'type' => 'textblock',
                 'column_size' => 1,
-                'column_title' => esc_html__( 'Restriction Mode', 'wmodes-tdm' ),
-                'tooltip' => esc_html__( 'Determines how the "Cart" page should be restricted', 'wmodes-tdm' ),
+                'column_title' => esc_html__( 'Restriction Mode', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                'tooltip' => esc_html__( 'Determines how the "Cart" page should be restricted', 'catalog-mode-pricing-enquiry-forms-promotions' ),
                 'show_box' => true,
                 'text' => WModes_Admin_Page::get_premium_messages( 'short' ),
                 'width' => '100%',
@@ -120,8 +124,8 @@ if ( !class_exists( 'WModes_Admin_Catalog_Mode_Types_Cart' ) && !defined( 'WMODE
                 'id' => 'is_any',
                 'type' => 'textblock',
                 'column_size' => 1,
-                'column_title' => esc_html__( 'Remove Subtotals', 'wmodes-tdm' ),
-                'tooltip' => esc_html__( 'Disables subtotals on "Cart" page', 'wmodes-tdm' ),
+                'column_title' => esc_html__( 'Remove Subtotals', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                'tooltip' => esc_html__( 'Disables subtotals on "Cart" page', 'catalog-mode-pricing-enquiry-forms-promotions' ),
                 'show_box' => true,
                 'text' => WModes_Admin_Page::get_premium_messages( 'short' ),
                 'width' => '100%',
@@ -138,8 +142,8 @@ if ( !class_exists( 'WModes_Admin_Catalog_Mode_Types_Cart' ) && !defined( 'WMODE
                 'id' => 'is_any',
                 'type' => 'textblock',
                 'column_size' => 1,
-                'column_title' => esc_html__( 'Remove Cross Sells', 'wmodes-tdm' ),
-                'tooltip' => esc_html__( 'Disables "Cross Sells" products on "Cart" page', 'wmodes-tdm' ),
+                'column_title' => esc_html__( 'Remove Cross Sells', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                'tooltip' => esc_html__( 'Disables "Cross Sells" products on "Cart" page', 'catalog-mode-pricing-enquiry-forms-promotions' ),
                 'show_box' => true,
                 'text' => WModes_Admin_Page::get_premium_messages( 'short' ),
                 'width' => '100%',
@@ -163,14 +167,14 @@ if ( !class_exists( 'WModes_Admin_Catalog_Mode_Types_Cart' ) && !defined( 'WMODE
                 'id' => 'cart_hide_prices',
                 'type' => 'select2',
                 'column_size' => 1,
-                'column_title' => esc_html__( 'Hide Product Prices', 'wmodes-tdm' ),
-                'tooltip' => esc_html__( 'Hides product prices and totals on "Cart" page', 'wmodes-tdm' ),
+                'column_title' => esc_html__( 'Hide Product Prices', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                'tooltip' => esc_html__( 'Hides product prices and totals on "Cart" page', 'catalog-mode-pricing-enquiry-forms-promotions' ),
                 'default' => 'no',
                 'disabled_list_filter' => 'wmodes-admin/get-disabled-list',
                 'options' => array(
-                    'prem_1' => esc_html__( 'Yes (Premium)', 'wmodes-tdm' ),
-                    'prem_2' => esc_html__( 'Yes, hide product prices/totals columns (Premium)', 'wmodes-tdm' ),
-                    'no' => esc_html__( 'No', 'wmodes-tdm' ),
+                    'prem_1' => esc_html__( 'Yes (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                    'prem_2' => esc_html__( 'Yes, hide product prices/totals columns (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                    'no' => esc_html__( 'No', 'catalog-mode-pricing-enquiry-forms-promotions' ),
                 ),
                 'width' => '100%',
             );
@@ -186,8 +190,8 @@ if ( !class_exists( 'WModes_Admin_Catalog_Mode_Types_Cart' ) && !defined( 'WMODE
                 'id' => 'is_any',
                 'type' => 'textblock',
                 'column_size' => 1,
-                'column_title' => esc_html__( 'Remove Coupons', 'wmodes-tdm' ),
-                'tooltip' => esc_html__( 'Disables coupons on "Cart" and "Checkout" pages', 'wmodes-tdm' ),
+                'column_title' => esc_html__( 'Remove Coupons', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                'tooltip' => esc_html__( 'Disables coupons on "Cart" and "Checkout" pages', 'catalog-mode-pricing-enquiry-forms-promotions' ),
                 'show_box' => true,
                 'text' => WModes_Admin_Page::get_premium_messages( 'short' ),
                 'width' => '100%',
@@ -204,13 +208,13 @@ if ( !class_exists( 'WModes_Admin_Catalog_Mode_Types_Cart' ) && !defined( 'WMODE
                 'id' => 'cart_enquiry',
                 'type' => 'select2',
                 'column_size' => 1,
-                'column_title' => esc_html__( 'Enable Cart Enquiry', 'wmodes-tdm' ),
-                'tooltip' => esc_html__( 'Enables cart enquiry functions on "Cart" page', 'wmodes-tdm' ),
+                'column_title' => esc_html__( 'Enable Cart Enquiry', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                'tooltip' => esc_html__( 'Enables cart enquiry functions on "Cart" page', 'catalog-mode-pricing-enquiry-forms-promotions' ),
                 'default' => 'no',
                 'disabled_list_filter' => 'wmodes-admin/get-disabled-list',
                 'options' => array(
-                    'prem_1' => esc_html__( 'Yes (Premium)', 'wmodes-tdm' ),
-                    'no' => esc_html__( 'No', 'wmodes-tdm' ),
+                    'prem_1' => esc_html__( 'Yes (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                    'no' => esc_html__( 'No', 'catalog-mode-pricing-enquiry-forms-promotions' ),
                 ),
                 'width' => '100%',
                 'fold' => array(

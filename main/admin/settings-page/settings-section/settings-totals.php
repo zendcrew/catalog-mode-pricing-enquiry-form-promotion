@@ -1,5 +1,9 @@
 <?php
 
+if ( !defined( 'ABSPATH' ) ) {
+    exit;
+}
+
 if ( !class_exists( 'Reon' ) ) {
     return;
 }
@@ -37,8 +41,8 @@ if ( !class_exists( 'WModes_Admin_Cart_Totals_Settings' ) && !defined( 'WMODES_P
                 'type' => 'paneltitle',
                 'full_width' => true,
                 'center_head' => true,
-                'title' => esc_html__( 'Cart Totals Calculation', 'wmodes-tdm' ),
-                'desc' => esc_html__( 'Use these settings to control what are included in the "Cart Totals" conditions', 'wmodes-tdm' ),
+                'title' => esc_html__( 'Cart Totals Calculation', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                'desc' => esc_html__( 'Use these settings to control what are included in the "Cart Totals" conditions', 'catalog-mode-pricing-enquiry-forms-promotions' ),
             );
 
             $in_fields[] = array(

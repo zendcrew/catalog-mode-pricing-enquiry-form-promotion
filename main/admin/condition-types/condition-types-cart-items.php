@@ -1,5 +1,9 @@
 <?php
 
+if ( !defined( 'ABSPATH' ) ) {
+    exit;
+}
+
 if ( !class_exists( 'Reon' ) ) {
     return;
 }
@@ -17,21 +21,21 @@ if ( !class_exists( 'WModes_Admin_Condition_Type_Cart_Items' ) && !defined( 'WMO
 
         public static function get_groups( $in_groups, $args ) {
 
-            $in_groups[ 'cart_items' ] = esc_html__( 'Items In Cart', 'wmodes-tdm' );
+            $in_groups[ 'cart_items' ] = esc_html__( 'Items In Cart', 'catalog-mode-pricing-enquiry-forms-promotions' );
 
             return $in_groups;
         }
 
         public static function get_conditions( $in_list, $args ) {
 
-            $in_list[ 'prem_1' ] = esc_html__( 'Products In Cart (Premium)', 'wmodes-tdm' );
-            $in_list[ 'prem_2' ] = esc_html__( 'Variations In Cart (Premium)', 'wmodes-tdm' );
-            $in_list[ 'prem_3' ] = esc_html__( 'Categories In Cart (Premium)', 'wmodes-tdm' );
-            $in_list[ 'prem_4' ] = esc_html__( 'Tags In Cart (Premium)', 'wmodes-tdm' );
-            $in_list[ 'prem_5' ] = esc_html__( 'Attributes In Cart (Premium)', 'wmodes-tdm' );
-            $in_list[ 'prem_6' ] = esc_html__( 'Tax Classes In Cart (Premium)', 'wmodes-tdm' );
-            $in_list[ 'prem_7' ] = esc_html__( 'Shipping Classes In Cart (Premium)', 'wmodes-tdm' );
-            $in_list[ 'prem_8' ] = esc_html__( 'Product Meta Fields In Cart (Premium)', 'wmodes-tdm' );
+            $in_list[ 'prem_1' ] = esc_html__( 'Products In Cart (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' );
+            $in_list[ 'prem_2' ] = esc_html__( 'Variations In Cart (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' );
+            $in_list[ 'prem_3' ] = esc_html__( 'Categories In Cart (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' );
+            $in_list[ 'prem_4' ] = esc_html__( 'Tags In Cart (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' );
+            $in_list[ 'prem_5' ] = esc_html__( 'Attributes In Cart (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' );
+            $in_list[ 'prem_6' ] = esc_html__( 'Tax Classes In Cart (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' );
+            $in_list[ 'prem_7' ] = esc_html__( 'Shipping Classes In Cart (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' );
+            $in_list[ 'prem_8' ] = esc_html__( 'Product Meta Fields In Cart (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' );
 
             return $in_list;
         }

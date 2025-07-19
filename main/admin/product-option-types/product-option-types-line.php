@@ -4,6 +4,10 @@ if ( !defined( 'ABSPATH' ) ) {
     exit;
 }
 
+if ( !class_exists( 'Reon' ) ) {
+    return;
+}
+
 if ( !class_exists( 'WModes_Admin_Product_Option_Type_Line' ) && !defined( 'WMODES_PREMIUM_ADDON' ) ) {
 
     class WModes_Admin_Product_Option_Type_Line {
@@ -19,7 +23,7 @@ if ( !class_exists( 'WModes_Admin_Product_Option_Type_Line' ) && !defined( 'WMOD
         public static function get_types( $in_options, $args = array() ) {
 
             $in_options[ 'prem_18' ] = array(
-                'title' => esc_html__( 'Horizontal Line (Premium)', 'wmodes-tdm' ),
+                'title' => esc_html__( 'Horizontal Line (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' ),
             );
 
             return $in_options;

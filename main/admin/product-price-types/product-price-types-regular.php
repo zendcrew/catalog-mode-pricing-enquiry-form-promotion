@@ -1,5 +1,9 @@
 <?php
 
+if ( !defined( 'ABSPATH' ) ) {
+    exit;
+}
+
 if ( !class_exists( 'Reon' ) ) {
     return;
 }
@@ -15,8 +19,8 @@ if ( !class_exists( 'WModes_Admin_Product_Prices_Types_Regular' ) && !defined( '
 
         public static function get_modes( $in_modes, $args ) {
 
-            $in_modes[ 'prem_1' ] = esc_html__( 'Regular / Sale Price Adjustment (Premium)', 'wmodes-tdm' );
-            $in_modes[ 'prem_2' ] = esc_html__( 'Regular Price Adjustment (Premium)', 'wmodes-tdm' );
+            $in_modes[ 'prem_1' ] = esc_html__( 'Regular / Sale Price Adjustment (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' );
+            $in_modes[ 'prem_2' ] = esc_html__( 'Regular Price Adjustment (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' );
 
             return $in_modes;
         }

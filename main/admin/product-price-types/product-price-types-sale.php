@@ -1,5 +1,9 @@
 <?php
 
+if ( !defined( 'ABSPATH' ) ) {
+    exit;
+}
+
 if ( !class_exists( 'Reon' ) ) {
     return;
 }
@@ -20,7 +24,7 @@ if ( !class_exists( 'WModes_Admin_Product_Prices_Types_Sale' ) ) {
 
         public static function get_modes( $in_modes, $args ) {
 
-            $in_modes[ 'sale' ] = esc_html__( 'Sale Price Adjustment', 'wmodes-tdm' );
+            $in_modes[ 'sale' ] = esc_html__( 'Sale Price Adjustment', 'catalog-mode-pricing-enquiry-forms-promotions' );
 
             return $in_modes;
         }
@@ -40,15 +44,15 @@ if ( !class_exists( 'WModes_Admin_Product_Prices_Types_Sale' ) ) {
 
             if ( !defined( 'WMODES_PREMIUM_ADDON' ) ) {
 
-                $adj_types[ 'fixed_price' ] = esc_html__( 'Fixed price', 'wmodes-tdm' );
+                $adj_types[ 'fixed_price' ] = esc_html__( 'Fixed price', 'catalog-mode-pricing-enquiry-forms-promotions' );
 
-                $adj_types[ 'prem_1' ] = esc_html__( 'Fixed discount amount (Premium)', 'wmodes-tdm' );
-                $adj_types[ 'prem_2' ] = esc_html__( 'Fixed fee amount (Premium)', 'wmodes-tdm' );
-                $adj_types[ 'prem_3' ] = esc_html__( 'Percentage price (Premium)', 'wmodes-tdm' );
+                $adj_types[ 'prem_1' ] = esc_html__( 'Fixed discount amount (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' );
+                $adj_types[ 'prem_2' ] = esc_html__( 'Fixed fee amount (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' );
+                $adj_types[ 'prem_3' ] = esc_html__( 'Percentage price (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' );
 
-                $adj_types[ 'per_discount' ] = esc_html__( 'Percentage discount amount', 'wmodes-tdm' );
+                $adj_types[ 'per_discount' ] = esc_html__( 'Percentage discount amount', 'catalog-mode-pricing-enquiry-forms-promotions' );
 
-                $adj_types[ 'prem_4' ] = esc_html__( 'Percentage fee amount (Premium)', 'wmodes-tdm' );
+                $adj_types[ 'prem_4' ] = esc_html__( 'Percentage fee amount (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' );
             }
 
             return $adj_types;
@@ -58,12 +62,12 @@ if ( !class_exists( 'WModes_Admin_Product_Prices_Types_Sale' ) ) {
 
             if ( !defined( 'WMODES_PREMIUM_ADDON' ) ) {
 
-                $based_on_types[ 'prem_1' ] = esc_html__( 'Regular price (Premium)', 'wmodes-tdm' );
+                $based_on_types[ 'prem_1' ] = esc_html__( 'Regular price (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' );
 
-                $based_on_types[ 'sale_price' ] = esc_html__( 'Sale price', 'wmodes-tdm' );
+                $based_on_types[ 'sale_price' ] = esc_html__( 'Sale price', 'catalog-mode-pricing-enquiry-forms-promotions' );
 
-                $based_on_types[ 'prem_2' ] = esc_html__( 'Previous regular price (Premium)', 'wmodes-tdm' );
-                $based_on_types[ 'prem_3' ] = esc_html__( 'Previous sale price (Premium)', 'wmodes-tdm' );
+                $based_on_types[ 'prem_2' ] = esc_html__( 'Previous regular price (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' );
+                $based_on_types[ 'prem_3' ] = esc_html__( 'Previous sale price (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' );
             }
 
             return $based_on_types;
@@ -79,8 +83,8 @@ if ( !class_exists( 'WModes_Admin_Product_Prices_Types_Sale' ) ) {
                         'id' => 'adj_type',
                         'type' => 'select2',
                         'column_size' => 3,
-                        'column_title' => esc_html__( 'Sale Price Adjustment', 'wmodes-tdm' ),
-                        'tooltip' => esc_html__( 'Controls sale price adjusment mode', 'wmodes-tdm' ),
+                        'column_title' => esc_html__( 'Sale Price Adjustment', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                        'tooltip' => esc_html__( 'Controls sale price adjusment mode', 'catalog-mode-pricing-enquiry-forms-promotions' ),
                         'disabled_list_filter' => 'wmodes-admin/get-disabled-list',
                         'default' => WModes_Admin_Product_Prices_Types::get_default_adjustment_types( $args ),
                         'options' => WModes_Admin_Product_Prices_Types::get_adjustment_types( $args ),
@@ -92,8 +96,8 @@ if ( !class_exists( 'WModes_Admin_Product_Prices_Types_Sale' ) ) {
                         'type' => 'textbox',
                         'input_type' => 'number',
                         'column_size' => 1,
-                        'tooltip' => esc_html__( 'Controls sale adjusment amount to apply', 'wmodes-tdm' ),
-                        'column_title' => esc_html__( 'Amount', 'wmodes-tdm' ),
+                        'tooltip' => esc_html__( 'Controls sale adjusment amount to apply', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                        'column_title' => esc_html__( 'Amount', 'catalog-mode-pricing-enquiry-forms-promotions' ),
                         'default' => '0.00',
                         'placeholder' => '0.00',
                         'attributes' => array(
@@ -106,8 +110,8 @@ if ( !class_exists( 'WModes_Admin_Product_Prices_Types_Sale' ) ) {
                         'id' => 'cal_from',
                         'type' => 'select2',
                         'column_size' => 2,
-                        'column_title' => esc_html__( 'Adjust Amount From', 'wmodes-tdm' ),
-                        'tooltip' => esc_html__( 'Calculates sale price from original/previous product prices', 'wmodes-tdm' ),
+                        'column_title' => esc_html__( 'Adjust Amount From', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                        'tooltip' => esc_html__( 'Calculates sale price from original/previous product prices', 'catalog-mode-pricing-enquiry-forms-promotions' ),
                         'disabled_list_filter' => 'wmodes-admin/get-disabled-list',
                         'default' => 'sale_price',
                         'options' => WModes_Admin_Product_Prices_Types::get_adjustment_based_on_types( $args ),
@@ -123,8 +127,8 @@ if ( !class_exists( 'WModes_Admin_Product_Prices_Types_Sale' ) ) {
                         'id' => 'based_on',
                         'type' => 'select2',
                         'column_size' => 2,
-                        'column_title' => esc_html__( 'Percentage Based On', 'wmodes-tdm' ),
-                        'tooltip' => esc_html__( 'Controls sale percentage adjusment amount based on the original/previous product prices', 'wmodes-tdm' ),
+                        'column_title' => esc_html__( 'Percentage Based On', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                        'tooltip' => esc_html__( 'Controls sale percentage adjusment amount based on the original/previous product prices', 'catalog-mode-pricing-enquiry-forms-promotions' ),
                         'disabled_list_filter' => 'wmodes-admin/get-disabled-list',
                         'default' => 'sale_price',
                         'options' => WModes_Admin_Product_Prices_Types::get_adjustment_based_on_types( $args ),
@@ -176,8 +180,8 @@ if ( !class_exists( 'WModes_Admin_Product_Prices_Types_Sale' ) ) {
                                 'id' => 'adj_type',
                                 'type' => 'select2',
                                 'column_size' => 2,
-                                'column_title' => esc_html__( 'Sale Price Adjustment', 'wmodes-tdm' ),
-                                'tooltip' => esc_html__( 'Controls sale price adjusment mode', 'wmodes-tdm' ),
+                                'column_title' => esc_html__( 'Sale Price Adjustment', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                                'tooltip' => esc_html__( 'Controls sale price adjusment mode', 'catalog-mode-pricing-enquiry-forms-promotions' ),
                                 'disabled_list_filter' => 'wmodes-admin/get-disabled-list',
                                 'default' => WModes_Admin_Product_Prices_Types::get_default_adjustment_types( $args ),
                                 'options' => WModes_Admin_Product_Prices_Types::get_adjustment_types( $args ),
@@ -189,8 +193,8 @@ if ( !class_exists( 'WModes_Admin_Product_Prices_Types_Sale' ) ) {
                                 'type' => 'textbox',
                                 'input_type' => 'number',
                                 'column_size' => 1,
-                                'tooltip' => esc_html__( 'Controls sale adjusment amount to apply', 'wmodes-tdm' ),
-                                'column_title' => esc_html__( 'Amount', 'wmodes-tdm' ),
+                                'tooltip' => esc_html__( 'Controls sale adjusment amount to apply', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                                'column_title' => esc_html__( 'Amount', 'catalog-mode-pricing-enquiry-forms-promotions' ),
                                 'default' => '0.00',
                                 'placeholder' => '0.00',
                                 'attributes' => array(
@@ -212,8 +216,8 @@ if ( !class_exists( 'WModes_Admin_Product_Prices_Types_Sale' ) ) {
                                 'id' => 'cal_from',
                                 'type' => 'select2',
                                 'column_size' => 1,
-                                'column_title' => esc_html__( 'Adjust Price From', 'wmodes-tdm' ),
-                                'tooltip' => esc_html__( 'Calculates sale price from original/previous product prices', 'wmodes-tdm' ),
+                                'column_title' => esc_html__( 'Adjust Price From', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                                'tooltip' => esc_html__( 'Calculates sale price from original/previous product prices', 'catalog-mode-pricing-enquiry-forms-promotions' ),
                                 'disabled_list_filter' => 'wmodes-admin/get-disabled-list',
                                 'default' => 'sale_price',
                                 'options' => WModes_Admin_Product_Prices_Types::get_adjustment_based_on_types( $args ),
@@ -229,8 +233,8 @@ if ( !class_exists( 'WModes_Admin_Product_Prices_Types_Sale' ) ) {
                                 'id' => 'based_on',
                                 'type' => 'select2',
                                 'column_size' => 1,
-                                'column_title' => esc_html__( 'Percentage Based On', 'wmodes-tdm' ),
-                                'tooltip' => esc_html__( 'Controls sale percentage adjusment amount based on the original/previous product prices', 'wmodes-tdm' ),
+                                'column_title' => esc_html__( 'Percentage Based On', 'catalog-mode-pricing-enquiry-forms-promotions' ),
+                                'tooltip' => esc_html__( 'Controls sale percentage adjusment amount based on the original/previous product prices', 'catalog-mode-pricing-enquiry-forms-promotions' ),
                                 'disabled_list_filter' => 'wmodes-admin/get-disabled-list',
                                 'default' => 'sale_price',
                                 'options' => WModes_Admin_Product_Prices_Types::get_adjustment_based_on_types( $args ),

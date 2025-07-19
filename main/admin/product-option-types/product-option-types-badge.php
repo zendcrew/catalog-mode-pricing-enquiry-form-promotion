@@ -1,5 +1,9 @@
 <?php
 
+if ( !defined( 'ABSPATH' ) ) {
+    exit;
+}
+
 if ( !class_exists( 'Reon' ) ) {
     return;
 }
@@ -19,7 +23,7 @@ if ( !class_exists( 'WModes_Admin_Product_Option_Type_Badge' ) && !defined( 'WMO
         public static function get_types( $in_options, $args = array() ) {
 
             $in_options[ 'prem_8' ] = array(
-                'title' => esc_html__( 'Product Badge (Premium)', 'wmodes-tdm' ),
+                'title' => esc_html__( 'Product Badge (Premium)', 'catalog-mode-pricing-enquiry-forms-promotions' ),
             );
 
             return $in_options;
