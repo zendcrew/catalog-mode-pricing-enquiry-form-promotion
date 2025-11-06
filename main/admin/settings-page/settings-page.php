@@ -39,6 +39,7 @@ if ( !class_exists( 'WModes_Admin_Page' ) ) {
 
         private static $option_name = "wmodes_settings";
         private static $menu_slug = "wmodes-settings";
+        private static $locale;
 
         public static function init() {
 
@@ -252,7 +253,17 @@ if ( !class_exists( 'WModes_Admin_Page' ) ) {
                 $options[ 'custom_css_vertion' ] = 0;
             }
 
-            return $options;
+            return self::process_locale_options( $options );
+        }
+
+        private static function process_locale_options( $options ) {
+
+            if ( is_null( self::$locale ) ) {
+
+                self::$locale = WModes_Admin_Locale::get_instance();
+            }
+
+            return self::$locale->process_options( $options );
         }
 
         public static function sanitize_wmodes_kses_post_box( $option ) {

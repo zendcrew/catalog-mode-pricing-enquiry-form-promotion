@@ -4,7 +4,7 @@ Donate link:
 Tags: catalog, catalog mode, catalogue mode, enquiry form, remove add to cart
 Requires at least: 5.8
 Tested up to: 6.8
-Stable tag: 1.2.1
+Stable tag: 1.2.2
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -39,9 +39,9 @@ The plugin allows you to easily set up all module functions based on product rul
 
 ### YOU MAY ALSO NEED THESE OTHER PLUGINS
 
-&#9989;&nbsp;[WooCommerce Partial COD - Payment Gateway Restrictions & Fees](https://wordpress.org/plugins/partial-cod-payment-gateway-restrictions-fees): A powerful, flexible and easy-to-use WooCommerce extension that can be used to manage payment availability and other gateway-related cart settings based on product rules and conditions.
+&#9989;&nbsp;[PCOD - Partial COD, Payment Gateway Restrictions & Fees | for WooCommerce](https://wordpress.org/plugins/partial-cod-payment-gateway-restrictions-fees): A powerful, flexible and easy-to-use WooCommerce extension that can be used to manage payment availability and other gateway-related cart settings based on product rules and conditions.
 
-&#9989;&nbsp;[Table Rate Shipping Method for WooCommerce by Shipped - WooCommerce Table Rate Shipping](https://wordpress.org/plugins/table-rate-shipping-rates): A powerful, flexible and easy-to-use shipping plugin for **WooCommerce**, it can be used to create multiple shipping rates based on product rules and conditions.
+&#9989;&nbsp;[Shipped - Table Rate Shipping Method | for WooCommerce](https://wordpress.org/plugins/table-rate-shipping-rates): A powerful, flexible and easy-to-use shipping plugin for **WooCommerce**, it can be used to create multiple shipping rates based on product rules and conditions.
 
 &#9989;&nbsp;[Dynamic Pricing & Discounts for WooCommerce](https://codecanyon.net/item/woopricely-dynamic-pricing-fees-discounts/23844181?ref=zendcrew): A multi-purpose pricing and discounts toolkit for **WooCommerce**. The dynamic pricing and discounts plugin allows you to automate product pricing, simple discount pricing, bulk discount pricing, tiered discount pricing, buy x get x discount pricing, buy x get y discount pricing, group discount pricing, cart discounts and cart fees by defining rules and conditions. These features are grouped into four easy-to-use modules, the modules include Product Pricing, Checkout Pricing, Checkout Discounts, and Checkout Fees.
 
@@ -57,6 +57,12 @@ The plugin allows you to easily set up all module functions based on product rul
 6. wModes - Catalog Mode, Product Pricing, Enquiry Forms & Promotions | for WooCommerce - Product Settings 2
 
 == Changelog ==
+
+= 1.2.2 - 06/11/2025 =
+[Update] - Updated Framework
+[Update] - Updated multi currency implementation
+[New] - Added compatibility with YayCurrency
+[Check] - WooCommerce 10.3 compatibility check
 
 = 1.2.1 - 18/07/2025 =
 [Update] - Updated Framework

@@ -224,6 +224,16 @@ if ( !class_exists( 'ReonOptionPage' ) ) {
             if ( get_option( 'rn_' . $page[ 'option_name' ] . '_export_id', '' ) == '' ) {
                 update_option( 'rn_' . $page[ 'option_name' ] . '_export_id', ReonUtil::random_char( 20, '0123456789abcdefghijklmnopqrstwxyz' ), true );
             }
+            
+            if ( !isset( $page[ 'header_title' ] ) ) {
+
+                $active_section_data = self::get_active_section_data_by_tab( $page[ 'sections' ], $page[ 'tab' ] );
+
+                if ( isset( $active_section_data[ 'header_title' ] ) ) {
+
+                    $page[ 'header_title' ] = $active_section_data[ 'header_title' ];
+                }
+            }
 
             $instance_id_param = '';
             

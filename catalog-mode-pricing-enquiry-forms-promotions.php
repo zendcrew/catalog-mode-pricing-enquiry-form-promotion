@@ -4,7 +4,7 @@
  * Plugin Name: wModes - Catalog Mode, Product Pricing, Enquiry Forms & Promotions | for WooCommerce
  * Plugin URI: https://codecanyon.net/item/woocommerce-catalog-mode-pricing-enquiry-forms-promotions/43498179?ref=zendcrew
  * Description: An All-purpose WooCommerce catalog mode, product pricing and promotion toolkit.
- * Version: 1.2.1
+ * Version: 1.2.2
  * Author: zendcrew
  * Author URI: https://codecanyon.net/user/zendcrew?ref=zendcrew
  * Text Domain: catalog-mode-pricing-enquiry-forms-promotions
@@ -16,7 +16,7 @@
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  * 
  * Tested up to: 6.8
- * WC tested up to: 10.0
+ * WC tested up to: 10.3
  * 
  * Requires Plugins: woocommerce
  */
@@ -32,7 +32,7 @@ if ( is_admin() ) {
 
 if ( !defined( 'WMODES_VERSION' ) ) {
 
-    define( 'WMODES_VERSION', '1.2.1' );
+    define( 'WMODES_VERSION', '1.2.2' );
 }
 
 if ( !defined( 'WMODES_MAIN_FILE' ) ) {
