@@ -58,6 +58,10 @@ The plugin allows you to easily set up all module functions based on product rul
 
 == Changelog ==
 
+= 1.3 - 10/11/2025 =
+[Fix] - Fixed AJAX related vulnerabilities
+[Update] - Updated Framework
+
 = 1.2.2 - 06/11/2025 =
 [Update] - Updated Framework
 [Update] - Updated multi currency implementation
