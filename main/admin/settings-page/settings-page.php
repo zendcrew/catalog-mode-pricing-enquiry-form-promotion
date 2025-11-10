@@ -97,6 +97,7 @@ if ( !class_exists( 'WModes_Admin_Page' ) ) {
                 'page_id' => 'wmodes_page',
                 'enable_section_title' => true,
                 'aside_width' => '210px',
+                'user_capability' => 'manage_woocommerce',
                 'display' => array(
                     'enabled' => true,
                     'image' => WMODES_ASSETS_URL . 'images/aside_logo.png',
@@ -124,7 +125,6 @@ if ( !class_exists( 'WModes_Admin_Page' ) ) {
                     'icon' => 'dashicons-admin-generic',
                     'priority' => 2,
                     'parent' => 'woocommerce',
-                    'capability' => 'manage_woocommerce',
                 ),
                 'import_export' => array(
                     'enable' => true,
