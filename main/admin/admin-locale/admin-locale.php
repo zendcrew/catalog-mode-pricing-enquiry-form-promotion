@@ -90,10 +90,26 @@ if ( !class_exists( 'WModes_Admin_Locale' ) ) {
 
         private function get_strings( $options ) {
 
-            //TODO: add translators here
-            //TODO: add 'wmodes/get-locale-strings' filter hook
+            //TODO: Remove this block later
+            if ( !defined( 'WMODES_DEV_LOCALE' ) ) {
 
-            return array();
+                return false;
+            }
+            //TODO: End of block
+
+            $strings = apply_filters( 'wmodes/get-locale-strings', array(), $options );
+
+            if ( !is_array( $strings ) ) {
+
+                return false;
+            }
+
+            if ( !count( $strings ) ) {
+
+                return false;
+            }
+
+            return $strings;
         }
 
         private function get_prev_translation_id_ids() {
@@ -153,10 +169,24 @@ if ( !class_exists( 'WModes_Admin_Locale' ) ) {
 
             $translators = array();
 
-            //TODO: add translators here
-            //TODO: add 'wmodes/register-locale-translators' filter hook
+            //TODO: Remove this block later
+            if ( !defined( 'WMODES_DEV_LOCALE' ) ) {
 
-            return $translators;
+                return $translators;
+            }
+            //TODO: End of block
+
+            if ( class_exists( 'WModes_Polylang' ) ) {
+
+                $translators[ 'polylang' ] = 'WModes_Polylang';
+            }
+
+            if ( class_exists( 'WModes_WPML' ) ) {
+
+                $translators[ 'wpml' ] = 'WModes_WPML';
+            }
+
+            return apply_filters( 'wmodes/register-locale-translators', $translators );
         }
 
     }

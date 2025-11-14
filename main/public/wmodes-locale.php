@@ -168,11 +168,25 @@ if ( !class_exists( 'WModes_Locale' ) ) {
         private function register_translators() {
 
             $translators = array();
+            
+            //TODO: Remove this block later
+            if ( !defined( 'WMODES_DEV_LOCALE' ) ) {
 
-            //TODO: add translators here
-            //TODO: add 'wmodes/register-locale-translators' filter hook
+                return $translators;
+            }
+            //TODO: End of block
 
-            return $translators;
+            if ( class_exists( 'WModes_Polylang' ) ) {
+
+                $translators[ 'polylang' ] = 'WModes_Polylang';
+            }
+
+            if ( class_exists( 'WModes_WPML' ) ) {
+
+                $translators[ 'wpml' ] = 'WModes_WPML';
+            }
+
+            return apply_filters( 'wmodes/register-locale-translators', $translators );
         }
 
         private function can_translate_products() {
