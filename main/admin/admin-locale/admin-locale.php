@@ -97,6 +97,7 @@ if ( !class_exists( 'WModes_Admin_Locale' ) ) {
             }
             //TODO: End of block
 
+            
             $strings = apply_filters( 'wmodes/get-locale-strings', array(), $options );
 
             if ( !is_array( $strings ) ) {

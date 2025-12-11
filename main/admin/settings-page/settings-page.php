@@ -77,15 +77,6 @@ if ( !class_exists( 'WModes_Admin_Page' ) ) {
 
         public static function init_page() {
 
-            /* translators: 1:  plugin version */
-            $version_text = sprintf( esc_html__( 'Lite v%s', 'catalog-mode-pricing-enquiry-forms-promotions' ), WMODES_VERSION );
-
-            if ( defined( 'WMODES_PREMIUM_ADDON' ) ) {
-
-                /* translators: 1:  plugin version */
-                $version_text = sprintf( esc_html__( 'Premium v%s', 'catalog-mode-pricing-enquiry-forms-promotions' ), WMODES_VERSION );
-            }
-
             $args = array(
                 'option_name' => self::$option_name,
                 'database' => 'option',
@@ -103,7 +94,7 @@ if ( !class_exists( 'WModes_Admin_Page' ) ) {
                     'image' => WMODES_ASSETS_URL . 'images/aside_logo.png',
                     'title' => esc_html__( 'Catalog Mode', 'catalog-mode-pricing-enquiry-forms-promotions' ),
                     'sub_title' => esc_html__( 'Pricing, Enquiry Forms & Promotions', 'catalog-mode-pricing-enquiry-forms-promotions' ),
-                    'version' => $version_text,
+                    'version' => self::get_display_version(),
                     'styles' => array(
                         'bg_image' => WMODES_ASSETS_URL . 'images/aside_bg.png',
                         'bg_color' => '#0073aa',
@@ -367,6 +358,25 @@ if ( !class_exists( 'WModes_Admin_Page' ) ) {
             }
 
             return self::get_disabled_list( $list, $options );
+        }
+
+        private static function get_display_version() {
+
+            if ( defined( 'WMODES_PREMIUM_VERSION' ) ) {
+
+                /* translators: 1:  plugin version */
+                return sprintf( esc_html__( 'Premium v%s', 'catalog-mode-pricing-enquiry-forms-promotions' ), WMODES_PREMIUM_VERSION );
+            }
+
+
+            if ( defined( 'WMODES_PREMIUM_ADDON' ) ) {
+
+                /* translators: 1:  plugin version */
+                return sprintf( esc_html__( 'Premium v%s', 'catalog-mode-pricing-enquiry-forms-promotions' ), WMODES_VERSION );
+            }
+
+            /* translators: 1:  plugin version */
+            return sprintf( esc_html__( 'Lite v%s', 'catalog-mode-pricing-enquiry-forms-promotions' ), WMODES_VERSION );
         }
 
         private static function get_page_links() {

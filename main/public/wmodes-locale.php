@@ -176,6 +176,7 @@ if ( !class_exists( 'WModes_Locale' ) ) {
             }
             //TODO: End of block
 
+            
             if ( class_exists( 'WModes_Polylang' ) ) {
 
                 $translators[ 'polylang' ] = 'WModes_Polylang';
