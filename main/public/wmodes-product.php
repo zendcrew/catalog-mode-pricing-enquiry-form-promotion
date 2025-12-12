@@ -15,9 +15,10 @@ if ( !class_exists( 'WModes_Product' ) && !defined( 'WMODES_PREMIUM_ADDON' ) ) {
         private $product_data;
         private static $instance;
 
-        private static function get_instance() {
+        public static function get_instance(): self {
 
-            if ( !self::$instance ) {
+            if ( is_null( self::$instance ) ) {
+
                 self::$instance = new self();
             }
 

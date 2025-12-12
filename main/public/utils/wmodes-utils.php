@@ -13,6 +13,18 @@ if ( !class_exists( 'WModes_Util' ) && !defined( 'WMODES_PREMIUM_ADDON' ) ) {
 
     class WModes_Util {
 
+        private static $instance;
+
+        public static function get_instance(): self {
+
+            if ( is_null( self::$instance ) ) {
+
+                self::$instance = new self();
+            }
+
+            return self::$instance;
+        }
+
         public static function get_product_ids_by_slugs( $slugs ) {
 
             $product_ids = array();
@@ -40,7 +52,8 @@ if ( !class_exists( 'WModes_Util' ) && !defined( 'WMODES_PREMIUM_ADDON' ) ) {
                 }
 
                 set_transient( $sql_hash, $product_ids, MINUTE_IN_SECONDS * 30 );
-            } catch ( Exception $ex ) {
+            }
+            catch ( Exception $ex ) {
                 return $product_ids;
             }
 
@@ -49,7 +62,7 @@ if ( !class_exists( 'WModes_Util' ) && !defined( 'WMODES_PREMIUM_ADDON' ) ) {
         }
 
         public static function get_product_term_ids_by_slugs( $slugs, $taxonomy ) {
-            
+
             $term_ids = array();
 
             $sql_hash = 'wmd_' . $taxonomy . '_terms_ids' . md5( wp_json_encode( $slugs ) );
@@ -75,11 +88,13 @@ if ( !class_exists( 'WModes_Util' ) && !defined( 'WMODES_PREMIUM_ADDON' ) ) {
                 }
 
                 set_transient( $sql_hash, $term_ids, MINUTE_IN_SECONDS * 30 );
-            } catch ( Exception $ex ) {
+            }
+            catch ( Exception $ex ) {
                 return $term_ids;
             }
             return $term_ids;
         }
+
     }
 
 }

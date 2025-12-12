@@ -8,6 +8,18 @@ if ( !defined( 'ABSPATH' ) ) {
 if ( !class_exists( 'WModes_Validation_Util' ) ) {
 
     class WModes_Validation_Util {
+        
+        private static $instance;
+        
+        public static function get_instance(): self {
+
+            if ( is_null( self::$instance ) ) {
+
+                self::$instance = new self();
+            }
+
+            return self::$instance;
+        }
 
         public static function validate_date( $validate_type, $value, $rule_value, $value_format, $rule_value_format ) {
 

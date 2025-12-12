@@ -8,11 +8,24 @@ if ( !defined( 'ABSPATH' ) ) {
 if ( !class_exists( 'WModes_Customer_Util' ) ) {
 
     class WModes_Customer_Util {
-        
+
+        private static $instance;
         private static $users = array();
 
+        public static function get_instance(): self {
+
+            if ( is_null( self::$instance ) ) {
+
+                self::$instance = new self();
+            }
+
+            return self::$instance;
+        }
+
         public static function get_is_logged_in( $data ) {
+         
             if ( !isset( $data[ 'customer' ][ 'id' ] ) ) {
+            
                 return false;
             }
 
@@ -24,6 +37,7 @@ if ( !class_exists( 'WModes_Customer_Util' ) ) {
         public static function get_user_email( $data ) {
 
             if ( !isset( $data[ 'customer' ][ 'email' ] ) ) {
+               
                 return '';
             }
 
@@ -35,6 +49,7 @@ if ( !class_exists( 'WModes_Customer_Util' ) ) {
             $user = self::get_user_by( $data );
 
             if ( !$user ) {
+            
                 return array();
             }
 
@@ -44,12 +59,14 @@ if ( !class_exists( 'WModes_Customer_Util' ) ) {
         private static function get_user_by( $data ) {
 
             if ( !isset( $data[ 'customer' ][ 'id' ] ) ) {
+         
                 return false;
             }
 
             $user_id = $data[ 'customer' ][ 'id' ];
 
             if ( 0 >= $user_id ) {
+              
                 return false;
             }
 
@@ -61,6 +78,7 @@ if ( !class_exists( 'WModes_Customer_Util' ) ) {
             $user = get_user_by( 'id', $user_id );
 
             if ( $user ) {
+               
                 self::$users[ $user_id ] = $user;
             }
 
