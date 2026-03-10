@@ -4,9 +4,9 @@ if ( !defined( 'ABSPATH' ) ) {
     exit;
 }
 
-if ( !class_exists( 'WModes_Condition_Type_DateTime' ) && !defined( 'WMODES_PREMIUM_ADDON' ) ) {
+if ( !class_exists( 'WModes_Condition_Type_Calendar' ) && !defined( 'WMODES_PREMIUM_ADDON' ) ) {
 
-    class WModes_Condition_Type_DateTime {
+    class WModes_Condition_Type_Calendar {
 
         public function can_validate( $condition_type ) {
 
@@ -69,4 +69,15 @@ if ( !class_exists( 'WModes_Condition_Type_DateTime' ) && !defined( 'WMODES_PREM
 
     }
 
+    //TODO: Remove this later
+    if ( !class_exists( 'WModes_Condition_Type_DateTime' ) ) {
+
+        class WModes_Condition_Type_DateTime extends WModes_Condition_Type_Calendar {
+
+            // This class primarily exist to prevent errors after upgrade.
+
+        }
+
+    }
 }
+

@@ -8,9 +8,9 @@ if ( !class_exists( 'Reon' ) ) {
     return;
 }
 
-if ( !class_exists( 'WModes_Admin_Condition_Type_DateTime' ) && !defined( 'WMODES_PREMIUM_ADDON' ) ) {
+if ( !class_exists( 'WModes_Admin_Condition_Type_Calendar' ) && !defined( 'WMODES_PREMIUM_ADDON' ) ) {
 
-    class WModes_Admin_Condition_Type_DateTime {
+    class WModes_Admin_Condition_Type_Calendar {
 
         public static function init() {
 
@@ -130,5 +130,5 @@ if ( !class_exists( 'WModes_Admin_Condition_Type_DateTime' ) && !defined( 'WMODE
 
     }
 
-    WModes_Admin_Condition_Type_DateTime::init();
+    WModes_Admin_Condition_Type_Calendar::init();
 }

@@ -8,7 +8,7 @@ if ( !class_exists( 'WModes_Admin_Condition_Types' ) ) {
 
     require_once (dirname( __FILE__ ) . '/condition-types-customer.php');
     require_once (dirname( __FILE__ ) . '/condition-types-customer-value.php');
-    require_once (dirname( __FILE__ ) . '/condition-types-datetime.php');
+    require_once (dirname( __FILE__ ) . '/condition-types-calendar.php');
     require_once (dirname( __FILE__ ) . '/condition-types-page.php');
     require_once (dirname( __FILE__ ) . '/condition-types-cart.php');
     require_once (dirname( __FILE__ ) . '/condition-types-cart-weight.php');
@@ -26,6 +26,18 @@ if ( !class_exists( 'WModes_Admin_Condition_Types' ) ) {
     require_once (dirname( __FILE__ ) . '/condition-types-purchase-history-quantity.php');
                 
     class WModes_Admin_Condition_Types {
+        
+        private static $instance;
+
+        public static function get_instance(): self {
+
+            if ( !self::$instance ) {
+
+                self::$instance = new self();
+            }
+
+            return self::$instance;
+        }
 
         public static function get_groups( $args ) {
 
